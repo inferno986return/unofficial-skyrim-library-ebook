@@ -2,7 +2,7 @@
 		"comment0": "Metadata.json - Insert the e-book's metadata here, so that the content.opf and toc.ncx files can be filled. May use data for ONIX too. WIP",
 
 		"comment1": "Folder metadata - This contains the names of the technical folders, if you change the default names please update them here.",
-		"containerFolder": "OEBPS",
+		"containerFolder": "OPS",
 		"cssFolder": "styles",
 		"imagesFolder": "images",
 		"fontsFolder": "fonts",
@@ -11,7 +11,7 @@
 		"epubCover": "cover.jpg",
 		"mobiCover": "cover.jpg",
 		"fileName": "SkyrimLibraryUnofficial",
-		"epubVersion": "2.0.1",
+		"epubVersion": "3.2",
 		"textPresentation": "Reflowable",
 		"generateKindle": "no",
 		"generateGoogle": "yes",
@@ -30,28 +30,69 @@
 		"comment4": "This is the page order that the e-book has. The first number before the colon is the page order, the second is the indentation (default is 1, allowed upto 4), third is the page name and fourth is file itself.",
 		"pages": [
 					{
-						"pageNumber": "0",
 						"indentation": "1",
 						"pageName": "Front Cover",
 						"fileName": "bookcover.xhtml"
 					},
 					{
-						"pageNumber": "1",
 						"indentation": "1",
 						"pageName": "Indicia",
 						"fileName": "indicia.xhtml"
 					},
 					{
-						"pageNumber": "2",
 						"indentation": "1",
 						"pageName": "Title",
 						"fileName": "title.xhtml"
 					},
 					{
-						"pageNumber": "3",
 						"indentation": "1",
 						"pageName": "Contents",
 						"fileName": "toc.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "Biography of Barenziah",
+						"fileName": "biographyofbarenziah.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "The Wolf Queen",
+						"fileName": "thewolfqueen.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "Brothers of Darkness",
+						"fileName": "brothersofdarkness.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "A Kiss, Sweet Mother",
+						"fileName": "akisssweetmother.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "Nords Arise!",
+						"fileName": "nordsarise.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "Shadowmarks",
+						"fileName": "shadowmarks.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "Kolb &amp; the Dragon",
+						"fileName": "kolbandthedragon.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "Kolb &amp; the Dragon - Page 2",
+						"fileName": "kolbandthedragon-page2.xhtml"
+					},
+					{
+						"indentation": "1",
+						"pageName": "The Ætherium Wars",
+						"fileName": "theaetheriumwars.xhtml"
 					}
 				]
 }

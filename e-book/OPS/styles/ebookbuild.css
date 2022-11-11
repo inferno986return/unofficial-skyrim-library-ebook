@@ -40,7 +40,7 @@ h2.toc {
 
 /* Chapter headings*/
 
-h1.chapter_heading {
+h1.chapterheading {
     font-size: 1.5em;
     font-family: serif;
     font-weight: bold;
@@ -49,7 +49,7 @@ h1.chapter_heading {
     margin-bottom: 0.2em;
 }
 
-h2.chapter_heading {
+h2.chapterheading {
     font-size: 1.3em;
     font-family: serif;
     font-weight: bold;
@@ -58,7 +58,7 @@ h2.chapter_heading {
     margin-bottom: 0.5em;
 }
 
-h3.chapter_heading {
+h3.chapterheading {
     font-size: 1.1em;
     font-family: serif;
     font-weight: normal;
@@ -68,7 +68,7 @@ h3.chapter_heading {
     margin-bottom: 0.5em;
 }
 
-h4.chapter_heading {
+h4.chapterheading {
     font-size: 1.2em;
     font-family: serif;
     font-weight: bold;
@@ -121,6 +121,10 @@ p.noindent {
 
 .center {
     text-align: center;
+}
+
+.right {
+    text-align: right;
 }
 
 /* Lists */
