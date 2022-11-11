@@ -1,0 +1,93 @@
+/* ebookbuild.css - Licenced under Creative Commons Zero 1.0 (CC0)
+
+/*Fonts*/
+
+@font-face {
+	font-family: "Noto Sans Shavian";
+	src: url(/fonts/NotoSansShavian-Regular.ttf);
+}
+
+/*Headings*/
+
+h1.heading {
+    font-size: 1.5em;
+    font-family: serif;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+/*Contents headings*/
+
+h1.toc {
+	text-indent: 0em;
+	font-size: 1.1em;
+	font-family: serif;
+	font-weight: bold;
+	font-variant: normal;
+    margin-top: 0.5em;
+	margin-bottom: 0em;
+}
+
+h2.toc {
+	text-indent: 1em;
+	font-size: 1.1em;
+	font-family: serif;
+	font-weight: normal;
+	font-variant: normal;
+    margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+/* Chapter headings*/
+
+h1.chapter_heading {
+    font-size: 1.5em;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+h2.chapter_heading {
+    font-size: 1.3em;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+h3.chapter_heading {
+    font-size: 1.1em;
+    font-family: serif;
+    font-weight: none;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+h4.chapter_heading {
+    font-size: 1.2em;
+    font-family: serif;
+    font-weight: none;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Paragraphs */
+
+p {
+    text-indent: 1em;
+    font-size: 1em;
+    font-family: serif;
+    font-weight: none;
+    text-align: justify;
+    margin: 0em;
+}
+
+p.noindent {
+    text-indent: 0em;
+}
