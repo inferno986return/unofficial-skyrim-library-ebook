@@ -6,5 +6,7 @@
 ## Useful regex:
 * ^\s+(\w+)(.+?)$
 * </p>\n\s+\t\t\t<p> </p>\n\t\t\t<p>
+* ' ’
+* "" “”
 
 ## Chapter specific

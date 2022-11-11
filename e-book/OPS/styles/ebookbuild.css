@@ -46,7 +46,7 @@ h1.chapter_heading {
     font-weight: bold;
     text-align: center;
     margin-top: 0.2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
 }
 
 h2.chapter_heading {
@@ -54,14 +54,14 @@ h2.chapter_heading {
     font-family: serif;
     font-weight: bold;
     text-align: center;
-    margin-top: 0.2em;
+    margin-top: 0em;
     margin-bottom: 0.5em;
 }
 
 h3.chapter_heading {
     font-size: 1.1em;
     font-family: serif;
-    font-weight: none;
+    font-weight: normal;
     font-style: italic;
     text-align: center;
     margin-top: 0.2em;
@@ -71,11 +71,30 @@ h3.chapter_heading {
 h4.chapter_heading {
     font-size: 1.2em;
     font-family: serif;
-    font-weight: none;
+    font-weight: bold;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
+
+/* Subheadings */
+
+h1.subheading {
+    font-size: 1.3em;
+    font-family: serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+h2.subheading {
+    font-size: 1.1em;
+    font-family: serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
 
 /* Paragraphs */
 
@@ -90,4 +109,41 @@ p {
 
 p.noindent {
     text-indent: 0em;
+}
+
+/* Margins */
+
+.top {
+    margin-top: 1em;
+}
+
+/* Text alignment */
+
+.center {
+    text-align: center;
+}
+
+/* Lists */
+
+ol, ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+li {
+    font-size: 1em;
+    font-family: serif;
+    margin-top: 0.1em;
+}
+
+/* Tables */
+
+table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+td {
+    font-size: 1em;
+    font-family: serif;
 }
