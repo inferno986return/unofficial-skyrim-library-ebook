@@ -9,5 +9,6 @@
 * </p>\n\s+\t\t\t<p> </p>\n\t\t\t<p>
 * ' ’
 * "" “”
+* (\d+)-(\d+) $1–$2
 
 ## Chapter specific
