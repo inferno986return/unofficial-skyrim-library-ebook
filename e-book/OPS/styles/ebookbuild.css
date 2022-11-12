@@ -3,11 +3,33 @@
 /*Fonts*/
 
 @font-face {
-	font-family: "Noto Sans Shavian";
-	src: url(/fonts/NotoSansShavian-Regular.ttf);
+	font-family: "Oblivion";
+	src: url(/fonts/Oblivion/Oblivion.ttf);
 }
 
-/*Headings*/
+@font-face {
+	font-family: "Falmer";
+	src: url(/fonts/FalmerFont/Falmer.ttf);
+}
+
+/* Indicia */
+
+h1.indicia-heading {
+    font-size: 1em;
+    font-family: serif;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p.noindent-indicia {
+    text-indent: 0em;
+    font-size: 0.9em;
+    font-family: serif;
+    text-align: justify;
+}
+
+/* Headings */
 
 h1.heading {
     font-size: 1.5em;
@@ -16,7 +38,7 @@ h1.heading {
     margin-bottom: 0.5em;
 }
 
-/*Contents headings*/
+/* Contents headings */
 
 h1.toc {
 	text-indent: 0em;
