@@ -52,9 +52,12 @@ def containerxml():
 def opf():
 # Generate the EPUB3 .opf file
         os.chdir(rootfolder + os.sep + containerfolder)
-        root = etree.Element("container")
-        root.set("xmlns", "urn:oasis:names:tc:opendocument:xmlns:container")
-        root.set("version", "1.0")
+        root = etree.Element("package")
+        root.set("xmlns", "http://www.idpf.org/2007/opf")
+        root.set("version", "3.0")
+        root.set("xml:lang", "en")
+        root.set("unique-identifier", "isbn")
+        root.set("prefix")
 
         rootfiles = etree.SubElement(root, "rootfiles")
 

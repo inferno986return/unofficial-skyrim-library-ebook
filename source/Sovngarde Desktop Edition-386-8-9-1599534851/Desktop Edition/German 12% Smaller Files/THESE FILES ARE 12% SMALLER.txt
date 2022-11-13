@@ -1,0 +1,5 @@
+These files are all exactly the same as the files outside the German folder.
+
+Except that they are a different size for the text inside the game so it doesn't cut off.
+
+You can absolutely use them for anything you want. There's just no difference in language support, et cetera. Only a difference in percent size values.

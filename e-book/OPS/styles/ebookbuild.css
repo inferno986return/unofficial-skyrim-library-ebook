@@ -4,12 +4,27 @@
 
 @font-face {
 	font-family: "Oblivion";
-	src: url(/fonts/Oblivion/Oblivion.ttf);
+	src: url(/e-book/OPS/fonts/Oblivion/Oblivion.ttf);
 }
 
 @font-face {
 	font-family: "Falmer";
-	src: url(/fonts/FalmerFont/Falmer.ttf);
+	src: url(/e-book/OPS/fonts/FalmerFont/Falmer.ttf);
+}
+
+@font-face {
+    font-family: "Sovngarde";
+    src: url(/e-book/OPS/fonts/Sovngarde/SovngardeBold.otf);
+}
+
+/* Title */
+
+h1.title {
+    font-size: 3em;
+    font-family: "Sovngarde", serif;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /* Indicia */
@@ -22,12 +37,13 @@ h1.indicia-heading {
     margin-bottom: 0.5em;
 }
 
-p.noindent-indicia {
-    text-indent: 0em;
+p.indicia {
+    text-indent: 1em;
     font-size: 0.9em;
     font-family: serif;
     text-align: justify;
 }
+
 
 /* Headings */
 
@@ -142,11 +158,11 @@ p.noindent {
 /* Text alignment */
 
 .center {
-    text-align: center;
+    text-align: center!important;
 }
 
 .right {
-    text-align: right;
+    text-align: right!important;
 }
 
 /* Lists */
