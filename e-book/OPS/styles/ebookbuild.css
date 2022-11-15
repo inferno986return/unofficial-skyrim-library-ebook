@@ -4,17 +4,22 @@
 
 @font-face {
 	font-family: "Oblivion";
-	src: url(/e-book/OPS/fonts/Oblivion/Oblivion.ttf);
+	src: url("../fonts/Oblivion/Oblivion.ttf");
 }
 
 @font-face {
 	font-family: "Falmer";
-	src: url(/e-book/OPS/fonts/FalmerFont/Falmer.ttf);
+	src: url("../fonts/FalmerFont/Falmer.ttf");
+}
+
+@font-face {
+    font-family: "Dragon";
+    src: url("../fonts/SR-Dragon_script/Dragon_script.ttf");
 }
 
 @font-face {
     font-family: "Sovngarde";
-    src: url(/e-book/OPS/fonts/Sovngarde/SovngardeBold.otf);
+    src: url("../fonts/Sovngarde/SovngardeBold.otf");
 }
 
 /* Title */
@@ -149,6 +154,11 @@ p.noindent {
     text-indent: 0em;
 }
 
+p.lmargin2 {
+    text-indent: 0em;
+    margin-left: 2em;
+}
+
 /* Margins */
 
 .top {
@@ -203,4 +213,11 @@ p.scene-break {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+/* Book-specific tags */
+
+.dragon {
+    font-size: 1.2em;
+    font-family: "Dragon"!important;
 }
