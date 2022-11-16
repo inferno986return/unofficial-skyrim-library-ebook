@@ -154,12 +154,18 @@ p.noindent {
     text-indent: 0em;
 }
 
+/* Text formatting */
+
+.mono {
+    font-family: monospace;
+}
+
+/* Margins */
+
 p.lmargin2 {
     text-indent: 0em;
     margin-left: 2em;
 }
-
-/* Margins */
 
 .top {
     margin-top: 1em;
