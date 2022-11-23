@@ -7,9 +7,11 @@
 * Replaced "Ae", "AE" and "ae" with graphemes. - removing these
 
 ## Useful regex:
+* ^(\w+)(.+?)$ \t\t<p>$1$2</p> - copied raw text from UESP and make into paragrpah tags.
 * ^\s+(\w+)(.+?)$
 * </p>\n\s+\t\t\t<p> </p>\n\t\t\t<p>
 * ' ’
+* \.\.\. …
 * \s"(.+?)"\s \s“$1”\s
 * (\d+)-(\d+) $1–$2
 
