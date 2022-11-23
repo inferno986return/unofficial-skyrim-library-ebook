@@ -16,7 +16,7 @@
 		"generateKindle": "no",
 		"generateGoogle": "yes",
 
-		"comment3": "Book metadata - Information about the e-book itself. Language is specified with ISO 639-1. ISBN number can be declared, as well as the Amazon ASIN. Rights can be worldwide, country specific or under a permissable license such as Creative-Commons SA",
+		"comment3": "Book metadata - Information about the e-book itself. Language is specified with ISO 639-1. ISBN number can be declared, as well as the Amazon ASIN or a generated UUID. Rights can be worldwide, country specific or under a permissable license such as Creative-Commons SA",
 		"title": "Skyrim Library Unofficial",
 		"titleShort": "Skyrim Library Unofficial",
 		"creator": "Hal Motley",
@@ -28,7 +28,7 @@
 		"language": "en",
 		"rights": "worldwide",
 
-		"comment4": "This is the page order that the e-book has. The first number before the colon is the page order, the second is the indentation (default is 1, allowed upto 4), third is the page name and fourth is file itself.",
+		"comment4": "This is the page order that the e-book has. The first is the indentation (default is 1, allowed upto 4), second is the page name and third is file itself.",
 		"pages": [
 					{
 						"indentation": "1",
@@ -92,7 +92,7 @@
 					},
 					{
 						"indentation": "1",
-						"pageName": "The Ætherium Wars",
+						"pageName": "The Aetherium Wars",
 						"fileName": "theaetheriumwars.xhtml"
 					}
 				]
