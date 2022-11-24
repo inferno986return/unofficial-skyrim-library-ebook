@@ -2,6 +2,7 @@
 		"comment0": "Metadata.json - Insert the e-book's metadata here, so that the content.opf and toc.ncx files can be filled. May use data for ONIX too. WIP",
 
 		"comment1": "Folder metadata - This contains the names of the technical folders, if you change the default names please update them here.",
+		"rootFolder": "e-book",
 		"containerFolder": "OPS",
 		"cssFolder": "styles",
 		"imagesFolder": "images",
