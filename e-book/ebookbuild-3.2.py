@@ -16,7 +16,7 @@ opfname = "content.opf"
 
 def mimetype():
     #Creates the simple mimetype file
-    if os.path.isfile(data["rootFolder"] + os.sep + "mimetype") == False:
+    if os.path.isfile("mimetype") == False:
         os.chdir(data["rootFolder"])
         with open("mimetype", "w") as mt:
             mt.write("application/epub+zip")
@@ -27,16 +27,15 @@ def mimetype():
 
 def metainf_folder():
      #Create the META-INF folder
-    if os.path.isdir(data["rootFolder"] + os.sep + "META-INF") == False:
-        os.chdir(data["rootFolder"])
+    if os.path.isdir("META-INF") == False:
         os.mkdir("META-INF")
     else:
         print("META-INF folder already exists.")
         
 def containerxml():
     # Create the EPUB3 container.xml file
-    if os.path.exists(data["rootFolder"] + os.sep + "META-INF" + os.sep + "container.xml") == False:
-        os.chdir(data["rootFolder"] + os.sep + "META-INF")
+    if os.path.exists("META-INF" + os.sep + "container.xml") == False:
+        os.chdir("META-INF")
         root = etree.Element("container")
         root.set("xmlns", "urn:oasis:names:tc:opendocument:xmlns:container")
         root.set("version", "1.0")
@@ -55,22 +54,22 @@ def containerxml():
               
 def opf():
 # Generate the EPUB3 .opf file
-        os.chdir(data["rootFolder"] + os.sep + data["containerFolder"])
-        root = etree.Element("package")
-        root.set("xmlns", "http://www.idpf.org/2007/opf")
-        root.set("version", "3.0")
-        root.set("xml:lang", "en")
-        root.set("unique-identifier", "isbn")
-        root.set("prefix")
+        ns = {'dc':'http://purl.org/dc/elements/1.1/'}
+        
+        # os.chdir(data["containerFolder"])
+        package = etree.Element("package")
+        package.set("xmlns", "http://www.idpf.org/2007/opf")
+        package.set("version", "3.0")
+        package.set("xml:lang", "en")
+        package.set("unique-identifier", "book-id")
+        package.set("prefix", "")
 
-        rootfiles = etree.SubElement(root, "rootfiles")
+        metadata = etree.SubElement(package, "metadata")
+        metadata.set("xlms:dc", "http://purl.org/dc/elements/1.1/")
+        metadata.xpath(".//xlms:dc", namespaces=article_node.nsmap)
 
-        rootfile = etree.SubElement(rootfiles, "rootfile")
-        rootfile.set("full-path", "OPS/package.opf")
-        rootfile.set("media-type", "application/oebps-package+xml")
-
-        etree.ElementTree(root).write(opfname, encoding="utf-8", xml_declaration=True, pretty_print=True)
-        print("The " + data["containerFolder"] + "/" + opfname + " has been created.")
+        etree.ElementTree(package).write(["opfname"], encoding="utf-8", xml_declaration=True, pretty_print=True)
+        print("The " + data["containerFolder"] + "/" + ["opfname"] + " has been created.")
 
 mimetype()
 metainf_folder()

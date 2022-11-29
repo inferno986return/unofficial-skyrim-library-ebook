@@ -16,6 +16,7 @@
 		"textPresentation": "Reflowable",
 		"generateKindle": "no",
 		"generateGoogle": "yes",
+		"opfFile": "content.opf",
 
 		"comment3": "Book metadata - Information about the e-book itself. Language is specified with ISO 639-1. ISBN number can be declared, as well as the Amazon ASIN or a generated UUID. Rights can be worldwide, country specific or under a permissable license such as Creative-Commons SA",
 		"title": "Skyrim Library Unofficial",
