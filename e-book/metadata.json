@@ -4,6 +4,7 @@
 		"comment1": "Folder metadata - This contains the names of the technical folders, if you change the default names please update them here.",
 		"rootFolder": "e-book",
 		"containerFolder": "OPS",
+		"opfName": "content.opf",
 		"cssFolder": "styles",
 		"imagesFolder": "images",
 		"fontsFolder": "fonts",

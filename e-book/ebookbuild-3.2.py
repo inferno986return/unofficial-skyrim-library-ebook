@@ -54,22 +54,28 @@ def containerxml():
               
 def opf():
 # Generate the EPUB3 .opf file
-        ns = {'dc':'http://purl.org/dc/elements/1.1/'}
-        
+
+        # Register the "dc" and "xml" namespaces with a prefix and URL
+        etree.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
+        etree.register_namespace("xml", "http://www.w3.org/XML/1998/namespace")
+
         # os.chdir(data["containerFolder"])
         package = etree.Element("package")
         package.set("xmlns", "http://www.idpf.org/2007/opf")
         package.set("version", "3.0")
-        package.set("xml:lang", "en")
+        package.set("{http://www.w3.org/XML/1998/namespace}lang", "en")
         package.set("unique-identifier", "book-id")
         package.set("prefix", "")
 
-        metadata = etree.SubElement(package, "metadata")
-        metadata.set("xlms:dc", "http://purl.org/dc/elements/1.1/")
-        metadata.xpath(".//xlms:dc", namespaces=article_node.nsmap)
+        # Create the <dc:title> element with the "dc" namespace prefix
+        # title = etree.Element(etree.QName("http://purl.org/dc/elements/1.1/", "title"))
 
-        etree.ElementTree(package).write(["opfname"], encoding="utf-8", xml_declaration=True, pretty_print=True)
-        print("The " + data["containerFolder"] + "/" + ["opfname"] + " has been created.")
+        metadata = etree.SubElement(package, "metadata")
+        metadata.set("{http://www.w3.org/XML/1998/namespace}xlms", "http://purl.org/dc/elements/1.1/")
+
+        os.chdir(data["containerFolder"])
+        etree.ElementTree(package).write(data["opfName"], encoding="utf-8", xml_declaration=True, pretty_print=True)
+        print("The " + data["containerFolder"] + "/" + data["opfName"] + " has been created.")
 
 mimetype()
 metainf_folder()
