@@ -59,7 +59,7 @@ def opf():
         etree.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
         etree.register_namespace("xml", "http://www.w3.org/XML/1998/namespace")
 
-        # os.chdir(data["containerFolder"])
+        # Write the <package></package> tags
         package = etree.Element("package")
         package.set("xmlns", "http://www.idpf.org/2007/opf")
         package.set("version", "3.0")
@@ -67,11 +67,22 @@ def opf():
         package.set("unique-identifier", "book-id")
         package.set("prefix", "")
 
-        # Create the <dc:title> element with the "dc" namespace prefix
-        # title = etree.Element(etree.QName("http://purl.org/dc/elements/1.1/", "title"))
-
+        # Write the <metadata></metadata> tags
         metadata = etree.SubElement(package, "metadata")
-        metadata.set("{http://www.w3.org/XML/1998/namespace}xlms", "http://purl.org/dc/elements/1.1/")
+        metadata.set("{http://www.w3.org/XML/1998/namespace}dc", "http://purl.org/dc/elements/1.1/")
+        title = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}title")
+        title.text = data["title"]
+
+        creator = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}creator")
+        creator.set("id", "creator")
+        creator.text = data["creator"]
+
+        identifier = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}identifier")
+        identifier.set("id", "bookid")
+        identifier.text = data["ISBN"]
+
+        language = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}language")
+        language.text = data["language"]
 
         os.chdir(data["containerFolder"])
         etree.ElementTree(package).write(data["opfName"], encoding="utf-8", xml_declaration=True, pretty_print=True)

@@ -1,4 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="book-id" prefix="">
-  <metadata xml:xlms="http://purl.org/dc/elements/1.1/"/>
+  <metadata xml:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Skyrim Library Unofficial</dc:title>
+    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/" id="creator">Hal Motley</dc:creator>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="bookid">-</dc:identifier>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+  </metadata>
 </package>
