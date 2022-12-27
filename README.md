@@ -1,9 +1,5 @@
 # unofficial-skyrim-library-ebook
 
-<p align="center">
-  <img src="https://github.com/inferno986return/unofficial-skyrim-library-ebook/blob/main/unoffical_library.png" alt="Unofficial Skyrim Library logo" />
-</p>
-
 An unofficial e-book for Skyrim's vast array of texts. Happy 11<sup>th</sup> anniversary to Skyrim!
 
 I have attention deficit disorder (ADD) so I would rather be exploring, questing or killing things in Skyrim than reading the impressive amount of literature. It would be convenient to have a professional-quality e-book to take with me on the go that  
@@ -13,6 +9,10 @@ This project's goal is to provide a complete and beautiful reading experience fo
 The books are not presented verbatim as we have wikis for that. Instead, the aim is to reformat the books, correcting any typos and using standardised punctuation to provide an enjoyable reading experience on any EPUB3-compatible device (or a Kindle by converting it). Ideally, Bethesda could adapt the content into a full 5×8 inch paperback as the official Skyrim Library are large collectible books that are not portable in any way.
 
 In addition, this will be my chance to try making a fully standards-compliant EPUB 3.2 book!
+
+<p align="center">
+  <img src="https://github.com/inferno986return/unofficial-skyrim-library-ebook/blob/main/unoffical_library.png" alt="Unofficial Skyrim Library logo" />
+</p>
 
 ## Compiling
 The following components are required:
