@@ -1,6 +1,6 @@
 # unofficial-skyrim-library-ebook
 
-<span style="text-align:center;">![Unofficial Skyrim Library logo](https://github.com/inferno986return/unofficial-skyrim-library-ebook/blob/main/unoffical_library.png)</span>
+<div style="margin-left: auto; margin-right: auto;">![Unofficial Skyrim Library logo](https://github.com/inferno986return/unofficial-skyrim-library-ebook/blob/main/unoffical_library.png)</div>
 
 An unofficial e-book for Skyrim's vast array of texts. Happy 11<sup>th</sup> anniversary to Skyrim!
 
