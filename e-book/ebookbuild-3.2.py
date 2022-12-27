@@ -103,19 +103,19 @@ def opf():
     for root_dir, dirs, files in os.walk(data["containerFolder"] + os.sep + data["fontsFolder"]):
         i = 0
         for file in files:
-            i += 1
         # Check if the file is a font file (ends in .otf or .ttf)
-            if file.endswith(".otf"):
+            if file.endswith(".otf") or file.endswith(".ttf"):
                 font = etree.SubElement(manifest, "item")
                 font.set("id", f"font{i}")
                 font.set("href", data["fontsFolder"] + "/" + file)
-                font.set("media-type", "application/vnd.ms-opentype")
+                i += 1
+                
+                # Set the mimetype attribute of the element
+                if file.endswith(".otf"):
+                    font.set("media-type", "application/vnd.ms-opentype")
 
-            if file.endswith(".ttf"):
-                font = etree.SubElement(manifest, "item")
-                font.set("id", f"font{i}")
-                font.set("href", data["fontsFolder"] + "/" + file)
-                font.set("media-type", "application/x-font-truetype")
+                elif file.endswith(".ttf"):
+                    font.set("media-type", "application/x-font-truetype")
 
     #Write the tags to the .opf file and save it
     os.chdir(data["containerFolder"])
