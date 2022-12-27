@@ -4,8 +4,9 @@
 
 from lxml import etree
 from collections import OrderedDict
-import os, json
+import os, json, datetime
 
+os.chdir("e-book")
 with open("metadata.json") as json_file:
     data = json.load((json_file), object_pairs_hook=OrderedDict) #For some reason the order is randomised, this preserves the order.
 
@@ -53,40 +54,73 @@ def containerxml():
         print("META-INF folder already exists.")
               
 def opf():
-# Generate the EPUB3 .opf file
+    utctime = datetime.datetime.utcnow().replace(microsecond=0).isoformat()
+    # Generate the EPUB3 .opf file
 
-        # Register the "dc" and "xml" namespaces with a prefix and URL
-        etree.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
-        etree.register_namespace("xml", "http://www.w3.org/XML/1998/namespace")
+    # Register the "dc" and "xml" namespaces with a prefix and URL
+    etree.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
+    etree.register_namespace("xml", "http://www.w3.org/XML/1998/namespace")
 
-        # Write the <package></package> tags
-        package = etree.Element("package")
-        package.set("xmlns", "http://www.idpf.org/2007/opf")
-        package.set("version", "3.0")
-        package.set("{http://www.w3.org/XML/1998/namespace}lang", "en")
-        package.set("unique-identifier", "book-id")
-        package.set("prefix", "")
+    # Write the <package></package> tags
+    package = etree.Element("package")
+    package.set("xmlns", "http://www.idpf.org/2007/opf")
+    package.set("version", "3.0")
+    package.set("{http://www.w3.org/XML/1998/namespace}lang", "en")
+    package.set("unique-identifier", "bookid")
+    package.set("prefix", "")
 
-        # Write the <metadata></metadata> tags
-        metadata = etree.SubElement(package, "metadata")
-        metadata.set("{http://www.w3.org/XML/1998/namespace}dc", "http://purl.org/dc/elements/1.1/")
-        title = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}title")
-        title.text = data["title"]
+    # Write the <metadata></metadata> tags
+    metadata = etree.SubElement(package, "metadata")
+    metadata.set("{http://www.w3.org/XML/1998/namespace}dc", "http://purl.org/dc/elements/1.1/")
 
-        creator = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}creator")
-        creator.set("id", "creator")
-        creator.text = data["creator"]
+    title = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}title")
+    title.text = data["title"]
 
-        identifier = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}identifier")
-        identifier.set("id", "bookid")
-        identifier.text = data["ISBN"]
+    subject = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}subject")
+    subject.text = data["subject"]
 
-        language = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}language")
-        language.text = data["language"]
+    creator = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}creator")
+    creator.set("id", "creator")
+    creator.text = data["creator"]
 
-        os.chdir(data["containerFolder"])
-        etree.ElementTree(package).write(data["opfName"], encoding="utf-8", xml_declaration=True, pretty_print=True)
-        print("The " + data["containerFolder"] + "/" + data["opfName"] + " has been created.")
+    publisher = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}publisher")
+    publisher.text = data["publisher"]
+
+    identifier = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}identifier")
+    identifier.set("id", "bookid")
+    identifier.text = data["ISBN"]
+
+    date = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}date")
+    date.text = utctime
+
+    language = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}language")
+    language.text = data["language"]
+
+    rights = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}rights")
+    rights.text = data["rights"]
+
+    manifest = etree.SubElement(package, "manifest")
+    for root_dir, dirs, files in os.walk(data["containerFolder"] + os.sep + data["fontsFolder"]):
+        i = 0
+        for file in files:
+            i += 1
+        # Check if the file is a font file (ends in .otf or .ttf)
+            if file.endswith(".otf"):
+                font = etree.SubElement(manifest, "item")
+                font.set("id", f"font{i}")
+                font.set("href", data["fontsFolder"] + "/" + file)
+                font.set("media-type", "application/vnd.ms-opentype")
+
+            if file.endswith(".ttf"):
+                font = etree.SubElement(manifest, "item")
+                font.set("id", f"font{i}")
+                font.set("href", data["fontsFolder"] + "/" + file)
+                font.set("media-type", "application/x-font-truetype")
+
+    #Write the tags to the .opf file and save it
+    os.chdir(data["containerFolder"])
+    etree.ElementTree(package).write(data["opfName"], encoding="utf-8", xml_declaration=True, pretty_print=True)
+    print("The " + data["containerFolder"] + "/" + data["opfName"] + " has been created.")
 
 mimetype()
 metainf_folder()
