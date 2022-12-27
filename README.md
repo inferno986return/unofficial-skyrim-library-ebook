@@ -1,4 +1,7 @@
 # unofficial-skyrim-library-ebook
+
+![Unofficial Skyrim Library logo](https://github.com/inferno986return/unofficial-skyrim-library-ebook/blob/main/unoffical_library.png)
+
 An unofficial e-book for Skyrim's vast array of texts. Happy 11<sup>th</sup> anniversary to Skyrim!
 
 I have attention deficit disorder (ADD) so I would rather be exploring, questing or killing things in Skyrim than reading the impressive amount of literature. It would be convenient to have a professional-quality e-book to take with me on the go that  
