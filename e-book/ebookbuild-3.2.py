@@ -100,15 +100,15 @@ def opf():
     rights.text = data["rights"]
 
     manifest = etree.SubElement(package, "manifest")
+    i = 0
     for root_dir, dirs, files in os.walk(data["containerFolder"] + os.sep + data["fontsFolder"]):
-        i = 0
+        i += 1
         for file in files:
         # Check if the file is a font file (ends in .otf or .ttf)
             if file.endswith(".otf") or file.endswith(".ttf"):
                 font = etree.SubElement(manifest, "item")
                 font.set("id", f"font{i}")
                 font.set("href", data["fontsFolder"] + "/" + file)
-                i += 1
                 
                 # Set the mimetype attribute of the element
                 if file.endswith(".otf"):

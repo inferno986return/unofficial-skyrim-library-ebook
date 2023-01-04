@@ -6,15 +6,15 @@
     <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/" id="creator">Hal Motley</dc:creator>
     <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"></dc:publisher>
     <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="bookid">-</dc:identifier>
-    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2022-12-27T19:07:06</dc:date>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2022-12-27T19:23:04</dc:date>
     <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
     <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">worldwide</dc:rights>
   </metadata>
   <manifest>
-    <item id="font0" href="fonts/Falmer.ttf" media-type="application/x-font-truetype"/>
-    <item id="font0" href="fonts/Oblivion Worn.ttf" media-type="application/x-font-truetype"/>
-    <item id="font1" href="fonts/Oblivion.ttf" media-type="application/x-font-truetype"/>
-    <item id="font0" href="fonts/SovngardeBold.otf" media-type="application/vnd.ms-opentype"/>
-    <item id="font0" href="fonts/Dragon_script.ttf" media-type="application/x-font-truetype"/>
+    <item id="font2" href="fonts/Falmer.ttf" media-type="application/x-font-truetype"/>
+    <item id="font3" href="fonts/Oblivion Worn.ttf" media-type="application/x-font-truetype"/>
+    <item id="font3" href="fonts/Oblivion.ttf" media-type="application/x-font-truetype"/>
+    <item id="font4" href="fonts/SovngardeBold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="font5" href="fonts/Dragon_script.ttf" media-type="application/x-font-truetype"/>
   </manifest>
 </package>
