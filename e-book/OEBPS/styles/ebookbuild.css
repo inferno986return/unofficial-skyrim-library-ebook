@@ -3,8 +3,18 @@
 /*Fonts*/
 
 @font-face {
-	font-family: "Oblivion";
-	src: url("../fonts/Oblivion/Oblivion.ttf");
+    font-family: "Balgruf";
+    src: url("../fonts/Balgruf/Balgruf.otf");
+}
+
+@font-face {
+    font-family: "Balgruf-Italic";
+    src: url("../fonts/Balgruf/Balgruf_Italic.otf");
+}
+
+@font-face {
+    font-family: "Dragon";
+    src: url("../fonts/SR-Dragon_script/Dragon_script.ttf");
 }
 
 @font-face {
@@ -12,9 +22,10 @@
 	src: url("../fonts/FalmerFont/Falmer.ttf");
 }
 
+
 @font-face {
-    font-family: "Dragon";
-    src: url("../fonts/SR-Dragon_script/Dragon_script.ttf");
+	font-family: "Oblivion";
+	src: url("../fonts/Oblivion/Oblivion.ttf");
 }
 
 @font-face {
@@ -61,7 +72,7 @@ p.indicia {
 
 h1.heading {
     font-size: 1.5em;
-    font-family: serif;
+    font-family: "Balgruf", serif;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
 }
