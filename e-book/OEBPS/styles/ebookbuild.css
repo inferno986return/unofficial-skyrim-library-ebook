@@ -71,7 +71,9 @@ p.indicia {
 /* Headings */
 
 h1.heading {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: normal;
     font-family: "Balgruf", serif;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
@@ -81,17 +83,18 @@ h1.heading {
 
 h1.toc {
 	text-indent: 0em;
-	font-size: 1.1em;
-	font-family: serif;
+	font-size: 1.2em;
+    text-align: center;
 	font-weight: bold;
 	font-variant: normal;
+    font-family: serif;
     margin-top: 0.5em;
-	margin-bottom: 0em;
+	margin-bottom: 0.5em;
 }
 
 h2.toc {
-	text-indent: 1em;
-	font-size: 1.1em;
+	text-indent: 0.5em;
+	font-size: 1em;
 	font-family: serif;
 	font-weight: normal;
 	font-variant: normal;
@@ -103,9 +106,9 @@ h2.toc {
 
 h1.chapterheading {
     font-size: 1.5em;
-    font-family: serif;
     font-weight: bold;
     text-align: center;
+    font-family: serif;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
@@ -187,6 +190,10 @@ p.lmargin2 {
 
 .top {
     margin-top: 1em;
+}
+
+.top2 {
+	margin-top: 2em;
 }
 
 /* Text alignment */
