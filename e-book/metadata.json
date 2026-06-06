@@ -186,8 +186,46 @@
 							{
 								"pageName": "Volume 1",
 								"fileName": "biographies/thewolfqueen.xhtml#vol1"
+							},
+							{
+								"pageName": "Volume 2",
+								"fileName": "biographies/thewolfqueen.xhtml#vol2"
+							},
+							{
+								"pageName": "Volume 3",
+								"fileName": "biographies/thewolfqueen.xhtml#vol3"
+							},
+							{
+								"pageName": "Volume 4",
+								"fileName": "biographies/thewolfqueen.xhtml#vol4"
+							},
+							{
+								"pageName": "Volume 5",
+								"fileName": "biographies/thewolfqueen.xhtml#vol5"
+							},
+							{
+								"pageName": "Volume 6",
+								"fileName": "biographies/thewolfqueen.xhtml#vol6"
+							},
+							{
+								"pageName": "Volume 7",
+								"fileName": "biographies/thewolfqueen.xhtml#vol7"
+							},
+							{
+								"pageName": "Volume 8",
+								"fileName": "biographies/thewolfqueen.xhtml#vol8"
 							}
 						]
+					}
+				]
+			},
+			{
+				"pageName": "Esoteric Texts",
+				"fileName": "toc.xhtml#esoteric-texts",
+				"subheadings": [
+					{
+						"pageName": "N’Gasta! Kvata! Kvakis!",
+						"fileName": "esoteric/ngastakvastakvakis.xhtml"
 					}
 				]
 			},
