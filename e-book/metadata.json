@@ -299,18 +299,79 @@
 					}
 				]
 			},
-					{
-
-					},
-
+			{
+				"pageName": "Fiction",
+				"fileName": "toc.xhtml#fiction",
+				"subheadings": [
 					{
 						"pageName": "Kolb &amp; the Dragon",
-						"fileName": "kolbandthedragon.xhtml"
+						"fileName": "kolbandthedragon.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 2",
+								"fileName": "kolbandthedragon-page2.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 3",
+								"fileName": "kolbandthedragon-page3.xhtml"		
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 5",
+								"fileName": "kolbandthedragon-page5.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 6",
+								"fileName": "kolbandthedragon-page6.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 8",
+								"fileName": "kolbandthedragon-page8.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 10",
+								"fileName": "kolbandthedragon-page10.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 12",
+								"fileName": "kolbandthedragon-page12.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 15",
+								"fileName": "kolbandthedragon-page15.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 17",
+								"fileName": "kolbandthedragon-page17.xhtml"
+							}
+						]
+					}
+				]
+			},
+			{
+				"pageName": "Unobtainable Books",
+				"fileName": "toc.xhtml#unobtainable-books",
+				"subheadings": [
+					{
+						"pageName": "Gallus’s Journal",
+						"fileName": "unobtainable/gallusjournal.xhtml"
 					},
 					{
-						"pageName": "Kolb &amp; the Dragon - Page 2",
-						"fileName": "kolbandthedragon-page2.xhtml"
+						"pageName": "The Secrets of Ragnvald",
+						"fileName": "unobtainable/secretsofregnvald.xhtml"
 					},
+					{
+						"pageName": "Unsent Afflicted Letter",
+						"fileName": "unobtainable/unsentafflictedletter.xhtml"
+					}
+				]
+			},
+			{
+				"pageName": "Creation Club",
+				"fileName": "toc.xhtml#creation-club",
+				"subheadings": []
+			},
+
+					
 					{
 						"pageName": "The Aetherium Wars",
 						"fileName": "theaetheriumwars.xhtml"
