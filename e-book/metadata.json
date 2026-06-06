@@ -97,7 +97,7 @@
 			},
 			{
 				"pageName": "Biographies",
-				"fileName": "biographies.xhtml",
+				"fileName": "toc.xhtml#biographies",
 				"subheadings": [
 					{
 						"pageName": "Biography of Barenziah",
@@ -114,12 +114,80 @@
 							{
 								"pageName":"Volume 3",
 								"fileName":"biographies/biographyofbarenziah.xhtml#vol3"
+							},
+							{
+								"pageName":"Galerion The Mystic",
+								"fileName":"biographies.xhtml#"
 							}
 						]
 					},
 					{
-						"pageName": "The Wolf Queen",
+						"pageName": "Biography of the Wolf Queen",
 						"fileName": "thewolfqueen.xhtml"
+					},
+					{
+						"pageName": "Galerion The Mystic",
+						"fileName": "biographies/galerionthemystic.xhtml"
+					},
+					{
+						"pageName": "Life of Uriel Septim VII",
+						"fileName": "lifeofurielseptimvii.xhtml"
+					},
+					{
+						"pageName": "The Madness of Pelagius",
+						"fileName": "biographies/madnessofpelagius.xhtml"
+					},
+					{
+						"pageName": "Mannimarco, King of Worms",
+						"fileName": "biographies/mannimarcokingofworms.xhtml"
+					},
+					{
+						"pageName": "The Night Mother’s Truth",
+						"fileName": "biographies/thenightmotherstruth.xhtml"
+					},
+					{
+						"pageName": "The Real Barenziah",
+						"fileName": "biographies/therealbarenziah.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Volume 1",
+								"fileName": "biographies/therealbarenziah.xhtml#vol1"	
+							},
+							{
+								"pageName": "Volume 2",
+								"fileName": "biographies/therealbarenziah.xhtml#vol2"	
+							},
+							{
+								"pageName": "Volume 3",
+								"fileName": "biographies/therealbarenziah.xhtml#vol3"	
+							},
+							{
+								"pageName": "Volume 4",
+								"fileName": "biographies/therealbarenziah.xhtml#vol4"	
+							},
+							{
+								"pageName": "Volume 5",
+								"fileName": "biographies/therealbarenziah.xhtml#vol5"	
+							}
+						]
+					},
+					{
+						"pageName": "Sacred Witness",
+						"fileName": "biographies/sacredwitness.xhtml"
+					},
+					{
+						"pageName": "Saint Jiub’s Opus",
+						"fileName": "biographies/saintjiubsopus.xhtml"
+					},
+					{
+						"pageName": "The Wolf Queen",
+						"fileName": "biographies/thewolfqueen.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Volume 1",
+								"fileName": "biographies/thewolfqueen.xhtml#vol1"
+							}
+						]
 					}
 				]
 			},
