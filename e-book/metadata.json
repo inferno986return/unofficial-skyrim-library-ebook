@@ -229,23 +229,80 @@
 					}
 				]
 			},
-					
+			{
+				"pageName": "Faction Books",
+				"fileName": "toc.xhtml#faction-books",
+				"subheadings": [
+					{
+						"pageName": "Ahzirr Traajijazeri",
+						"fileName": "faction/ahzirrtraajijazeri.xhtml",
+						"subheadings": [
+							{
+								"pageName": "1. “Vaba Do’Shurh’do”: “It Is Good To Be Brave”",
+								"fileName": "faction/ahzirrtraajijazeri.xhtml#one"
+							},
+							{
+								"pageName": "2. “Vaba Maaszi Lhajiito” “It Is Necessary To Run Away”",
+								"fileName": "faction/ahzirrtraajijazeri.xhtml#two"
+							},
+							{
+								"pageName": "3. “Fusozay Var Var” “Enjoy Life”",
+								"fileName": "faction/ahzirrtraajijazeri.xhtml#three"
+							},
+							{
+								"pageName": "4. “Fusozay Var Dar” “Kill Without Qualm”",
+								"fileName": "faction/ahzirrtraajijazeri.xhtml#four"
+							},
+							{
+								"pageName": "5. “Ahzirr Durrarriss” “We Give Freely To The People”",
+								"fileName": "faction/ahzirrtraajijazeri.xhtml#five"
+							},
+							{
+								"pageName": "6. “Ahzirr Traajijazeri” “We Justly Take By Force”",
+								"fileName": "faction/ahzirrtraajijazeri.xhtml#six"
+							}
+						]
+					},
 					{
 						"pageName": "Brothers of Darkness",
 						"fileName": "brothersofdarkness.xhtml"
 					},
 					{
+						"pageName": "Fall from Glory",
+						"fileName": "faction/fallfromglory.xhtml"
+					},
+					{
 						"pageName": "A Kiss, Sweet Mother",
-						"fileName": "akisssweetmother.xhtml"
+						"fileName": "faction/akisssweetmother.xhtml"
+					},
+					{
+						"pageName": "The Nightingales",
+						"fileName": "faction/thenightingales.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Volume 1 – Who We Are",
+								"fileName": "faction/thenightingales.xhtml#vol1"
+							},
+							{
+								"pageName": "Volume 2 – What We Were",
+								"fileName": "faction/thenightingales.xhtml#vol2"
+							}
+						]
 					},
 					{
 						"pageName": "Nords Arise!",
-						"fileName": "nordsarise.xhtml"
+						"fileName": "faction/nordsarise.xhtml"
 					},
 					{
 						"pageName": "Shadowmarks",
 						"fileName": "shadowmarks.xhtml"
+					}
+				]
+			},
+					{
+
 					},
+
 					{
 						"pageName": "Kolb &amp; the Dragon",
 						"fileName": "kolbandthedragon.xhtml"
