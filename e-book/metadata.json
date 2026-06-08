@@ -59,23 +59,23 @@
     	},
     	"sourceUrn":"ISBN",
     	"sourceISBN":"-",
-		"description":"",
+		"description":"-",
 
 		"comment6": "This specifies the tags used by Amazon Kindle's start reading, the table of contents and the front cover using the <guide></guide> tags. Optional and enable it.",
     	"enableGuide": "true",
-    	"startReadingfile": "themarkofstcrispin.xhtml",
-    	"startReadingpage": "The Mark of St. Crispin",
+    	"startReadingfile": "Foreword",
+    	"startReadingpage": "foreword.xhtml",
     	"tocFile": "toc.xhtml",
     	"tocPage": "Contents",
-    	"frontCoverfile": "frontcover.xhtml",
-    	"frontCoverpage": "Front Cover",
+    	"frontCoverfile": "bookcover.xhtml",
+    	"frontCoverpage": "Book Cover",
 
 		"comment7": "This is the page order of the e-book that forms the basis of the toc.ncx and the nav.xhtml.",
 		"pages": [
         	{
             	"type": "cover",
-            	"pageName": "Front Cover",
-            	"fileName": "frontcover.xhtml"
+            	"pageName": "Book Cover",
+            	"fileName": "bookcover.xhtml"
         	},
         	{
             	"pageName": "Title",

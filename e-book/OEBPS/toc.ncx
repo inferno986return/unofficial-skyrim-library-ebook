@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="-"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+    <meta name="dtb:depth" content="3"/>
+  </head>
+  <docTitle>
+    <text>Skyrim Library Unofficial</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navpoint-1" playOrder="1">
+      <navLabel>
+        <text>Book Cover</text>
+      </navLabel>
+      <content src="bookcover.xhtml"/>
+    </navPoint>
+    <navPoint id="navpoint-2" playOrder="2">
+      <navLabel>
+        <text>Title</text>
+      </navLabel>
+      <content src="title.xhtml"/>
+    </navPoint>
+    <navPoint id="navpoint-3" playOrder="3">
+      <navLabel>
+        <text>Indicia</text>
+      </navLabel>
+      <content src="indicia.xhtml"/>
+    </navPoint>
+    <navPoint id="navpoint-4" playOrder="4">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="toc.xhtml"/>
+      <navPoint id="navpoint-5" playOrder="5">
+        <navLabel>
+          <text>Biographies</text>
+        </navLabel>
+        <content src="toc.xhtml#biographies"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-6" playOrder="6">
+      <navLabel>
+        <text>Biographies</text>
+      </navLabel>
+      <content src="toc.xhtml#biographies"/>
+      <navPoint id="navpoint-7" playOrder="7">
+        <navLabel>
+          <text>Biography of Barenziah</text>
+        </navLabel>
+        <content src="biographies/biographyofbarenziah.xhtml"/>
+        <navPoint id="navpoint-8" playOrder="8">
+          <navLabel>
+            <text>Volume 1</text>
+          </navLabel>
+          <content src="biographies/biographyofbarenziah.xhtml#vol1"/>
+        </navPoint>
+        <navPoint id="navpoint-9" playOrder="9">
+          <navLabel>
+            <text>Volume 2</text>
+          </navLabel>
+          <content src="biographies/biographyofbarenziah.xhtml#vol2"/>
+        </navPoint>
+        <navPoint id="navpoint-10" playOrder="10">
+          <navLabel>
+            <text>Volume 3</text>
+          </navLabel>
+          <content src="biographies/biographyofbarenziah.xhtml#vol3"/>
+        </navPoint>
+        <navPoint id="navpoint-11" playOrder="11">
+          <navLabel>
+            <text>Galerion The Mystic</text>
+          </navLabel>
+          <content src="biographies.xhtml#"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navpoint-12" playOrder="12">
+        <navLabel>
+          <text>Biography of the Wolf Queen</text>
+        </navLabel>
+        <content src="thewolfqueen.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-13" playOrder="13">
+        <navLabel>
+          <text>Galerion The Mystic</text>
+        </navLabel>
+        <content src="biographies/galerionthemystic.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-14" playOrder="14">
+        <navLabel>
+          <text>Life of Uriel Septim VII</text>
+        </navLabel>
+        <content src="lifeofurielseptimvii.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-15" playOrder="15">
+        <navLabel>
+          <text>The Madness of Pelagius</text>
+        </navLabel>
+        <content src="biographies/madnessofpelagius.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-16" playOrder="16">
+        <navLabel>
+          <text>Mannimarco, King of Worms</text>
+        </navLabel>
+        <content src="biographies/mannimarcokingofworms.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-17" playOrder="17">
+        <navLabel>
+          <text>The Night Mother’s Truth</text>
+        </navLabel>
+        <content src="biographies/thenightmotherstruth.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-18" playOrder="18">
+        <navLabel>
+          <text>The Real Barenziah</text>
+        </navLabel>
+        <content src="biographies/therealbarenziah.xhtml"/>
+        <navPoint id="navpoint-19" playOrder="19">
+          <navLabel>
+            <text>Volume 1</text>
+          </navLabel>
+          <content src="biographies/therealbarenziah.xhtml#vol1"/>
+        </navPoint>
+        <navPoint id="navpoint-20" playOrder="20">
+          <navLabel>
+            <text>Volume 2</text>
+          </navLabel>
+          <content src="biographies/therealbarenziah.xhtml#vol2"/>
+        </navPoint>
+        <navPoint id="navpoint-21" playOrder="21">
+          <navLabel>
+            <text>Volume 3</text>
+          </navLabel>
+          <content src="biographies/therealbarenziah.xhtml#vol3"/>
+        </navPoint>
+        <navPoint id="navpoint-22" playOrder="22">
+          <navLabel>
+            <text>Volume 4</text>
+          </navLabel>
+          <content src="biographies/therealbarenziah.xhtml#vol4"/>
+        </navPoint>
+        <navPoint id="navpoint-23" playOrder="23">
+          <navLabel>
+            <text>Volume 5</text>
+          </navLabel>
+          <content src="biographies/therealbarenziah.xhtml#vol5"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navpoint-24" playOrder="24">
+        <navLabel>
+          <text>Sacred Witness</text>
+        </navLabel>
+        <content src="biographies/sacredwitness.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-25" playOrder="25">
+        <navLabel>
+          <text>Saint Jiub’s Opus</text>
+        </navLabel>
+        <content src="biographies/saintjiubsopus.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-26" playOrder="26">
+        <navLabel>
+          <text>The Wolf Queen</text>
+        </navLabel>
+        <content src="biographies/thewolfqueen.xhtml"/>
+        <navPoint id="navpoint-27" playOrder="27">
+          <navLabel>
+            <text>Volume 1</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol1"/>
+        </navPoint>
+        <navPoint id="navpoint-28" playOrder="28">
+          <navLabel>
+            <text>Volume 2</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol2"/>
+        </navPoint>
+        <navPoint id="navpoint-29" playOrder="29">
+          <navLabel>
+            <text>Volume 3</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol3"/>
+        </navPoint>
+        <navPoint id="navpoint-30" playOrder="30">
+          <navLabel>
+            <text>Volume 4</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol4"/>
+        </navPoint>
+        <navPoint id="navpoint-31" playOrder="31">
+          <navLabel>
+            <text>Volume 5</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol5"/>
+        </navPoint>
+        <navPoint id="navpoint-32" playOrder="32">
+          <navLabel>
+            <text>Volume 6</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol6"/>
+        </navPoint>
+        <navPoint id="navpoint-33" playOrder="33">
+          <navLabel>
+            <text>Volume 7</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol7"/>
+        </navPoint>
+        <navPoint id="navpoint-34" playOrder="34">
+          <navLabel>
+            <text>Volume 8</text>
+          </navLabel>
+          <content src="biographies/thewolfqueen.xhtml#vol8"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-35" playOrder="35">
+      <navLabel>
+        <text>Esoteric Texts</text>
+      </navLabel>
+      <content src="toc.xhtml#esoteric-texts"/>
+      <navPoint id="navpoint-36" playOrder="36">
+        <navLabel>
+          <text>N’Gasta! Kvata! Kvakis!</text>
+        </navLabel>
+        <content src="esoteric/ngastakvastakvakis.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-37" playOrder="37">
+      <navLabel>
+        <text>Faction Books</text>
+      </navLabel>
+      <content src="toc.xhtml#faction-books"/>
+      <navPoint id="navpoint-38" playOrder="38">
+        <navLabel>
+          <text>Ahzirr Traajijazeri</text>
+        </navLabel>
+        <content src="faction/ahzirrtraajijazeri.xhtml"/>
+        <navPoint id="navpoint-39" playOrder="39">
+          <navLabel>
+            <text>1. “Vaba Do’Shurh’do”: “It Is Good To Be Brave”</text>
+          </navLabel>
+          <content src="faction/ahzirrtraajijazeri.xhtml#one"/>
+        </navPoint>
+        <navPoint id="navpoint-40" playOrder="40">
+          <navLabel>
+            <text>2. “Vaba Maaszi Lhajiito” “It Is Necessary To Run Away”</text>
+          </navLabel>
+          <content src="faction/ahzirrtraajijazeri.xhtml#two"/>
+        </navPoint>
+        <navPoint id="navpoint-41" playOrder="41">
+          <navLabel>
+            <text>3. “Fusozay Var Var” “Enjoy Life”</text>
+          </navLabel>
+          <content src="faction/ahzirrtraajijazeri.xhtml#three"/>
+        </navPoint>
+        <navPoint id="navpoint-42" playOrder="42">
+          <navLabel>
+            <text>4. “Fusozay Var Dar” “Kill Without Qualm”</text>
+          </navLabel>
+          <content src="faction/ahzirrtraajijazeri.xhtml#four"/>
+        </navPoint>
+        <navPoint id="navpoint-43" playOrder="43">
+          <navLabel>
+            <text>5. “Ahzirr Durrarriss” “We Give Freely To The People”</text>
+          </navLabel>
+          <content src="faction/ahzirrtraajijazeri.xhtml#five"/>
+        </navPoint>
+        <navPoint id="navpoint-44" playOrder="44">
+          <navLabel>
+            <text>6. “Ahzirr Traajijazeri” “We Justly Take By Force”</text>
+          </navLabel>
+          <content src="faction/ahzirrtraajijazeri.xhtml#six"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navpoint-45" playOrder="45">
+        <navLabel>
+          <text>Brothers of Darkness</text>
+        </navLabel>
+        <content src="brothersofdarkness.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-46" playOrder="46">
+        <navLabel>
+          <text>Fall from Glory</text>
+        </navLabel>
+        <content src="faction/fallfromglory.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-47" playOrder="47">
+        <navLabel>
+          <text>A Kiss, Sweet Mother</text>
+        </navLabel>
+        <content src="faction/akisssweetmother.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-48" playOrder="48">
+        <navLabel>
+          <text>The Nightingales</text>
+        </navLabel>
+        <content src="faction/thenightingales.xhtml"/>
+        <navPoint id="navpoint-49" playOrder="49">
+          <navLabel>
+            <text>Volume 1 – Who We Are</text>
+          </navLabel>
+          <content src="faction/thenightingales.xhtml#vol1"/>
+        </navPoint>
+        <navPoint id="navpoint-50" playOrder="50">
+          <navLabel>
+            <text>Volume 2 – What We Were</text>
+          </navLabel>
+          <content src="faction/thenightingales.xhtml#vol2"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navpoint-51" playOrder="51">
+        <navLabel>
+          <text>Nords Arise!</text>
+        </navLabel>
+        <content src="faction/nordsarise.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-52" playOrder="52">
+        <navLabel>
+          <text>Shadowmarks</text>
+        </navLabel>
+        <content src="shadowmarks.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-53" playOrder="53">
+      <navLabel>
+        <text>Fiction</text>
+      </navLabel>
+      <content src="toc.xhtml#fiction"/>
+      <navPoint id="navpoint-54" playOrder="54">
+        <navLabel>
+          <text>Kolb &amp;amp; the Dragon</text>
+        </navLabel>
+        <content src="kolbandthedragon.xhtml"/>
+        <navPoint id="navpoint-55" playOrder="55">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 2</text>
+          </navLabel>
+          <content src="kolbandthedragon-page2.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-56" playOrder="56">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 3</text>
+          </navLabel>
+          <content src="kolbandthedragon-page3.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-57" playOrder="57">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 5</text>
+          </navLabel>
+          <content src="kolbandthedragon-page5.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-58" playOrder="58">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 6</text>
+          </navLabel>
+          <content src="kolbandthedragon-page6.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-59" playOrder="59">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 8</text>
+          </navLabel>
+          <content src="kolbandthedragon-page8.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-60" playOrder="60">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 10</text>
+          </navLabel>
+          <content src="kolbandthedragon-page10.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-61" playOrder="61">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 12</text>
+          </navLabel>
+          <content src="kolbandthedragon-page12.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-62" playOrder="62">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 15</text>
+          </navLabel>
+          <content src="kolbandthedragon-page15.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-63" playOrder="63">
+          <navLabel>
+            <text>Kolb &amp;amp; the Dragon - Page 17</text>
+          </navLabel>
+          <content src="kolbandthedragon-page17.xhtml"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-64" playOrder="64">
+      <navLabel>
+        <text>History &amp;amp; Lore</text>
+      </navLabel>
+      <content src="toc.xhtml#history"/>
+      <navPoint id="navpoint-65" playOrder="65">
+        <navLabel>
+          <text>The Aetherium Wars</text>
+        </navLabel>
+        <content src="history/theaetheriumwars.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-66" playOrder="66">
+        <navLabel>
+          <text>The Amulet of Kings</text>
+        </navLabel>
+        <content src="history/theamuletofkings.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-67" playOrder="67">
+        <navLabel>
+          <text>Fragment: On Artaeum</text>
+        </navLabel>
+        <content src="history/fragmentonartaeum.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-68" playOrder="68">
+        <navLabel>
+          <text>The Great War</text>
+        </navLabel>
+        <content src="history/thegreatwar.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-69" playOrder="69">
+      <navLabel>
+        <text>Instruction &amp;amp; Research</text>
+      </navLabel>
+      <content src="toc.xhtml#instruction"/>
+      <navPoint id="navpoint-70" playOrder="70">
+        <navLabel>
+          <text>Advances in Lockpicking</text>
+        </navLabel>
+        <content src="instruction/advancesinlockpicking.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-71" playOrder="71">
+        <navLabel>
+          <text>Darkest Darkness</text>
+        </navLabel>
+        <content src="instruction/darkestdarkness.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-72" playOrder="72">
+        <navLabel>
+          <text>Dragon Language: Myth no More</text>
+        </navLabel>
+        <content src="instruction/dragonlanguage.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-73" playOrder="73">
+        <navLabel>
+          <text>Proper Lock Design</text>
+        </navLabel>
+        <content src="instruction/properlockdesign.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-74" playOrder="74">
+        <navLabel>
+          <text>Uncommon Taste</text>
+        </navLabel>
+        <content src="instruction/uncommontaste.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-75" playOrder="75">
+      <navLabel>
+        <text>Journals &amp;amp; Logs</text>
+      </navLabel>
+      <content src="toc.xhtml#journals"/>
+      <navPoint id="navpoint-76" playOrder="76">
+        <navLabel>
+          <text>Cicero’s Journal</text>
+        </navLabel>
+        <content src="journals/cicerosjournal.xhtml"/>
+        <navPoint id="navpoint-77" playOrder="77">
+          <navLabel>
+            <text>Volume 1</text>
+          </navLabel>
+          <content src="journals/cicerosjournal.xhtml#vol1"/>
+        </navPoint>
+        <navPoint id="navpoint-78" playOrder="78">
+          <navLabel>
+            <text>Volume 2</text>
+          </navLabel>
+          <content src="journals/cicerosjournal.xhtml#vol2"/>
+        </navPoint>
+        <navPoint id="navpoint-79" playOrder="79">
+          <navLabel>
+            <text>Volume 3</text>
+          </navLabel>
+          <content src="journals/cicerosjournal.xhtml#vol3"/>
+        </navPoint>
+        <navPoint id="navpoint-80" playOrder="80">
+          <navLabel>
+            <text>Volume 4</text>
+          </navLabel>
+          <content src="journals/cicerosjournal.xhtml#vol4"/>
+        </navPoint>
+        <navPoint id="navpoint-81" playOrder="81">
+          <navLabel>
+            <text>Volume 5</text>
+          </navLabel>
+          <content src="journals/cicerosjournal.xhtml#vol5"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-82" playOrder="82">
+      <navLabel>
+        <text>Notes &amp;amp; Letters</text>
+      </navLabel>
+      <content src="toc.xhtml#notes"/>
+      <navPoint id="navpoint-83" playOrder="83">
+        <navLabel>
+          <text>On the Great Collapse</text>
+        </navLabel>
+        <content src="notes/greatcollapse.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-84" playOrder="84">
+      <navLabel>
+        <text>Plays, Poetry, &amp; Riddles</text>
+      </navLabel>
+      <content src="toc.xhtml#plays"/>
+      <navPoint id="navpoint-85" playOrder="85">
+        <navLabel>
+          <text>Sithis</text>
+        </navLabel>
+        <content src="plays/sithis.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-86" playOrder="86">
+      <navLabel>
+        <text>Politics &amp;amp; Law</text>
+      </navLabel>
+      <content src="toc.xhtml#politics"/>
+    </navPoint>
+    <navPoint id="navpoint-87" playOrder="87">
+      <navLabel>
+        <text>Religion &amp;amp; Prophecy</text>
+      </navLabel>
+      <content src="toc.xhtml#religion"/>
+    </navPoint>
+    <navPoint id="navpoint-88" playOrder="88">
+      <navLabel>
+        <text>Travels</text>
+      </navLabel>
+      <content src="toc.xhtml#travels"/>
+    </navPoint>
+    <navPoint id="navpoint-89" playOrder="89">
+      <navLabel>
+        <text>Unobtainable Books</text>
+      </navLabel>
+      <content src="toc.xhtml#unobtainable-books"/>
+      <navPoint id="navpoint-90" playOrder="90">
+        <navLabel>
+          <text>Gallus’s Journal</text>
+        </navLabel>
+        <content src="unobtainable/gallusjournal.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-91" playOrder="91">
+        <navLabel>
+          <text>The Secrets of Ragnvald</text>
+        </navLabel>
+        <content src="unobtainable/secretsofregnvald.xhtml"/>
+      </navPoint>
+      <navPoint id="navpoint-92" playOrder="92">
+        <navLabel>
+          <text>Unsent Afflicted Letter</text>
+        </navLabel>
+        <content src="unobtainable/unsentafflictedletter.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navpoint-93" playOrder="93">
+      <navLabel>
+        <text>Creation Club</text>
+      </navLabel>
+      <content src="toc.xhtml#creation-club"/>
+    </navPoint>
+  </navMap>
+</ncx>
