@@ -87,13 +87,7 @@
        		},
 			{
 				"pageName": "Contents",
-				"fileName": "toc.xhtml",
-				"subheadings": [
-					{
-					"pageName":"Biographies",
-					"fileName":"toc.xhtml#biographies"
-					}
-				]
+				"fileName": "toc.xhtml"
 			},
 			{
 				"pageName": "Biographies",
@@ -119,7 +113,7 @@
 					},
 					{
 						"pageName": "Biography of the Wolf Queen",
-						"fileName": "biographies/thewolfqueen.xhtml"
+						"fileName": "biographies/biographyofthewolfqueen.xhtml"
 					},
 					{
 						"pageName": "Galerion The Mystic",
@@ -332,6 +326,10 @@
 								"fileName": "fiction/kolbandthedragon-page8.xhtml"
 							},
 							{
+								"pageName": "Kolb &amp; the Dragon - Page 9",
+								"fileName": "fiction/kolbandthedragon-page9.xhtml"
+							},
+							{
 								"pageName": "Kolb &amp; the Dragon - Page 10",
 								"fileName": "fiction/kolbandthedragon-page10.xhtml"
 							},
@@ -342,6 +340,14 @@
 							{
 								"pageName": "Kolb &amp; the Dragon - Page 12",
 								"fileName": "fiction/kolbandthedragon-page12.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 13",
+								"fileName": "fiction/kolbandthedragon-page13.xhtml"
+							},
+							{
+								"pageName": "Kolb &amp; the Dragon - Page 14",
+								"fileName": "fiction/kolbandthedragon-page14.xhtml"
 							},
 							{
 								"pageName": "Kolb &amp; the Dragon - Page 15",

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# ebookbuild.py v1.4.1 - Generates an EPUB 3.3 file using data from metadata.json, now with lxml and orjson.
+# ebookbuild.py v1.4.2 - Generates an EPUB 3.3 file using data from metadata.json, now with lxml and orjson.
 
 # This file is part of the ebookbuild project (also known as Project Zylon) which is licensed under GNU General Public License v3.0 (GNU GPLv3): https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -12,7 +12,7 @@ from lxml import etree
 print(
     """
 ======================================================
-ebookbuild 3.3, v1.4.1 - Copyright (C) 2025 Hal Motley
+ebookbuild 3.3, v1.4.2 - Copyright (C) 2025 Hal Motley
 https://www.github.com/inferno986return/ebookbuild/
 ======================================================
 

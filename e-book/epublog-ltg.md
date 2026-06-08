@@ -1,8 +1,6 @@
 Validating using EPUB version 3.2 rules.
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(36,47): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(43,45): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(72,49): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(156,49): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(66,49): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(150,49): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(371,51): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(377,51): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/galerionthemystic.xhtml(16,116): Error while parsing file: value of attribute "height" is invalid; must be an integer
@@ -83,109 +81,113 @@ ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/unobtainable/secretsofregnval
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/unobtainable/secretsofregnvald.xhtml(14,116): Error while parsing file: value of attribute "width" is invalid; must be an integer
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/unobtainable/unsentafflictedletter.xhtml(16,119): Error while parsing file: value of attribute "height" is invalid; must be an integer
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/unobtainable/unsentafflictedletter.xhtml(16,119): Error while parsing file: value of attribute "width" is invalid; must be an integer
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(32,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(35,73): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(38,73): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(41,73): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(46,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(49,61): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(52,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(55,61): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(58,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(61,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(64,60): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(67,69): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(70,69): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(73,69): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(76,69): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(79,69): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(84,57): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(87,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(90,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(93,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(96,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(99,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(102,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(105,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(108,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(111,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(114,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(124,59): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(132,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(135,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(138,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(141,68): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(144,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(147,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(150,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(155,50): Referenced resource "OEBPS/brothersofdarkness.xhtml" could not be found in the EPUB.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(158,53): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(161,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(164,55): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(167,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(170,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(175,50): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(178,43): Referenced resource "OEBPS/shadowmarks.xhtml" could not be found in the EPUB.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(186,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(189,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(192,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(195,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(198,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(201,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(204,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(207,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(210,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(213,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(216,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(219,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(222,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(225,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(232,39): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(235,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(238,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(241,57): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(244,51): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(249,43): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(252,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(255,59): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(258,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(261,60): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(264,57): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(269,40): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(272,55): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(275,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(278,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(281,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(284,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(287,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(294,37): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(297,51): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(302,37): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(305,44): Referenced resource "OEBPS/plays/sithis.xhtml" could not be found in the EPUB.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(316,39): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(322,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(325,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(328,66): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(347,53): Referenced resource "OEBPS/Foreword" could not be found in the EPUB.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(52,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(27,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(30,73): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(33,73): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(36,73): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(41,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(44,61): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(47,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(50,61): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(53,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(56,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(59,60): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(62,69): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(65,69): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(68,69): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(71,69): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(74,69): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(79,57): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(82,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(85,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(88,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(91,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(94,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(97,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(100,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(103,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(106,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(109,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(119,59): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(127,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(130,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(133,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(136,68): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(139,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(142,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(145,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(150,50): Referenced resource "OEBPS/brothersofdarkness.xhtml" could not be found in the EPUB.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(153,53): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(156,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(159,55): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(162,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(165,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(170,50): Found a reference to a resource that is not a spine item.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(173,43): Referenced resource "OEBPS/shadowmarks.xhtml" could not be found in the EPUB.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(181,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(184,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(187,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(190,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(193,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(196,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(199,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(202,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(205,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(208,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(211,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(214,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(217,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(220,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(223,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(226,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(229,67): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(236,39): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(239,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(242,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(245,57): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(248,51): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(253,43): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(256,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(259,59): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(262,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(265,60): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(268,57): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(273,40): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(276,55): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(279,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(282,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(285,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(288,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(291,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(298,37): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(301,51): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(306,37): Fragment identifier is not defined.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(309,44): Referenced resource "OEBPS/plays/sithis.xhtml" could not be found in the EPUB.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(320,39): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(326,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(329,62): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(332,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(351,53): Referenced resource "OEBPS/Foreword" could not be found in the EPUB.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(46,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(51,71): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(57,71): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(63,71): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(69,71): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(76,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(82,61): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(88,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(94,61): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(100,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(106,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(112,60): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(70,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(76,61): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(82,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(88,61): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(94,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(100,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(106,60): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(111,67): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(117,67): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(123,67): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(129,67): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(135,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(141,67): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(148,57): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(154,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(160,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(142,57): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(148,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(154,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(159,63): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(165,63): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(171,63): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(177,63): Found a reference to a resource that is not a spine item.
@@ -193,24 +195,24 @@ ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(183,63): Found a refe
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(189,63): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(195,63): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(201,63): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(207,63): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(220,59): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(232,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(214,59): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(226,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(231,64): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(237,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(243,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(249,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(243,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(249,65): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(255,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(261,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(267,64): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(274,50): Referenced resource "OEBPS/brothersofdarkness.xhtml" could not be found in the EPUB.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(280,53): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(286,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(292,55): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(261,64): Found a reference to a resource that is not a spine item.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(268,50): Referenced resource "OEBPS/brothersofdarkness.xhtml" could not be found in the EPUB.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(274,53): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(280,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(286,55): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(291,62): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(297,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(303,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(310,50): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(316,43): Referenced resource "OEBPS/shadowmarks.xhtml" could not be found in the EPUB.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(328,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(304,50): Found a reference to a resource that is not a spine item.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(310,43): Referenced resource "OEBPS/shadowmarks.xhtml" could not be found in the EPUB.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(322,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(327,64): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(333,64): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(339,64): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(345,64): Found a reference to a resource that is not a spine item.
@@ -224,32 +226,34 @@ ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(387,65): Found a refe
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(393,65): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(399,65): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(405,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(413,41): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(418,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(424,56): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(430,57): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(436,51): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(443,45): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(448,65): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(454,59): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(460,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(466,60): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(472,57): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(479,42): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(484,55): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(489,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(495,62): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(411,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(417,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(425,41): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(430,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(436,56): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(442,57): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(448,51): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(455,45): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(460,65): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(466,59): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(472,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(478,60): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(484,57): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(491,42): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(496,55): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(501,62): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(507,62): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(513,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(521,39): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(526,51): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(519,62): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(525,62): Found a reference to a resource that is not a spine item.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(533,39): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(538,44): Referenced resource "OEBPS/plays/sithis.xhtml" could not be found in the EPUB.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(557,41): Fragment identifier is not defined.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(568,58): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(574,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(580,66): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(538,51): Found a reference to a resource that is not a spine item.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(545,39): Fragment identifier is not defined.
+ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(550,44): Referenced resource "OEBPS/plays/sithis.xhtml" could not be found in the EPUB.
+ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(569,41): Fragment identifier is not defined.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(580,58): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(586,62): Found a reference to a resource that is not a spine item.
+ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(592,66): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(13,75): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(13,162): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(13,228): Found a reference to a resource that is not a spine item.
@@ -344,9 +348,8 @@ ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/fiction/kolbandthedragon-page
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/fiction/kolbandthedragon-page8.xhtml(14,62): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/fiction/kolbandthedragon-page9.xhtml(14,62): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/fiction/kolbandthedragon.xhtml(17,81): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/politics/nordsofskyrim.xhtml(15,116): Referenced resource "OEBPS/images/illuminated_letters/N_letter.png" could not be found in the EPUB.
 
 Check finished with errors
-Messages: 1 fatal / 339 errors / 0 warnings / 6 infos
+Messages: 1 fatal / 342 errors / 0 warnings / 6 infos
 
 EPUBCheck completed
