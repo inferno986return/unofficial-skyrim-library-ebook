@@ -59,11 +59,10 @@ def GenOPF(output_dir, data):
     package = etree.Element("package", attrib={"unique-identifier": "bookid", "version": "3.0"}, nsmap=nsmap)
     metadata = etree.SubElement(package, "metadata")
 
-    # Identifier with refinement for ISBN
+    # --- METADATA (Unchanged) ---
     identifier_el = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}identifier", id="bookid")
     identifier_el.text = data["ISBN"]
     etree.SubElement(metadata, "meta", refines="#bookid", property="identifier-type", scheme="xsd:string").text = "ISBN"
-
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}title").text = data["title"]
 
     i = 1
@@ -76,8 +75,7 @@ def GenOPF(output_dir, data):
             if role_key in data:
                 etree.SubElement(metadata, "meta", refines=f"#{creator_id}", property="role", scheme="marc:relators").text = data[role_key]
             i += 1
-        else:
-            break
+        else: break
 
     i = 1
     while True:
@@ -89,8 +87,7 @@ def GenOPF(output_dir, data):
             if role_key in data:
                 etree.SubElement(metadata, "meta", refines=f"#{contrib_id}", property="role", scheme="marc:relators").text = data[role_key]
             i += 1
-        else:
-            break
+        else: break
 
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}publisher").text = data["publisher"]
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}language").text = data["language"]
@@ -98,83 +95,95 @@ def GenOPF(output_dir, data):
 
     if data.get("date"):
         etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}date").text = data["date"]
-
     if data.get("sourceUrn") and data.get("sourceISBN"):
-        urn_type = data["sourceUrn"].lower()
-        source_id = data["sourceISBN"]
-        source_urn = f"urn:{urn_type}:{source_id}"
-        etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}source").text = source_urn
+        etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}source").text = f"urn:{data['sourceUrn'].lower()}:{data['sourceISBN']}"
 
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}description").text = data["description"]
     etree.SubElement(metadata, "meta", property="dcterms:modified").text = utctime
 
-    if ("collection" in data and
-        data["collection"].get("enableCollection") == "true" and
-        all(k in data["collection"] for k in ["name", "type", "position"])):
-        collection_data = data["collection"]
-        etree.SubElement(metadata, "meta", property="belongs-to-collection", id="collection").text = collection_data["name"]
-        etree.SubElement(metadata, "meta", refines="#collection", property="collection-type").text = collection_data["type"]
-        etree.SubElement(metadata, "meta", refines="#collection", property="group-position").text = str(collection_data["position"])
-        if collection_data.get("fileAs"):
-            etree.SubElement(metadata, "meta", refines="#collection", property="file-as").text = collection_data["fileAs"]
-        if collection_data.get("alternativeScript"):
-            etree.SubElement(metadata, "meta", refines="#collection", property="alternate-script").text = collection_data["alternativeScript"]
+    if ("collection" in data and data["collection"].get("enableCollection") == "true"):
+        col = data["collection"]
+        etree.SubElement(metadata, "meta", property="belongs-to-collection", id="collection").text = col["name"]
+        etree.SubElement(metadata, "meta", refines="#collection", property="collection-type").text = col["type"]
+        etree.SubElement(metadata, "meta", refines="#collection", property="group-position").text = str(col["position"])
+        if col.get("fileAs"): etree.SubElement(metadata, "meta", refines="#collection", property="file-as").text = col["fileAs"]
+        if col.get("alternativeScript"): etree.SubElement(metadata, "meta", refines="#collection", property="alternate-script").text = col["alternativeScript"]
 
     etree.SubElement(metadata, "meta", name="cover", content="cover-image")
 
-    # --- MANIFEST & SPINE ---
-    manifest = etree.SubElement(package, "manifest")
-    spine_attrs = {}
-    if data.get("enableNcx") == "true":
-        spine_attrs['toc'] = 'ncx'
-    spine = etree.SubElement(package, "spine", **spine_attrs)
 
-    # Navigation documents
-    etree.SubElement(manifest, "item", id="nav", href=data["navDocFile"], **{"media-type": "application/xhtml+xml", "properties": "nav"})
-    if data.get("enableNcx") == "true":
-        etree.SubElement(manifest, "item", id="ncx", href="toc.ncx", **{"media-type": "application/x-dtbncx+xml"})
+    # --- THE ELEGANT ARCHITECTURE: MANIFEST & SPINE ---
 
-    # XHTML pages
-    seen_filenames = set()
-    for idx, page in enumerate(data["pages"]):
-        base_filename = page["fileName"].split('#')[0]
-        if base_filename not in seen_filenames:
-            page_id = f"xhtml{idx}"
-            etree.SubElement(manifest, "item", id=page_id, href=base_filename, **{"media-type": "application/xhtml+xml"})
-            itemref = etree.SubElement(spine, "itemref", idref=page_id)
-            if page.get("type") == "cover":
-                itemref.set("linear", "no")
-            seen_filenames.add(base_filename)
-
-    # Asset files
+    # 1. Asset Definitions
     SUPPORTED_ASSETS = {
+        ".xhtml": "application/xhtml+xml", ".html": "application/xhtml+xml",
         ".css": "text/css", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
         ".gif": "image/gif", ".svg": "image/svg+xml", ".webp": "image/webp", ".ttf": "font/truetype",
         ".otf": "font/opentype", ".woff": "font/woff", ".woff2": "font/woff2", ".mp3": "audio/mpeg",
         ".mp4": "video/mp4", ".m4a": "audio/mp4", ".m4v": "video/mp4", ".opus": "audio/opus",
         ".pls": "application/pls+xml", ".smil": "application/smil+xml"
     }
-    asset_counters = {}
 
+    # 2. Build the File Registry (Single Source of Truth)
+    manifest_registry = {}  # Maps filepath -> unique_id
+    asset_counters = {}
+    
+    # Pre-register reserved IDs mapping to your metadata
+    manifest_registry[data["navDocFile"]] = "nav"
+    if data.get("enableNcx") == "true":
+        manifest_registry["toc.ncx"] = "ncx"
+    if data.get("epubCover"):
+        manifest_registry[data["epubCover"]] = "cover-image"
+
+    # Walk the directory ONCE to index all actual files
     for dirpath, _, filenames in os.walk(output_dir):
         for file in sorted(filenames):
             ext = os.path.splitext(file)[1].lower()
             if ext in SUPPORTED_ASSETS:
-                full_file_path = os.path.join(dirpath, file)
-                href_path = os.path.relpath(full_file_path, output_dir).replace(os.sep, '/')
-
-                if file == data["epubCover"]:
-                    item_id = "cover-image"
-                else:
+                href_path = os.path.relpath(os.path.join(dirpath, file), output_dir).replace(os.sep, '/')
+                
+                # Assign a dynamic ID to files not pre-registered
+                if href_path not in manifest_registry:
                     prefix = ext.strip('.')
                     idx = asset_counters.get(prefix, 0)
-                    item_id = f"{prefix}{idx}"
+                    manifest_registry[href_path] = f"{prefix}{idx}"
                     asset_counters[prefix] = idx + 1
 
-                attrs = {"id": item_id, "href": href_path, "media-type": SUPPORTED_ASSETS[ext]}
-                if file == data["epubCover"]:
-                    attrs["properties"] = "cover-image"
-                etree.SubElement(manifest, "item", **attrs)
+    # 3. Generate Manifest using the Registry
+    manifest = etree.SubElement(package, "manifest")
+    for href, item_id in manifest_registry.items():
+        ext = os.path.splitext(href)[1].lower()
+        
+        # Determine media-type (handling ncx override)
+        media_type = "application/x-dtbncx+xml" if item_id == "ncx" else SUPPORTED_ASSETS.get(ext, "application/xhtml+xml")
+        
+        attrs = {"id": item_id, "href": href, "media-type": media_type}
+        
+        if item_id == "nav":
+            attrs["properties"] = "nav"
+        elif item_id == "cover-image":
+            attrs["properties"] = "cover-image"
+            
+        etree.SubElement(manifest, "item", **attrs)
+
+    # 4. Generate Spine by querying the Registry
+    spine_attrs = {'toc': 'ncx'} if data.get("enableNcx") == "true" else {}
+    spine = etree.SubElement(package, "spine", **spine_attrs)
+
+    seen_spine_items = set()
+    for page in data["pages"]:
+        base_filename = page["fileName"].split('#')[0]
+        
+        if base_filename not in seen_spine_items:
+            item_id = manifest_registry.get(base_filename)
+            if item_id:
+                itemref = etree.SubElement(spine, "itemref", idref=item_id)
+                if page.get("type") == "cover":
+                    itemref.set("linear", "no")
+            else:
+                print(f"  -> WARNING: Spine item '{base_filename}' missing from output folder. Excluded from OPF.")
+            
+            seen_spine_items.add(base_filename)
 
     tree = etree.ElementTree(package)
     output_path = os.path.join(output_dir, "content.opf")

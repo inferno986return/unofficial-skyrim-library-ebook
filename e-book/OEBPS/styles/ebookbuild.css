@@ -248,6 +248,11 @@ p.scene-break {
 
 /* Book-specific tags */
 
+img.illuminated-letter {
+    width: 70px!important;
+    height: 70px!important;
+}
+
 .dragon {
     font-size: 1.2em;
     font-family: "Dragon"!important;
