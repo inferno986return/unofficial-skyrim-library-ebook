@@ -114,16 +114,12 @@
 							{
 								"pageName":"Volume 3",
 								"fileName":"biographies/biographyofbarenziah.xhtml#vol3"
-							},
-							{
-								"pageName":"Galerion The Mystic",
-								"fileName":"biographies.xhtml#"
 							}
 						]
 					},
 					{
 						"pageName": "Biography of the Wolf Queen",
-						"fileName": "thewolfqueen.xhtml"
+						"fileName": "biographies/thewolfqueen.xhtml"
 					},
 					{
 						"pageName": "Galerion The Mystic",
@@ -131,7 +127,7 @@
 					},
 					{
 						"pageName": "Life of Uriel Septim VII",
-						"fileName": "lifeofurielseptimvii.xhtml"
+						"fileName": "biographies/lifeofurielseptimvii.xhtml"
 					},
 					{
 						"pageName": "The Madness of Pelagius",

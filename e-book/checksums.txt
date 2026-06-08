@@ -2,9 +2,9 @@
 
 WARNING: MD5 is cryptographically weak. Use SHA-256 or SHA-512 instead.
 
-Checksum values for SkyrimLibraryUnofficial.epub on 2026-06-08 16:28:41+00:00 UTC
+Checksum values for SkyrimLibraryUnofficial.epub on 2026-06-08 16:46:40+00:00 UTC
 =======================================================================
 
-MD5: 425db05a27a42d746df178fed78d665c
-SHA-256: d87f6a278d362ec7f95f3758fd0414a2f1ac5f4b0d3e9254e8ece770a9ab01bb
-SHA-512: f95a8fd6d2b18b2937255c0ade17100219ad1069229f46687e3daf6b2c475e35c8a43ad2d01762ced94472a31d4c472ddd61b92e0f32c3f36e1e0cdb460ec70b
+MD5: 92a9526c9b00dec47528a0d61f0a01bf
+SHA-256: 645005f870d95b17c3277b0079aac7b965f1f1bdc8e7f6d58e760f50c654e085
+SHA-512: c16d9d0c9ada7345e21e85b60987a06deb339949a80b2c223164ad918ec49b3b32362722ec4d6c478819566ad15f925b505f0433e51f567381780838d7de8a85

@@ -2,12 +2,6 @@ Validating using EPUB version 3.2 rules.
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(36,47): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(43,45): Error while parsing file: different playOrder values for navPoint/navTarget/pageTarget that refer to same target
 ERROR(RSC-001): SkyrimLibraryUnofficial.epub(-1,-1): File "OEBPS/cover.png" could not be found.
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/biographyofbarenziah.xhtml(17,118): Error while parsing file: value of attribute "height" is invalid; must be an integer
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/biographyofbarenziah.xhtml(17,118): Error while parsing file: value of attribute "width" is invalid; must be an integer
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/biographyofbarenziah.xhtml(27,121): Error while parsing file: value of attribute "height" is invalid; must be an integer
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/biographyofbarenziah.xhtml(27,121): Error while parsing file: value of attribute "width" is invalid; must be an integer
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/biographyofbarenziah.xhtml(35,117): Error while parsing file: value of attribute "height" is invalid; must be an integer
-ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/biographyofbarenziah.xhtml(35,117): Error while parsing file: value of attribute "width" is invalid; must be an integer
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/galerionthemystic.xhtml(16,116): Error while parsing file: value of attribute "height" is invalid; must be an integer
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/galerionthemystic.xhtml(16,116): Error while parsing file: value of attribute "width" is invalid; must be an integer
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/biographies/madnessofpelagius.xhtml(16,116): Error while parsing file: value of attribute "height" is invalid; must be an integer
@@ -360,6 +354,6 @@ WARNING(PKG-010): SkyrimLibraryUnofficial.epub/OEBPS/images/daedric artifact boo
 WARNING(PKG-010): SkyrimLibraryUnofficial.epub/OEBPS/images/daedric artifact book/daedric_artifact01.png(-1,-1): Filename contains spaces, therefore URI escaping is necessary. Consider removing spaces from filename.
 
 Check finished with errors
-Messages: 0 fatals / 334 errors / 19 warnings / 6 infos
+Messages: 0 fatals / 328 errors / 19 warnings / 6 infos
 
 EPUBCheck completed
