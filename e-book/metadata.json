@@ -348,6 +348,121 @@
 				]
 			},
 			{
+				"pageName": "History &amp; Lore",
+				"fileName": "toc.xhtml#history",
+				"subheadings": [
+					{
+						"pageName": "The Aetherium Wars",
+						"fileName": "history/theaetheriumwars.xhtml"	
+					},
+					{
+						"pageName": "The Amulet of Kings",
+						"fileName": "history/theamuletofkings.xhtml"
+					},
+					{
+						"pageName": "Fragment: On Artaeum",
+						"fileName": "history/fragmentonartaeum.xhtml"
+					},
+					{
+						"pageName": "The Great War",
+						"fileName": "history/thegreatwar.xhtml"
+					}
+				]
+			},
+			{
+				"pageName": "Instruction &amp; Research",
+				"fileName": "toc.xhtml#instruction",
+				"subheadings": [
+					{
+						"pageName": "Advances in Lockpicking",
+						"fileName": "instruction/advancesinlockpicking.xhtml"
+					},
+					{
+						"pageName": "Darkest Darkness",
+						"fileName": "instruction/darkestdarkness.xhtml"
+					},
+					{
+						"pageName": "Dragon Language: Myth no More",
+						"fileName": "instruction/dragonlanguage.xhtml"
+					},
+					{
+						"pageName": "Proper Lock Design",
+						"fileName": "instruction/properlockdesign.xhtml"
+					},
+					{
+						"pageName": "Uncommon Taste",
+						"fileName": "instruction/uncommontaste.xhtml"
+					}
+				]
+			},
+			{
+				"pageName": "Journals &amp; Logs",
+				"fileName": "toc.xhtml#journals",
+				"subheadings": [
+					{
+						"pageName": "Cicero’s Journal",
+						"fileName": "journals/cicerosjournal.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Volume 1",
+								"fileName": "journals/cicerosjournal.xhtml#vol1"
+							},
+							{
+								"pageName": "Volume 2",
+								"fileName": "journals/cicerosjournal.xhtml#vol2"
+							},
+							{
+								"pageName": "Volume 3",
+								"fileName": "journals/cicerosjournal.xhtml#vol3"
+							},
+							{
+								"pageName": "Volume 4",
+								"fileName": "journals/cicerosjournal.xhtml#vol4"
+							},
+							{
+								"pageName": "Volume 5",
+								"fileName": "journals/cicerosjournal.xhtml#vol5"
+							}
+						]
+					}
+				]
+			},
+			{
+				"pageName": "Notes &amp; Letters",
+				"fileName": "toc.xhtml#notes",
+				"subheadings": [
+					{
+						"pageName": "On the Great Collapse",
+						"fileName": "notes/greatcollapse.xhtml"
+					}
+				]
+			},
+			{
+				"pageName": "Plays, Poetry, & Riddles",
+				"fileName": "toc.xhtml#plays",
+				"subheadings": [
+					{
+						"pageName": "Sithis",
+						"fileName": "plays/sithis.xhtml"
+					}
+				]
+			},
+			{
+				"pageName": "Politics &amp; Law",
+				"fileName": "toc.xhtml#politics",
+				"subheadings": []
+			},
+			{
+				"pageName": "Religion &amp; Prophecy",
+				"fileName": "toc.xhtml#religion",
+				"subheadings": []
+			},
+			{
+				"pageName": "Travels",
+				"fileName": "toc.xhtml#travels",
+				"subheadings": []
+			},
+			{
 				"pageName": "Unobtainable Books",
 				"fileName": "toc.xhtml#unobtainable-books",
 				"subheadings": [
@@ -369,12 +484,6 @@
 				"pageName": "Creation Club",
 				"fileName": "toc.xhtml#creation-club",
 				"subheadings": []
-			},
-
-					
-					{
-						"pageName": "The Aetherium Wars",
-						"fileName": "theaetheriumwars.xhtml"
-					}
+			}
 				]
 }
