@@ -59,10 +59,12 @@ def GenOPF(output_dir, data):
     package = etree.Element("package", attrib={"unique-identifier": "bookid", "version": "3.0"}, nsmap=nsmap)
     metadata = etree.SubElement(package, "metadata")
 
-    # --- METADATA (Unchanged) ---
+    # --- METADATA ---
+    # Identifier with refinement for ISBN
     identifier_el = etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}identifier", id="bookid")
     identifier_el.text = data["ISBN"]
     etree.SubElement(metadata, "meta", refines="#bookid", property="identifier-type", scheme="xsd:string").text = "ISBN"
+
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}title").text = data["title"]
 
     i = 1
@@ -75,7 +77,8 @@ def GenOPF(output_dir, data):
             if role_key in data:
                 etree.SubElement(metadata, "meta", refines=f"#{creator_id}", property="role", scheme="marc:relators").text = data[role_key]
             i += 1
-        else: break
+        else:
+            break
 
     i = 1
     while True:
@@ -87,7 +90,8 @@ def GenOPF(output_dir, data):
             if role_key in data:
                 etree.SubElement(metadata, "meta", refines=f"#{contrib_id}", property="role", scheme="marc:relators").text = data[role_key]
             i += 1
-        else: break
+        else:
+            break
 
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}publisher").text = data["publisher"]
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}language").text = data["language"]
@@ -95,19 +99,27 @@ def GenOPF(output_dir, data):
 
     if data.get("date"):
         etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}date").text = data["date"]
+
     if data.get("sourceUrn") and data.get("sourceISBN"):
-        etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}source").text = f"urn:{data['sourceUrn'].lower()}:{data['sourceISBN']}"
+        urn_type = data["sourceUrn"].lower()
+        source_id = data["sourceISBN"]
+        source_urn = f"urn:{urn_type}:{source_id}"
+        etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}source").text = source_urn
 
     etree.SubElement(metadata, "{http://purl.org/dc/elements/1.1/}description").text = data["description"]
     etree.SubElement(metadata, "meta", property="dcterms:modified").text = utctime
 
-    if ("collection" in data and data["collection"].get("enableCollection") == "true"):
-        col = data["collection"]
-        etree.SubElement(metadata, "meta", property="belongs-to-collection", id="collection").text = col["name"]
-        etree.SubElement(metadata, "meta", refines="#collection", property="collection-type").text = col["type"]
-        etree.SubElement(metadata, "meta", refines="#collection", property="group-position").text = str(col["position"])
-        if col.get("fileAs"): etree.SubElement(metadata, "meta", refines="#collection", property="file-as").text = col["fileAs"]
-        if col.get("alternativeScript"): etree.SubElement(metadata, "meta", refines="#collection", property="alternate-script").text = col["alternativeScript"]
+    if ("collection" in data and
+        data["collection"].get("enableCollection") == "true" and
+        all(k in data["collection"] for k in ["name", "type", "position"])):
+        collection_data = data["collection"]
+        etree.SubElement(metadata, "meta", property="belongs-to-collection", id="collection").text = collection_data["name"]
+        etree.SubElement(metadata, "meta", refines="#collection", property="collection-type").text = collection_data["type"]
+        etree.SubElement(metadata, "meta", refines="#collection", property="group-position").text = str(collection_data["position"])
+        if collection_data.get("fileAs"):
+            etree.SubElement(metadata, "meta", refines="#collection", property="file-as").text = collection_data["fileAs"]
+        if collection_data.get("alternativeScript"):
+            etree.SubElement(metadata, "meta", refines="#collection", property="alternate-script").text = collection_data["alternativeScript"]
 
     etree.SubElement(metadata, "meta", name="cover", content="cover-image")
 
@@ -132,8 +144,9 @@ def GenOPF(output_dir, data):
     manifest_registry[data["navDocFile"]] = "nav"
     if data.get("enableNcx") == "true":
         manifest_registry["toc.ncx"] = "ncx"
-    if data.get("epubCover"):
-        manifest_registry[data["epubCover"]] = "cover-image"
+
+    # Extract the cover filename to search for it during the walk
+    epub_cover_filename = data.get("epubCover")
 
     # Walk the directory ONCE to index all actual files
     for dirpath, _, filenames in os.walk(output_dir):
@@ -142,12 +155,16 @@ def GenOPF(output_dir, data):
             if ext in SUPPORTED_ASSETS:
                 href_path = os.path.relpath(os.path.join(dirpath, file), output_dir).replace(os.sep, '/')
                 
-                # Assign a dynamic ID to files not pre-registered
                 if href_path not in manifest_registry:
-                    prefix = ext.strip('.')
-                    idx = asset_counters.get(prefix, 0)
-                    manifest_registry[href_path] = f"{prefix}{idx}"
-                    asset_counters[prefix] = idx + 1
+                    # Automatically find the cover image regardless of what subfolder it is in
+                    if epub_cover_filename and file == epub_cover_filename:
+                        manifest_registry[href_path] = "cover-image"
+                    else:
+                        # Assign dynamic IDs for everything else
+                        prefix = ext.strip('.')
+                        idx = asset_counters.get(prefix, 0)
+                        manifest_registry[href_path] = f"{prefix}{idx}"
+                        asset_counters[prefix] = idx + 1
 
     # 3. Generate Manifest using the Registry
     manifest = etree.SubElement(package, "manifest")
@@ -167,7 +184,10 @@ def GenOPF(output_dir, data):
         etree.SubElement(manifest, "item", **attrs)
 
     # 4. Generate Spine by querying the Registry
-    spine_attrs = {'toc': 'ncx'} if data.get("enableNcx") == "true" else {}
+    spine_attrs = {}
+    if data.get("enableNcx") == "true":
+        spine_attrs['toc'] = 'ncx'
+        
     spine = etree.SubElement(package, "spine", **spine_attrs)
 
     seen_spine_items = set()

@@ -14,7 +14,7 @@
     <dc:date>2025-10-18T00:00:00Z</dc:date>
     <dc:source>urn:isbn:-</dc:source>
     <dc:description>-</dc:description>
-    <meta property="dcterms:modified">2026-06-08T16:53:34Z</meta>
+    <meta property="dcterms:modified">2026-06-08T17:22:50Z</meta>
     <meta property="belongs-to-collection" id="collection">The Elder Scrolls Library</meta>
     <meta refines="#collection" property="collection-type">set</meta>
     <meta refines="#collection" property="group-position">3</meta>
@@ -23,7 +23,6 @@
   <manifest>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
-    <item id="cover-image" href="cover.png" media-type="image/png" properties="cover-image"/>
     <item id="xhtml0" href="bookcover.xhtml" media-type="application/xhtml+xml"/>
     <item id="xhtml1" href="foreword.xhtml" media-type="application/xhtml+xml"/>
     <item id="xhtml2" href="indicia.xhtml" media-type="application/xhtml+xml"/>
@@ -50,144 +49,149 @@
     <item id="xhtml23" href="faction/shadowmarks.xhtml" media-type="application/xhtml+xml"/>
     <item id="xhtml24" href="faction/thenightingales.xhtml" media-type="application/xhtml+xml"/>
     <item id="xhtml25" href="fiction/kolbandthedragon-page10.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml26" href="fiction/kolbandthedragon-page12.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml27" href="fiction/kolbandthedragon-page15.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml28" href="fiction/kolbandthedragon-page17.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml29" href="fiction/kolbandthedragon-page2.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml30" href="fiction/kolbandthedragon-page3.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml31" href="fiction/kolbandthedragon-page5.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml32" href="fiction/kolbandthedragon-page6.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml33" href="fiction/kolbandthedragon-page8.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml34" href="fiction/kolbandthedragon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml26" href="fiction/kolbandthedragon-page11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml27" href="fiction/kolbandthedragon-page12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml28" href="fiction/kolbandthedragon-page13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml29" href="fiction/kolbandthedragon-page14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml30" href="fiction/kolbandthedragon-page15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml31" href="fiction/kolbandthedragon-page16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml32" href="fiction/kolbandthedragon-page17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml33" href="fiction/kolbandthedragon-page2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml34" href="fiction/kolbandthedragon-page3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml35" href="fiction/kolbandthedragon-page4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml36" href="fiction/kolbandthedragon-page5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml37" href="fiction/kolbandthedragon-page6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml38" href="fiction/kolbandthedragon-page7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml39" href="fiction/kolbandthedragon-page8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml40" href="fiction/kolbandthedragon-page9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml41" href="fiction/kolbandthedragon.xhtml" media-type="application/xhtml+xml"/>
     <item id="otf0" href="fonts/Balgruf/Balgruf.otf" media-type="font/opentype"/>
     <item id="otf1" href="fonts/Balgruf/Balgruf_Italic.otf" media-type="font/opentype"/>
     <item id="ttf0" href="fonts/FalmerFont/Falmer.ttf" media-type="font/truetype"/>
-    <item id="ttf1" href="fonts/Oblivion/Oblivion Worn.ttf" media-type="font/truetype"/>
-    <item id="gif0" href="fonts/Oblivion/Oblivion-Worn.gif" media-type="image/gif"/>
-    <item id="gif1" href="fonts/Oblivion/Oblivion.gif" media-type="image/gif"/>
+    <item id="ttf1" href="fonts/Oblivion/Oblivion-Worn.ttf" media-type="font/truetype"/>
     <item id="ttf2" href="fonts/Oblivion/Oblivion.ttf" media-type="font/truetype"/>
     <item id="otf2" href="fonts/Sovngarde/SovngardeBold.otf" media-type="font/opentype"/>
     <item id="ttf3" href="fonts/SR-Dragon_script/Dragon_script.ttf" media-type="font/truetype"/>
-    <item id="xhtml35" href="history/fragmentonartaeum.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml36" href="history/theaetheriumwars.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml37" href="history/theamuletofkings.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml38" href="history/thegreatwar.xhtml" media-type="application/xhtml+xml"/>
-    <item id="png0" href="images/cover.png" media-type="image/png"/>
-    <item id="png1" href="images/dbhand.png" media-type="image/png"/>
-    <item id="png2" href="images/dunbrokenhelmtreasmap.png" media-type="image/png"/>
-    <item id="png3" href="images/dundragonbridgetreasmap.png" media-type="image/png"/>
-    <item id="png4" href="images/dunfortneugradtreasmap.png" media-type="image/png"/>
-    <item id="png5" href="images/dungallowsrocktreasmap.png" media-type="image/png"/>
-    <item id="png6" href="images/dunilinaltasdeeptreasmap.png" media-type="image/png"/>
-    <item id="png7" href="images/dunkorvanjundtreasmap.png" media-type="image/png"/>
-    <item id="png8" href="images/dunlostvalleyredoubttreasmap.png" media-type="image/png"/>
-    <item id="png9" href="images/dunmiddentreasuremap.png" media-type="image/png"/>
-    <item id="png10" href="images/dunriverwoodtreasmap.png" media-type="image/png"/>
-    <item id="png11" href="images/dunsollighthousetreasmap.png" media-type="image/png"/>
-    <item id="png12" href="images/dunvaltheimtreasmap.png" media-type="image/png"/>
-    <item id="png13" href="images/dunwhiteruntreasmap.png" media-type="image/png"/>
-    <item id="png14" href="images/frostbitespider.png" media-type="image/png"/>
-    <item id="png15" href="images/gaulduramulet.png" media-type="image/png"/>
-    <item id="png16" href="images/horkerhead.png" media-type="image/png"/>
-    <item id="png17" href="images/horkerscene.png" media-type="image/png"/>
-    <item id="png18" href="images/karliah_alias.png" media-type="image/png"/>
-    <item id="png19" href="images/kbemblem.png" media-type="image/png"/>
-    <item id="png20" href="images/labyrinthdrawing.png" media-type="image/png"/>
-    <item id="png21" href="images/logo.png" media-type="image/png"/>
-    <item id="png22" href="images/ndpainting.png" media-type="image/png"/>
-    <item id="png23" href="images/nightingale.png" media-type="image/png"/>
-    <item id="png24" href="images/trollbook.png" media-type="image/png"/>
-    <item id="png25" href="images/woodenmask.png" media-type="image/png"/>
-    <item id="png26" href="images/alchemy_ingredients/bleedingcrown.png" media-type="image/png"/>
-    <item id="png27" href="images/alchemy_ingredients/deathbell.png" media-type="image/png"/>
-    <item id="png28" href="images/alchemy_ingredients/dragonfly.png" media-type="image/png"/>
-    <item id="png29" href="images/alchemy_ingredients/hagravenclaw.png" media-type="image/png"/>
-    <item id="png30" href="images/alchemy_ingredients/jazbay.png" media-type="image/png"/>
-    <item id="png31" href="images/alchemy_ingredients/mothwing.png" media-type="image/png"/>
-    <item id="png32" href="images/alchemy_ingredients/tundracotton.png" media-type="image/png"/>
-    <item id="png33" href="images/alchemy_ingredients/wolfsbane.png" media-type="image/png"/>
-    <item id="png34" href="images/arcane_scribblings/arcane00.png" media-type="image/png"/>
-    <item id="png35" href="images/arcane_scribblings/arcane01.png" media-type="image/png"/>
-    <item id="png36" href="images/arcane_scribblings/arcane02.png" media-type="image/png"/>
-    <item id="png37" href="images/arcane_scribblings/arcane03.png" media-type="image/png"/>
-    <item id="png38" href="images/arcane_scribblings/arcane04.png" media-type="image/png"/>
-    <item id="png39" href="images/arcane_scribblings/arcane05.png" media-type="image/png"/>
-    <item id="png40" href="images/arcane_scribblings/arcane06.png" media-type="image/png"/>
-    <item id="png41" href="images/constellation/the_apprentice.png" media-type="image/png"/>
-    <item id="png42" href="images/constellation/the_atronach.png" media-type="image/png"/>
-    <item id="png43" href="images/constellation/the_lady.png" media-type="image/png"/>
-    <item id="png44" href="images/constellation/the_lord.png" media-type="image/png"/>
-    <item id="png45" href="images/constellation/the_lover.png" media-type="image/png"/>
-    <item id="png46" href="images/constellation/the_mage.png" media-type="image/png"/>
-    <item id="png47" href="images/constellation/the_ritual.png" media-type="image/png"/>
-    <item id="png48" href="images/constellation/the_serpent.png" media-type="image/png"/>
-    <item id="png49" href="images/constellation/the_shadow.png" media-type="image/png"/>
-    <item id="png50" href="images/constellation/the_steed.png" media-type="image/png"/>
-    <item id="png51" href="images/constellation/the_thief.png" media-type="image/png"/>
-    <item id="png52" href="images/constellation/the_tower.png" media-type="image/png"/>
-    <item id="png53" href="images/constellation/the_warrior.png" media-type="image/png"/>
-    <item id="png54" href="images/daedric_artifact_book/daedric_artifac00.png" media-type="image/png"/>
-    <item id="png55" href="images/daedric_artifact_book/daedric_artifact01.png" media-type="image/png"/>
-    <item id="png56" href="images/illuminated_letters/68px-OBR-book-Fancy_Font_E.png" media-type="image/png"/>
-    <item id="png57" href="images/illuminated_letters/68px-OBR-book-Fancy_Font_G.png" media-type="image/png"/>
-    <item id="png58" href="images/illuminated_letters/90px-OBR-book-Fancy_Font_R.png" media-type="image/png"/>
-    <item id="png59" href="images/illuminated_letters/a_letter.png" media-type="image/png"/>
-    <item id="png60" href="images/illuminated_letters/b_letter.png" media-type="image/png"/>
-    <item id="png61" href="images/illuminated_letters/c_letter.png" media-type="image/png"/>
-    <item id="png62" href="images/illuminated_letters/d_letter.png" media-type="image/png"/>
-    <item id="png63" href="images/illuminated_letters/e_letter.png" media-type="image/png"/>
-    <item id="png64" href="images/illuminated_letters/f_letter.png" media-type="image/png"/>
-    <item id="png65" href="images/illuminated_letters/g_letter.png" media-type="image/png"/>
-    <item id="png66" href="images/illuminated_letters/h_letter.png" media-type="image/png"/>
-    <item id="png67" href="images/illuminated_letters/i_letter.png" media-type="image/png"/>
-    <item id="png68" href="images/illuminated_letters/j_letter.png" media-type="image/png"/>
-    <item id="png69" href="images/illuminated_letters/k_letter.png" media-type="image/png"/>
-    <item id="png70" href="images/illuminated_letters/l_letter.png" media-type="image/png"/>
-    <item id="png71" href="images/illuminated_letters/m_letter.png" media-type="image/png"/>
-    <item id="png72" href="images/illuminated_letters/n_letter.png" media-type="image/png"/>
-    <item id="png73" href="images/illuminated_letters/o_letter.png" media-type="image/png"/>
-    <item id="png74" href="images/illuminated_letters/p_letter.png" media-type="image/png"/>
-    <item id="png75" href="images/illuminated_letters/q_letter.png" media-type="image/png"/>
-    <item id="png76" href="images/illuminated_letters/r_letter.png" media-type="image/png"/>
-    <item id="png77" href="images/illuminated_letters/s_letter.png" media-type="image/png"/>
-    <item id="png78" href="images/illuminated_letters/t_letter.png" media-type="image/png"/>
-    <item id="png79" href="images/illuminated_letters/u_letter.png" media-type="image/png"/>
-    <item id="png80" href="images/illuminated_letters/v_letter.png" media-type="image/png"/>
-    <item id="png81" href="images/illuminated_letters/w_letter.png" media-type="image/png"/>
-    <item id="png82" href="images/illuminated_letters/x_letter.png" media-type="image/png"/>
-    <item id="png83" href="images/illuminated_letters/y_letter.png" media-type="image/png"/>
-    <item id="png84" href="images/illuminated_letters/z_letter.png" media-type="image/png"/>
-    <item id="png85" href="images/map_illustration/skyrim_map_sky_haven_temple.png" media-type="image/png"/>
-    <item id="png86" href="images/shadowmarks/smcache01.png" media-type="image/png"/>
-    <item id="png87" href="images/shadowmarks/smdanger01.png" media-type="image/png"/>
-    <item id="png88" href="images/shadowmarks/smempty01.png" media-type="image/png"/>
-    <item id="png89" href="images/shadowmarks/smescape01.png" media-type="image/png"/>
-    <item id="png90" href="images/shadowmarks/smfence01.png" media-type="image/png"/>
-    <item id="png91" href="images/shadowmarks/smguildmember01.png" media-type="image/png"/>
-    <item id="png92" href="images/shadowmarks/smloot01.png" media-type="image/png"/>
-    <item id="png93" href="images/shadowmarks/smprotected01.png" media-type="image/png"/>
-    <item id="png94" href="images/shadowmarks/smsafe01.png" media-type="image/png"/>
-    <item id="xhtml39" href="instruction/advancesinlockpicking.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml40" href="instruction/darkestdarkness.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml41" href="instruction/dragonlanguage.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml42" href="instruction/properlockdesign.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml43" href="instruction/uncommontaste.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml44" href="journals/cicerosjournal.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml45" href="notes/greatcollapse.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml46" href="plays/yellowbookofriddles.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml47" href="politics/nordsofskyrim.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml48" href="religion/sithis.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml49" href="religion/thebookofthedragonborn.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml50" href="religion/themonomyth.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml42" href="history/fragmentonartaeum.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml43" href="history/theaetheriumwars.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml44" href="history/theamuletofkings.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml45" href="history/thegreatwar.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-image" href="images/cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="png0" href="images/dbhand.png" media-type="image/png"/>
+    <item id="png1" href="images/dunbrokenhelmtreasmap.png" media-type="image/png"/>
+    <item id="png2" href="images/dundragonbridgetreasmap.png" media-type="image/png"/>
+    <item id="png3" href="images/dunfortneugradtreasmap.png" media-type="image/png"/>
+    <item id="png4" href="images/dungallowsrocktreasmap.png" media-type="image/png"/>
+    <item id="png5" href="images/dunilinaltasdeeptreasmap.png" media-type="image/png"/>
+    <item id="png6" href="images/dunkorvanjundtreasmap.png" media-type="image/png"/>
+    <item id="png7" href="images/dunlostvalleyredoubttreasmap.png" media-type="image/png"/>
+    <item id="png8" href="images/dunmiddentreasuremap.png" media-type="image/png"/>
+    <item id="png9" href="images/dunriverwoodtreasmap.png" media-type="image/png"/>
+    <item id="png10" href="images/dunsollighthousetreasmap.png" media-type="image/png"/>
+    <item id="png11" href="images/dunvaltheimtreasmap.png" media-type="image/png"/>
+    <item id="png12" href="images/dunwhiteruntreasmap.png" media-type="image/png"/>
+    <item id="png13" href="images/frostbitespider.png" media-type="image/png"/>
+    <item id="png14" href="images/gaulduramulet.png" media-type="image/png"/>
+    <item id="png15" href="images/horkerhead.png" media-type="image/png"/>
+    <item id="png16" href="images/horkerscene.png" media-type="image/png"/>
+    <item id="png17" href="images/karliah_alias.png" media-type="image/png"/>
+    <item id="png18" href="images/kbemblem.png" media-type="image/png"/>
+    <item id="png19" href="images/labyrinthdrawing.png" media-type="image/png"/>
+    <item id="png20" href="images/logo.png" media-type="image/png"/>
+    <item id="png21" href="images/ndpainting.png" media-type="image/png"/>
+    <item id="png22" href="images/nightingale.png" media-type="image/png"/>
+    <item id="png23" href="images/trollbook.png" media-type="image/png"/>
+    <item id="png24" href="images/woodenmask.png" media-type="image/png"/>
+    <item id="png25" href="images/alchemy_ingredients/bleedingcrown.png" media-type="image/png"/>
+    <item id="png26" href="images/alchemy_ingredients/deathbell.png" media-type="image/png"/>
+    <item id="png27" href="images/alchemy_ingredients/dragonfly.png" media-type="image/png"/>
+    <item id="png28" href="images/alchemy_ingredients/hagravenclaw.png" media-type="image/png"/>
+    <item id="png29" href="images/alchemy_ingredients/jazbay.png" media-type="image/png"/>
+    <item id="png30" href="images/alchemy_ingredients/mothwing.png" media-type="image/png"/>
+    <item id="png31" href="images/alchemy_ingredients/tundracotton.png" media-type="image/png"/>
+    <item id="png32" href="images/alchemy_ingredients/wolfsbane.png" media-type="image/png"/>
+    <item id="png33" href="images/arcane_scribblings/arcane00.png" media-type="image/png"/>
+    <item id="png34" href="images/arcane_scribblings/arcane01.png" media-type="image/png"/>
+    <item id="png35" href="images/arcane_scribblings/arcane02.png" media-type="image/png"/>
+    <item id="png36" href="images/arcane_scribblings/arcane03.png" media-type="image/png"/>
+    <item id="png37" href="images/arcane_scribblings/arcane04.png" media-type="image/png"/>
+    <item id="png38" href="images/arcane_scribblings/arcane05.png" media-type="image/png"/>
+    <item id="png39" href="images/arcane_scribblings/arcane06.png" media-type="image/png"/>
+    <item id="png40" href="images/constellation/the_apprentice.png" media-type="image/png"/>
+    <item id="png41" href="images/constellation/the_atronach.png" media-type="image/png"/>
+    <item id="png42" href="images/constellation/the_lady.png" media-type="image/png"/>
+    <item id="png43" href="images/constellation/the_lord.png" media-type="image/png"/>
+    <item id="png44" href="images/constellation/the_lover.png" media-type="image/png"/>
+    <item id="png45" href="images/constellation/the_mage.png" media-type="image/png"/>
+    <item id="png46" href="images/constellation/the_ritual.png" media-type="image/png"/>
+    <item id="png47" href="images/constellation/the_serpent.png" media-type="image/png"/>
+    <item id="png48" href="images/constellation/the_shadow.png" media-type="image/png"/>
+    <item id="png49" href="images/constellation/the_steed.png" media-type="image/png"/>
+    <item id="png50" href="images/constellation/the_thief.png" media-type="image/png"/>
+    <item id="png51" href="images/constellation/the_tower.png" media-type="image/png"/>
+    <item id="png52" href="images/constellation/the_warrior.png" media-type="image/png"/>
+    <item id="png53" href="images/daedric_artifact_book/daedric_artifac00.png" media-type="image/png"/>
+    <item id="png54" href="images/daedric_artifact_book/daedric_artifact01.png" media-type="image/png"/>
+    <item id="png55" href="images/illuminated_letters/68px-OBR-book-Fancy_Font_E.png" media-type="image/png"/>
+    <item id="png56" href="images/illuminated_letters/68px-OBR-book-Fancy_Font_G.png" media-type="image/png"/>
+    <item id="png57" href="images/illuminated_letters/90px-OBR-book-Fancy_Font_R.png" media-type="image/png"/>
+    <item id="png58" href="images/illuminated_letters/a_letter.png" media-type="image/png"/>
+    <item id="png59" href="images/illuminated_letters/b_letter.png" media-type="image/png"/>
+    <item id="png60" href="images/illuminated_letters/c_letter.png" media-type="image/png"/>
+    <item id="png61" href="images/illuminated_letters/d_letter.png" media-type="image/png"/>
+    <item id="png62" href="images/illuminated_letters/e_letter.png" media-type="image/png"/>
+    <item id="png63" href="images/illuminated_letters/f_letter.png" media-type="image/png"/>
+    <item id="png64" href="images/illuminated_letters/g_letter.png" media-type="image/png"/>
+    <item id="png65" href="images/illuminated_letters/h_letter.png" media-type="image/png"/>
+    <item id="png66" href="images/illuminated_letters/i_letter.png" media-type="image/png"/>
+    <item id="png67" href="images/illuminated_letters/j_letter.png" media-type="image/png"/>
+    <item id="png68" href="images/illuminated_letters/k_letter.png" media-type="image/png"/>
+    <item id="png69" href="images/illuminated_letters/l_letter.png" media-type="image/png"/>
+    <item id="png70" href="images/illuminated_letters/m_letter.png" media-type="image/png"/>
+    <item id="png71" href="images/illuminated_letters/n_letter.png" media-type="image/png"/>
+    <item id="png72" href="images/illuminated_letters/o_letter.png" media-type="image/png"/>
+    <item id="png73" href="images/illuminated_letters/p_letter.png" media-type="image/png"/>
+    <item id="png74" href="images/illuminated_letters/q_letter.png" media-type="image/png"/>
+    <item id="png75" href="images/illuminated_letters/r_letter.png" media-type="image/png"/>
+    <item id="png76" href="images/illuminated_letters/s_letter.png" media-type="image/png"/>
+    <item id="png77" href="images/illuminated_letters/t_letter.png" media-type="image/png"/>
+    <item id="png78" href="images/illuminated_letters/u_letter.png" media-type="image/png"/>
+    <item id="png79" href="images/illuminated_letters/v_letter.png" media-type="image/png"/>
+    <item id="png80" href="images/illuminated_letters/w_letter.png" media-type="image/png"/>
+    <item id="png81" href="images/illuminated_letters/x_letter.png" media-type="image/png"/>
+    <item id="png82" href="images/illuminated_letters/y_letter.png" media-type="image/png"/>
+    <item id="png83" href="images/illuminated_letters/z_letter.png" media-type="image/png"/>
+    <item id="png84" href="images/map_illustration/skyrim_map_sky_haven_temple.png" media-type="image/png"/>
+    <item id="png85" href="images/shadowmarks/smcache01.png" media-type="image/png"/>
+    <item id="png86" href="images/shadowmarks/smdanger01.png" media-type="image/png"/>
+    <item id="png87" href="images/shadowmarks/smempty01.png" media-type="image/png"/>
+    <item id="png88" href="images/shadowmarks/smescape01.png" media-type="image/png"/>
+    <item id="png89" href="images/shadowmarks/smfence01.png" media-type="image/png"/>
+    <item id="png90" href="images/shadowmarks/smguildmember01.png" media-type="image/png"/>
+    <item id="png91" href="images/shadowmarks/smloot01.png" media-type="image/png"/>
+    <item id="png92" href="images/shadowmarks/smprotected01.png" media-type="image/png"/>
+    <item id="png93" href="images/shadowmarks/smsafe01.png" media-type="image/png"/>
+    <item id="xhtml46" href="instruction/advancesinlockpicking.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml47" href="instruction/darkestdarkness.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml48" href="instruction/dragonlanguage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml49" href="instruction/properlockdesign.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml50" href="instruction/uncommontaste.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml51" href="journals/cicerosjournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml52" href="notes/greatcollapse.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml53" href="plays/yellowbookofriddles.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml54" href="politics/nordsofskyrim.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml55" href="religion/sithis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml56" href="religion/thebookofthedragonborn.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml57" href="religion/themonomyth.xhtml" media-type="application/xhtml+xml"/>
     <item id="css0" href="styles/ebookbuild.css" media-type="text/css"/>
-    <item id="xhtml51" href="travel/anexplorersguidetoskyrim.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml52" href="travel/childrenofthesky.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml53" href="travel/mysteriousakavir.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml54" href="travel/thecityofstone.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml55" href="travel/theholdsofskyrim.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml56" href="unobtainable/gallusjournal.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml57" href="unobtainable/secretsofregnvald.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml58" href="unobtainable/unsentafflictedletter.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml58" href="travel/anexplorersguidetoskyrim.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml59" href="travel/childrenofthesky.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml60" href="travel/mysteriousakavir.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml61" href="travel/thecityofstone.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml62" href="travel/theholdsofskyrim.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml63" href="unobtainable/gallusjournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml64" href="unobtainable/secretsofregnvald.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml65" href="unobtainable/unsentafflictedletter.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="xhtml0" linear="no"/>
