@@ -14,7 +14,7 @@
     <dc:date>2025-10-18T00:00:00Z</dc:date>
     <dc:source>urn:isbn:-</dc:source>
     <dc:description>-</dc:description>
-    <meta property="dcterms:modified">2026-06-08T16:46:32Z</meta>
+    <meta property="dcterms:modified">2026-06-08T16:53:34Z</meta>
     <meta property="belongs-to-collection" id="collection">The Elder Scrolls Library</meta>
     <meta refines="#collection" property="collection-type">set</meta>
     <meta refines="#collection" property="group-position">3</meta>
@@ -98,21 +98,21 @@
     <item id="png23" href="images/nightingale.png" media-type="image/png"/>
     <item id="png24" href="images/trollbook.png" media-type="image/png"/>
     <item id="png25" href="images/woodenmask.png" media-type="image/png"/>
-    <item id="png26" href="images/alchemy ingredients/bleedingcrown.png" media-type="image/png"/>
-    <item id="png27" href="images/alchemy ingredients/deathbell.png" media-type="image/png"/>
-    <item id="png28" href="images/alchemy ingredients/dragonfly.png" media-type="image/png"/>
-    <item id="png29" href="images/alchemy ingredients/hagravenclaw.png" media-type="image/png"/>
-    <item id="png30" href="images/alchemy ingredients/jazbay.png" media-type="image/png"/>
-    <item id="png31" href="images/alchemy ingredients/mothwing.png" media-type="image/png"/>
-    <item id="png32" href="images/alchemy ingredients/tundracotton.png" media-type="image/png"/>
-    <item id="png33" href="images/alchemy ingredients/wolfsbane.png" media-type="image/png"/>
-    <item id="png34" href="images/arcane scribblings/arcane00.png" media-type="image/png"/>
-    <item id="png35" href="images/arcane scribblings/arcane01.png" media-type="image/png"/>
-    <item id="png36" href="images/arcane scribblings/arcane02.png" media-type="image/png"/>
-    <item id="png37" href="images/arcane scribblings/arcane03.png" media-type="image/png"/>
-    <item id="png38" href="images/arcane scribblings/arcane04.png" media-type="image/png"/>
-    <item id="png39" href="images/arcane scribblings/arcane05.png" media-type="image/png"/>
-    <item id="png40" href="images/arcane scribblings/arcane06.png" media-type="image/png"/>
+    <item id="png26" href="images/alchemy_ingredients/bleedingcrown.png" media-type="image/png"/>
+    <item id="png27" href="images/alchemy_ingredients/deathbell.png" media-type="image/png"/>
+    <item id="png28" href="images/alchemy_ingredients/dragonfly.png" media-type="image/png"/>
+    <item id="png29" href="images/alchemy_ingredients/hagravenclaw.png" media-type="image/png"/>
+    <item id="png30" href="images/alchemy_ingredients/jazbay.png" media-type="image/png"/>
+    <item id="png31" href="images/alchemy_ingredients/mothwing.png" media-type="image/png"/>
+    <item id="png32" href="images/alchemy_ingredients/tundracotton.png" media-type="image/png"/>
+    <item id="png33" href="images/alchemy_ingredients/wolfsbane.png" media-type="image/png"/>
+    <item id="png34" href="images/arcane_scribblings/arcane00.png" media-type="image/png"/>
+    <item id="png35" href="images/arcane_scribblings/arcane01.png" media-type="image/png"/>
+    <item id="png36" href="images/arcane_scribblings/arcane02.png" media-type="image/png"/>
+    <item id="png37" href="images/arcane_scribblings/arcane03.png" media-type="image/png"/>
+    <item id="png38" href="images/arcane_scribblings/arcane04.png" media-type="image/png"/>
+    <item id="png39" href="images/arcane_scribblings/arcane05.png" media-type="image/png"/>
+    <item id="png40" href="images/arcane_scribblings/arcane06.png" media-type="image/png"/>
     <item id="png41" href="images/constellation/the_apprentice.png" media-type="image/png"/>
     <item id="png42" href="images/constellation/the_atronach.png" media-type="image/png"/>
     <item id="png43" href="images/constellation/the_lady.png" media-type="image/png"/>
@@ -126,8 +126,8 @@
     <item id="png51" href="images/constellation/the_thief.png" media-type="image/png"/>
     <item id="png52" href="images/constellation/the_tower.png" media-type="image/png"/>
     <item id="png53" href="images/constellation/the_warrior.png" media-type="image/png"/>
-    <item id="png54" href="images/daedric artifact book/daedric_artifac00.png" media-type="image/png"/>
-    <item id="png55" href="images/daedric artifact book/daedric_artifact01.png" media-type="image/png"/>
+    <item id="png54" href="images/daedric_artifact_book/daedric_artifac00.png" media-type="image/png"/>
+    <item id="png55" href="images/daedric_artifact_book/daedric_artifact01.png" media-type="image/png"/>
     <item id="png56" href="images/illuminated_letters/68px-OBR-book-Fancy_Font_E.png" media-type="image/png"/>
     <item id="png57" href="images/illuminated_letters/68px-OBR-book-Fancy_Font_G.png" media-type="image/png"/>
     <item id="png58" href="images/illuminated_letters/90px-OBR-book-Fancy_Font_R.png" media-type="image/png"/>
