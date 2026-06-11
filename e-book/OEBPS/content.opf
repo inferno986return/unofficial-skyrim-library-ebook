@@ -14,7 +14,7 @@
     <dc:date>2025-10-18T00:00:00Z</dc:date>
     <dc:source>urn:isbn:-</dc:source>
     <dc:description>-</dc:description>
-    <meta property="dcterms:modified">2026-06-11T22:52:06Z</meta>
+    <meta property="dcterms:modified">2026-06-11T23:04:58Z</meta>
     <meta property="belongs-to-collection" id="collection">The Elder Scrolls Library</meta>
     <meta refines="#collection" property="collection-type">set</meta>
     <meta refines="#collection" property="group-position">3</meta>

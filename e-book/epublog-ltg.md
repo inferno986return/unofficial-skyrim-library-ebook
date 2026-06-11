@@ -5,29 +5,12 @@ INFO(CSS-007): SkyrimLibraryUnofficial.epub/OEBPS/styles/ebookbuild.css(17,5): F
 INFO(CSS-007): SkyrimLibraryUnofficial.epub/OEBPS/styles/ebookbuild.css(22,2): Font-face reference "OEBPS/fonts/FalmerFont/Falmer.ttf" refers to non-standard font type "font/truetype".
 INFO(CSS-007): SkyrimLibraryUnofficial.epub/OEBPS/styles/ebookbuild.css(28,2): Font-face reference "OEBPS/fonts/Oblivion/Oblivion.ttf" refers to non-standard font type "font/truetype".
 INFO(CSS-007): SkyrimLibraryUnofficial.epub/OEBPS/styles/ebookbuild.css(33,5): Font-face reference "OEBPS/fonts/Sovngarde/SovngardeBold.otf" refers to non-standard font type "font/opentype".
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(91,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(94,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(97,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(100,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(103,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(106,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(109,65): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(112,65): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(242,39): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(273,43): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(293,40): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(318,37): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(326,37): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(351,39): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(382,53): Referenced resource "OEBPS/Foreword" could not be found in the EPUB.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(165,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(171,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(177,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(183,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(189,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(195,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(201,63): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(207,63): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(437,41): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(491,45): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(527,42): Fragment identifier is not defined.
@@ -41,8 +24,6 @@ ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(290,57): Found a re
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(291,67): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(295,59): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(296,59): Found a reference to a resource that is not a spine item.
-WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(91,65): "toc" nav must be in reading order; link target "OEBPS/biographies/thewolfqueen.xhtml#vol1" is before the previous link’s target in document order.
-INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(91,65): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
 WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(119,46): "toc" nav must be in reading order; link target "OEBPS/toc.xhtml#esoteric-texts" is before the previous link’s target in spine order.
 INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(119,46): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
 WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(127,45): "toc" nav must be in reading order; link target "OEBPS/toc.xhtml#faction-books" is before the previous link’s target in spine order.
@@ -67,6 +48,6 @@ WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(368,45): "toc" na
 INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(368,45): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
 
 Check finished with errors
-Messages: 0 fatals / 36 errors / 12 warnings / 18 infos
+Messages: 0 fatals / 19 errors / 11 warnings / 17 infos
 
 EPUBCheck completed

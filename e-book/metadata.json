@@ -63,8 +63,8 @@
 
 		"comment6": "This specifies the tags used by Amazon Kindle's start reading, the table of contents and the front cover using the <guide></guide> tags. Optional and enable it.",
     	"enableGuide": "true",
-    	"startReadingfile": "Foreword",
-    	"startReadingpage": "foreword.xhtml",
+    	"startReadingfile": "foreword.xhtml",
+    	"startReadingpage": "Foreword",
     	"tocFile": "toc.xhtml",
     	"tocPage": "Contents",
     	"frontCoverfile": "bookcover.xhtml",
@@ -302,71 +302,71 @@
 						"fileName": "fiction/thecakeandthediamond.xhtml"
 					},
 					{
-						"pageName": "Kolb &amp; the Dragon",
+						"pageName": "Kolb & the Dragon",
 						"fileName": "fiction/kolbandthedragon.xhtml",
 						"subheadings": [
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 2",
+								"pageName": "Kolb & the Dragon - Page 2",
 								"fileName": "fiction/kolbandthedragon-page2.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 3",
+								"pageName": "Kolb & the Dragon - Page 3",
 								"fileName": "fiction/kolbandthedragon-page3.xhtml"		
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 4",
+								"pageName": "Kolb & the Dragon - Page 4",
 								"fileName": "fiction/kolbandthedragon-page4.xhtml"		
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 5",
+								"pageName": "Kolb & the Dragon - Page 5",
 								"fileName": "fiction/kolbandthedragon-page5.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 6",
+								"pageName": "Kolb & the Dragon - Page 6",
 								"fileName": "fiction/kolbandthedragon-page6.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 7",
+								"pageName": "Kolb & the Dragon - Page 7",
 								"fileName": "fiction/kolbandthedragon-page7.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 8",
+								"pageName": "Kolb & the Dragon - Page 8",
 								"fileName": "fiction/kolbandthedragon-page8.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 9",
+								"pageName": "Kolb & the Dragon - Page 9",
 								"fileName": "fiction/kolbandthedragon-page9.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 10",
+								"pageName": "Kolb & the Dragon - Page 10",
 								"fileName": "fiction/kolbandthedragon-page10.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 11",
+								"pageName": "Kolb & the Dragon - Page 11",
 								"fileName": "fiction/kolbandthedragon-page11.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 12",
+								"pageName": "Kolb & the Dragon - Page 12",
 								"fileName": "fiction/kolbandthedragon-page12.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 13",
+								"pageName": "Kolb & the Dragon - Page 13",
 								"fileName": "fiction/kolbandthedragon-page13.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 14",
+								"pageName": "Kolb & the Dragon - Page 14",
 								"fileName": "fiction/kolbandthedragon-page14.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 15",
+								"pageName": "Kolb & the Dragon - Page 15",
 								"fileName": "fiction/kolbandthedragon-page15.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 16",
+								"pageName": "Kolb & the Dragon - Page 16",
 								"fileName": "fiction/kolbandthedragon-page16.xhtml"
 							},
 							{
-								"pageName": "Kolb &amp; the Dragon - Page 17",
+								"pageName": "Kolb & the Dragon - Page 17",
 								"fileName": "fiction/kolbandthedragon-page17.xhtml"
 							}
 						]
@@ -374,7 +374,7 @@
 				]
 			},
 			{
-				"pageName": "History &amp; Lore",
+				"pageName": "History & Lore",
 				"fileName": "toc.xhtml#history",
 				"subheadings": [
 					{
@@ -414,7 +414,7 @@
 				]
 			},
 			{
-				"pageName": "Instruction &amp; Research",
+				"pageName": "Instruction & Research",
 				"fileName": "toc.xhtml#instruction",
 				"subheadings": [
 					{
@@ -440,7 +440,7 @@
 				]
 			},
 			{
-				"pageName": "Journals &amp; Logs",
+				"pageName": "Journals & Logs",
 				"fileName": "toc.xhtml#journals",
 				"subheadings": [
 					{
@@ -472,7 +472,7 @@
 				]
 			},
 			{
-				"pageName": "Notes &amp; Letters",
+				"pageName": "Notes & Letters",
 				"fileName": "toc.xhtml#notes",
 				"subheadings": [
 					{
@@ -482,7 +482,7 @@
 				]
 			},
 			{
-				"pageName": "Plays, Poetry, &amp; Riddles",
+				"pageName": "Plays, Poetry, & Riddles",
 				"fileName": "toc.xhtml#plays",
 				"subheadings": [
 					{
@@ -492,12 +492,12 @@
 				]
 			},
 			{
-				"pageName": "Politics &amp; Law",
+				"pageName": "Politics & Law",
 				"fileName": "toc.xhtml#politics",
 				"subheadings": []
 			},
 			{
-				"pageName": "Religion &amp; Prophecy",
+				"pageName": "Religion & Prophecy",
 				"fileName": "toc.xhtml#religion",
 				"subheadings": [
 					{
