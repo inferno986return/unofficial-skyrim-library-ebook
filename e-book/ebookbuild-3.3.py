@@ -12,7 +12,7 @@ from lxml import etree
 print(
     """
 ======================================================
-ebookbuild 3.3, v1.4.2 - Copyright (C) 2025 Hal Motley
+ebookbuild 3.3, v1.4.3 - Copyright (C) 2025 Hal Motley
 https://www.github.com/inferno986return/ebookbuild/
 ======================================================
 
@@ -191,19 +191,28 @@ def GenOPF(output_dir, data):
     spine = etree.SubElement(package, "spine", **spine_attrs)
 
     seen_spine_items = set()
-    for page in data["pages"]:
-        base_filename = page["fileName"].split('#')[0]
-        
-        if base_filename not in seen_spine_items:
-            item_id = manifest_registry.get(base_filename)
-            if item_id:
-                itemref = etree.SubElement(spine, "itemref", idref=item_id)
-                if page.get("type") == "cover":
-                    itemref.set("linear", "no")
-            else:
-                print(f"  -> WARNING: Spine item '{base_filename}' missing from output folder. Excluded from OPF.")
+
+    def process_spine_items(items):
+        for item in items:
+            base_filename = item["fileName"].split('#')[0]
             
-            seen_spine_items.add(base_filename)
+            if base_filename not in seen_spine_items:
+                item_id = manifest_registry.get(base_filename)
+                if item_id:
+                    itemref = etree.SubElement(spine, "itemref", idref=item_id)
+                    if item.get("type") == "cover":
+                        itemref.set("linear", "no")
+                else:
+                    print(f"  -> WARNING: Spine item '{base_filename}' missing from output folder. Excluded from OPF.")
+                
+                seen_spine_items.add(base_filename)
+            
+            # Recursively process nested subheadings so they get added to the spine
+            if "subheadings" in item and item["subheadings"]:
+                process_spine_items(item["subheadings"])
+
+    # Trigger the function starting with the main pages array
+    process_spine_items(data["pages"])
 
     tree = etree.ElementTree(package)
     output_path = os.path.join(output_dir, "content.opf")

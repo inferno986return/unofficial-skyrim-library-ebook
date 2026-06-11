@@ -14,7 +14,7 @@
     <dc:date>2025-10-18T00:00:00Z</dc:date>
     <dc:source>urn:isbn:-</dc:source>
     <dc:description>-</dc:description>
-    <meta property="dcterms:modified">2026-06-11T22:32:58Z</meta>
+    <meta property="dcterms:modified">2026-06-11T22:52:06Z</meta>
     <meta property="belongs-to-collection" id="collection">The Elder Scrolls Library</meta>
     <meta refines="#collection" property="collection-type">set</meta>
     <meta refines="#collection" property="group-position">3</meta>
@@ -200,6 +200,63 @@
     <itemref idref="xhtml0" linear="no"/>
     <itemref idref="xhtml4"/>
     <itemref idref="xhtml2"/>
+    <itemref idref="xhtml1"/>
     <itemref idref="xhtml5"/>
+    <itemref idref="xhtml6"/>
+    <itemref idref="xhtml7"/>
+    <itemref idref="xhtml8"/>
+    <itemref idref="xhtml9"/>
+    <itemref idref="xhtml10"/>
+    <itemref idref="xhtml11"/>
+    <itemref idref="xhtml14"/>
+    <itemref idref="xhtml15"/>
+    <itemref idref="xhtml12"/>
+    <itemref idref="xhtml13"/>
+    <itemref idref="xhtml16"/>
+    <itemref idref="xhtml17"/>
+    <itemref idref="xhtml18"/>
+    <itemref idref="xhtml20"/>
+    <itemref idref="xhtml21"/>
+    <itemref idref="xhtml19"/>
+    <itemref idref="xhtml25"/>
+    <itemref idref="xhtml22"/>
+    <itemref idref="xhtml24"/>
+    <itemref idref="xhtml43"/>
+    <itemref idref="xhtml42"/>
+    <itemref idref="xhtml34"/>
+    <itemref idref="xhtml35"/>
+    <itemref idref="xhtml36"/>
+    <itemref idref="xhtml37"/>
+    <itemref idref="xhtml38"/>
+    <itemref idref="xhtml39"/>
+    <itemref idref="xhtml40"/>
+    <itemref idref="xhtml41"/>
+    <itemref idref="xhtml26"/>
+    <itemref idref="xhtml27"/>
+    <itemref idref="xhtml28"/>
+    <itemref idref="xhtml29"/>
+    <itemref idref="xhtml30"/>
+    <itemref idref="xhtml31"/>
+    <itemref idref="xhtml32"/>
+    <itemref idref="xhtml33"/>
+    <itemref idref="xhtml46"/>
+    <itemref idref="xhtml47"/>
+    <itemref idref="xhtml44"/>
+    <itemref idref="xhtml48"/>
+    <itemref idref="xhtml45"/>
+    <itemref idref="xhtml49"/>
+    <itemref idref="xhtml50"/>
+    <itemref idref="xhtml51"/>
+    <itemref idref="xhtml52"/>
+    <itemref idref="xhtml53"/>
+    <itemref idref="xhtml54"/>
+    <itemref idref="xhtml55"/>
+    <itemref idref="xhtml56"/>
+    <itemref idref="xhtml59"/>
+    <itemref idref="xhtml58"/>
+    <itemref idref="xhtml60"/>
+    <itemref idref="xhtml66"/>
+    <itemref idref="xhtml67"/>
+    <itemref idref="xhtml68"/>
   </spine>
 </package>
