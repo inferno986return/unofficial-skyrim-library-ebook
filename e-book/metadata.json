@@ -294,6 +294,10 @@
 				"fileName": "toc.xhtml#fiction",
 				"subheadings": [
 					{
+						"pageName": "The Cake and the Diamond",
+						"fileName": "fiction/thecakeandthediamond.xhtml"
+					},
+					{
 						"pageName": "Kolb &amp; the Dragon",
 						"fileName": "fiction/kolbandthedragon.xhtml",
 						"subheadings": [
@@ -384,6 +388,24 @@
 					{
 						"pageName": "The Great War",
 						"fileName": "history/thegreatwar.xhtml"
+					},
+					{
+						"pageName": "History of Raven Rock",
+						"fileName": "history/historyofravenrock.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Volume I",
+								"fileName": "history/historyofravenrock.xhtml#vol1"
+							},
+							{
+								"pageName": "Volume II",
+								"fileName": "history/historyofravenrock.xhtml#vol2"
+							},
+							{
+								"pageName": "Volume III",
+								"fileName": "history/historyofravenrock.xhtml#vol3"
+							}
+						]
 					}
 				]
 			},
