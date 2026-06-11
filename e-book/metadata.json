@@ -215,7 +215,7 @@
 			},
 			{
 				"pageName": "Esoteric Texts",
-				"fileName": "toc.xhtml#esoteric-texts",
+				"fileName": "toc.xhtml#esoteric",
 				"subheadings": [
 					{
 						"pageName": "N’Gasta! Kvata! Kvakis!",
@@ -225,7 +225,7 @@
 			},
 			{
 				"pageName": "Faction Books",
-				"fileName": "toc.xhtml#faction-books",
+				"fileName": "toc.xhtml#faction",
 				"subheadings": [
 					{
 						"pageName": "Ahzirr Traajijazeri",
@@ -286,6 +286,10 @@
 					{
 						"pageName": "Nords Arise!",
 						"fileName": "faction/nordsarise.xhtml"
+					},
+					{
+						"pageName": "Pension of the Ancestor Moth",
+						"fileName": "faction/pensionoftheancestormoth.xhtml"
 					},
 					{
 						"pageName": "Shadowmarks",
@@ -494,7 +498,12 @@
 			{
 				"pageName": "Politics & Law",
 				"fileName": "toc.xhtml#politics",
-				"subheadings": []
+				"subheadings": [
+					{
+						"pageName": "Nords of Skyrim",
+						"fileName": "nordsofskyrim.xhtml"
+					}
+				]
 			},
 			{
 				"pageName": "Religion & Prophecy",
@@ -515,13 +524,34 @@
 				]
 			},
 			{
-				"pageName": "Travels",
-				"fileName": "toc.xhtml#travels",
-				"subheadings": []
+				"pageName": "Travel",
+				"fileName": "toc.xhtml#travel",
+				"subheadings": [
+					{
+						"pageName": "An Explorer’s Guide to Skyrim",
+						"fileName": "anexplorersguidetoskyrim.xhtml"
+					},
+					{
+						"pageName": "Children of the Sky",
+						"fileName": "childrenofthesky.xhtml"
+					},
+					{
+						"pageName": "Mysterious Akavir",
+						"fileName": "mysteriousakavir.xhtml"
+					},
+					{
+						"pageName": "The City of Stone",
+						"fileName": "thecityofstone.xhtml"
+					},
+					{
+						"pageName": "The Holds of Skyrim",
+						"fileName": "theholdsofskyrim.xhtml"
+					}
+				]
 			},
 			{
 				"pageName": "Unobtainable Books",
-				"fileName": "toc.xhtml#unobtainable-books",
+				"fileName": "toc.xhtml#unobtainable",
 				"subheadings": [
 					{
 						"pageName": "Gallus’s Journal",
@@ -539,7 +569,7 @@
 			},
 			{
 				"pageName": "Creation Club",
-				"fileName": "toc.xhtml#creation-club",
+				"fileName": "toc.xhtml#creation",
 				"subheadings": []
 			}
 				]
