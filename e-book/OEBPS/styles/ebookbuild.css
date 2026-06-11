@@ -253,6 +253,11 @@ img.illuminated-letter {
     height: 70px!important;
 }
 
+img.nightingale {
+    width: 150px;
+    height: 150px;
+}
+
 .dragon {
     font-size: 1.2em;
     font-family: "Dragon"!important;

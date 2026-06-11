@@ -265,7 +265,7 @@
         <navLabel>
           <text>Brothers of Darkness</text>
         </navLabel>
-        <content src="brothersofdarkness.xhtml"/>
+        <content src="faction/brothersofdarkness.xhtml"/>
       </navPoint>
       <navPoint id="navpoint-44" playOrder="44">
         <navLabel>
@@ -384,7 +384,7 @@
           <navLabel>
             <text>Kolb &amp; the Dragon - Page 11</text>
           </navLabel>
-          <content src="fiction/kolbandthedragon-page10.xhtml"/>
+          <content src="fiction/kolbandthedragon-page11.xhtml"/>
         </navPoint>
         <navPoint id="navpoint-64" playOrder="64">
           <navLabel>
@@ -575,9 +575,9 @@
       <content src="toc.xhtml#plays"/>
       <navPoint id="navpoint-95" playOrder="95">
         <navLabel>
-          <text>Sithis</text>
+          <text>Yellow Book of Riddles</text>
         </navLabel>
-        <content src="plays/sithis.xhtml"/>
+        <content src="plays/yellowbookofriddles.xhtml"/>
       </navPoint>
     </navPoint>
     <navPoint id="navpoint-96" playOrder="96">
@@ -591,38 +591,44 @@
         <text>Religion &amp; Prophecy</text>
       </navLabel>
       <content src="toc.xhtml#religion"/>
+      <navPoint id="navpoint-98" playOrder="98">
+        <navLabel>
+          <text>Sithis</text>
+        </navLabel>
+        <content src="plays/sithis.xhtml"/>
+      </navPoint>
     </navPoint>
-    <navPoint id="navpoint-98" playOrder="98">
+    <navPoint id="navpoint-99" playOrder="99">
       <navLabel>
         <text>Travels</text>
       </navLabel>
       <content src="toc.xhtml#travels"/>
     </navPoint>
-    <navPoint id="navpoint-99" playOrder="99">
+    <navPoint id="navpoint-100" playOrder="100">
       <navLabel>
         <text>Unobtainable Books</text>
       </navLabel>
       <content src="toc.xhtml#unobtainable-books"/>
-      <navPoint id="navpoint-100" playOrder="100">
+      <navPoint id="navpoint-101" playOrder="101">
         <navLabel>
           <text>Gallus’s Journal</text>
         </navLabel>
         <content src="unobtainable/gallusjournal.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-101" playOrder="101">
+      <navPoint id="navpoint-102" playOrder="102">
         <navLabel>
           <text>The Secrets of Ragnvald</text>
         </navLabel>
         <content src="unobtainable/secretsofregnvald.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-102" playOrder="102">
+      <navPoint id="navpoint-103" playOrder="103">
         <navLabel>
           <text>Unsent Afflicted Letter</text>
         </navLabel>
         <content src="unobtainable/unsentafflictedletter.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-103" playOrder="103">
+    <navPoint id="navpoint-104" playOrder="104">
       <navLabel>
         <text>Creation Club</text>
       </navLabel>
