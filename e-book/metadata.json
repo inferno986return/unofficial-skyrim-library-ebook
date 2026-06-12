@@ -571,6 +571,10 @@
 				"pageName": "Creation Club",
 				"fileName": "toc.xhtml#creation",
 				"subheadings": []
+			},
+			{
+				"pageName": "Editor’s Notes",
+				"fileName": "editorsnotes.xhtml"
 			}
 				]
 }
