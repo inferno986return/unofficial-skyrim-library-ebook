@@ -31,11 +31,11 @@ The new `ebookbuild` has 2 dependencies which can be installed using in the Bash
 
 New build command that outputs everything into an .md. Neat!
 
-`python3 ebookbuild-3.3.py && java -jar epubcheck.jar TheMarkOfStCrispin.epub 2>&1 | tee epublog.md`
+`python3 ebookbuild-3.3.py && java -jar epubcheck.jar SkyrimLibraryUnofficial.epub 2>&1 | tee epublog.md`
 
 Old command that doesn't output to the terminal screen:
 
-`python3 ebookbuild-3.3.py && java -jar epubcheck.jar TheMarkOfStCrispin.epub > epublog.md 2>&1`
+`python3 ebookbuild-3.3.py && java -jar epubcheck.jar SkyrimLibraryUnofficial.epub > epublog.md 2>&1`
 
 
 ## Licencing

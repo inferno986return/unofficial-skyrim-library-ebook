@@ -310,67 +310,67 @@
 						"fileName": "fiction/kolbandthedragon.xhtml",
 						"subheadings": [
 							{
-								"pageName": "Kolb & the Dragon - Page 2",
+								"pageName": "Kolb & the Dragon – Page 2",
 								"fileName": "fiction/kolbandthedragon-page2.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 3",
+								"pageName": "Kolb & the Dragon – Page 3",
 								"fileName": "fiction/kolbandthedragon-page3.xhtml"		
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 4",
+								"pageName": "Kolb & the Dragon – Page 4",
 								"fileName": "fiction/kolbandthedragon-page4.xhtml"		
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 5",
+								"pageName": "Kolb & the Dragon – Page 5",
 								"fileName": "fiction/kolbandthedragon-page5.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 6",
+								"pageName": "Kolb & the Dragon – Page 6",
 								"fileName": "fiction/kolbandthedragon-page6.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 7",
+								"pageName": "Kolb & the Dragon – Page 7",
 								"fileName": "fiction/kolbandthedragon-page7.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 8",
+								"pageName": "Kolb & the Dragon – Page 8",
 								"fileName": "fiction/kolbandthedragon-page8.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 9",
+								"pageName": "Kolb & the Dragon – Page 9",
 								"fileName": "fiction/kolbandthedragon-page9.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 10",
+								"pageName": "Kolb & the Dragon – Page 10",
 								"fileName": "fiction/kolbandthedragon-page10.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 11",
+								"pageName": "Kolb & the Dragon – Page 11",
 								"fileName": "fiction/kolbandthedragon-page11.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 12",
+								"pageName": "Kolb & the Dragon – Page 12",
 								"fileName": "fiction/kolbandthedragon-page12.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 13",
+								"pageName": "Kolb & the Dragon – Page 13",
 								"fileName": "fiction/kolbandthedragon-page13.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 14",
+								"pageName": "Kolb & the Dragon – Page 14",
 								"fileName": "fiction/kolbandthedragon-page14.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 15",
+								"pageName": "Kolb & the Dragon – Page 15",
 								"fileName": "fiction/kolbandthedragon-page15.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 16",
+								"pageName": "Kolb & the Dragon – Page 16",
 								"fileName": "fiction/kolbandthedragon-page16.xhtml"
 							},
 							{
-								"pageName": "Kolb & the Dragon - Page 17",
+								"pageName": "Kolb & the Dragon – Page 17",
 								"fileName": "fiction/kolbandthedragon-page17.xhtml"
 							}
 						]
@@ -501,7 +501,7 @@
 				"subheadings": [
 					{
 						"pageName": "Nords of Skyrim",
-						"fileName": "nordsofskyrim.xhtml"
+						"fileName": "politics/nordsofskyrim.xhtml"
 					}
 				]
 			},
@@ -529,23 +529,23 @@
 				"subheadings": [
 					{
 						"pageName": "An Explorer’s Guide to Skyrim",
-						"fileName": "anexplorersguidetoskyrim.xhtml"
+						"fileName": "travel/anexplorersguidetoskyrim.xhtml"
 					},
 					{
 						"pageName": "Children of the Sky",
-						"fileName": "childrenofthesky.xhtml"
+						"fileName": "travel/childrenofthesky.xhtml"
 					},
 					{
 						"pageName": "Mysterious Akavir",
-						"fileName": "mysteriousakavir.xhtml"
+						"fileName": "travel/mysteriousakavir.xhtml"
 					},
 					{
 						"pageName": "The City of Stone",
-						"fileName": "thecityofstone.xhtml"
+						"fileName": "travel/thecityofstone.xhtml"
 					},
 					{
 						"pageName": "The Holds of Skyrim",
-						"fileName": "theholdsofskyrim.xhtml"
+						"fileName": "travel/theholdsofskyrim.xhtml"
 					}
 				]
 			},

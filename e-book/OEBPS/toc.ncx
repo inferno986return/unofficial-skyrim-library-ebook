@@ -601,7 +601,7 @@
         <navLabel>
           <text>Nords of Skyrim</text>
         </navLabel>
-        <content src="nordsofskyrim.xhtml"/>
+        <content src="politics/nordsofskyrim.xhtml"/>
       </navPoint>
     </navPoint>
     <navPoint id="navpoint-100" playOrder="100">
@@ -637,31 +637,31 @@
         <navLabel>
           <text>An Explorer’s Guide to Skyrim</text>
         </navLabel>
-        <content src="anexplorersguidetoskyrim.xhtml"/>
+        <content src="travel/anexplorersguidetoskyrim.xhtml"/>
       </navPoint>
       <navPoint id="navpoint-106" playOrder="106">
         <navLabel>
           <text>Children of the Sky</text>
         </navLabel>
-        <content src="childrenofthesky.xhtml"/>
+        <content src="travel/childrenofthesky.xhtml"/>
       </navPoint>
       <navPoint id="navpoint-107" playOrder="107">
         <navLabel>
           <text>Mysterious Akavir</text>
         </navLabel>
-        <content src="mysteriousakavir.xhtml"/>
+        <content src="travel/mysteriousakavir.xhtml"/>
       </navPoint>
       <navPoint id="navpoint-108" playOrder="108">
         <navLabel>
           <text>The City of Stone</text>
         </navLabel>
-        <content src="thecityofstone.xhtml"/>
+        <content src="travel/thecityofstone.xhtml"/>
       </navPoint>
       <navPoint id="navpoint-109" playOrder="109">
         <navLabel>
           <text>The Holds of Skyrim</text>
         </navLabel>
-        <content src="theholdsofskyrim.xhtml"/>
+        <content src="travel/theholdsofskyrim.xhtml"/>
       </navPoint>
     </navPoint>
     <navPoint id="navpoint-110" playOrder="110">
