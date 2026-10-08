@@ -554,24 +554,76 @@
 				"fileName": "toc.xhtml#travel",
 				"subheadings": [
 					{
-						"pageName": "An Explorer’s Guide to Skyrim",
-						"fileName": "travel/anexplorersguidetoskyrim.xhtml"
+						"pageName": "Ancestors and the Dunmer",
+						"fileName": "travel/ancestorsanddunmer.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Ghosts Walk Among Them",
+								"fileName": "travel/ancestorsanddunmer.xhtml#ghosts-walk-among-them"
+							},
+							{
+								"pageName": "The Family Shrine",
+								"fileName": "travel/ancestorsanddunmer.xhtml#the-family-shrine"
+							},
+							{
+								"pageName": "The Ghost Fence",
+								"fileName": "travel/ancestorsanddunmer.xhtml#the-ghost-fence"
+							},
+							{
+								"pageName": "The Mortal Chill",
+								"fileName": "travel/ancestorsanddunmer.xhtml#the-mortal-chill"
+							},
+							{
+								"pageName": "Mad Spirits",
+								"fileName": "travel/ancestorsanddunmer.xhtml#mad-spirits"
+							},
+							{
+								"pageName": "Oblivion",
+								"fileName": "travel/ancestorsanddunmer.xhtml#oblivion"
+							},
+							{
+								"pageName": "Foreign Views of Dunmeri Ancestor Worship and Spirit Magic",
+								"fileName": "travel/ancestorsanddunmer.xhtml#foreign-views"
+							},
+							{
+								"pageName": "Telvanni “Necromancy”",
+								"fileName": "travel/ancestorsanddunmer.xhtml#telvanni-necromany"
+							},
+							{
+								"pageName": "Publisher’s Note",
+								"fileName": "travel/ancestorsanddunmer.xhtml#publishers'"
+							}
+						]
 					},
 					{
 						"pageName": "Children of the Sky",
 						"fileName": "travel/childrenofthesky.xhtml"
 					},
 					{
-						"pageName": "Mysterious Akavir",
-						"fileName": "travel/mysteriousakavir.xhtml"
-					},
-					{
 						"pageName": "The City of Stone",
 						"fileName": "travel/thecityofstone.xhtml"
 					},
 					{
+						"pageName": "An Explorer’s Guide to Skyrim",
+						"fileName": "travel/anexplorersguidetoskyrim.xhtml"
+					},
+					{
 						"pageName": "The Holds of Skyrim",
-						"fileName": "travel/theholdsofskyrim.xhtml"
+						"fileName": "travel/theholdsofskyrim.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Eastmarch",
+								"fileName": "travel/theholdsofskyrim.xhtml#eastmarch"
+							}
+						]
+					},
+					{
+						"pageName": "Mysterious Akavir",
+						"fileName": "travel/mysteriousakavir.xhtml"
+					},
+					{
+						"pageName": "On Stepping Lightly",
+						"fileName": "travel/onsteppinglightly.xhtml"
 					}
 				]
 			},
