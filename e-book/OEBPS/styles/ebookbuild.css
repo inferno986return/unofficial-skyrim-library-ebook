@@ -166,6 +166,7 @@ p {
     text-indent: 1em;
     font-size: 1em;
     font-family: serif;
+    font-variant-numeric: oldstyle-nums;
     font-weight: none;
     text-align: justify;
     margin: 0em;

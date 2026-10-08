@@ -125,7 +125,25 @@
 					},
 					{
 						"pageName": "Life of Uriel Septim VII",
-						"fileName": "biographies/lifeofurielseptimvii.xhtml"
+						"fileName": "biographies/lifeofurielseptimvii.xhtml",
+						"subheadings": [
+							{
+								"pageName": "3E 368–389: Strategist and Conciliator",
+								"fileName": "biographies/lifeofurielseptimvii.xhtml#3e-368-389"
+							},
+							{
+								"pageName": "3E 389–399: Betrayed and Imprisoned",
+								"fileName": "biographies/lifeofurielseptimvii.xhtml#3e-389-399"
+							},
+							{
+								"pageName": "3E 399–415: Restoration, the Miracle of Peace, and Vvardenfell",
+								"fileName": "biographies/lifeofurielseptimvii.xhtml#3e-399-415"
+							},
+							{
+								"pageName": "3E 415–430: The Golden Peace, King Helseth’s Court, and the Nine in the East",
+								"fileName": "biographies/lifeofurielseptimvii.xhtml#3e-415-430"
+							}
+						]
 					},
 					{
 						"pageName": "The Madness of Pelagius",
