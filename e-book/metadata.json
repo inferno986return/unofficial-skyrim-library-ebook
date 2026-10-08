@@ -624,6 +624,24 @@
 					{
 						"pageName": "On Stepping Lightly",
 						"fileName": "travel/onsteppinglightly.xhtml"
+					},
+					{
+						"pageName": "Walking the World, Vol XI",
+						"fileName": "walkingtheworldvolxi.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Solitude’s Surroundings",
+								"fileName": "travel/walkingtheworldvolxi.xhtml#solitudes-surroundings"
+							},
+							{
+								"pageName": "The Gates of Solitude",
+								"fileName": "travel/walkingtheworldvolxi.xhtml#solitudes-surroundings"
+							},
+							{
+								"pageName": "Other Points of Interest",
+								"fileName": "travel/walkingtheworldvolxi.xhtml#other-points-of-interest"
+							}
+						]
 					}
 				]
 			},
