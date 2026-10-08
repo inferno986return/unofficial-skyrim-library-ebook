@@ -526,6 +526,28 @@
 					{
 						"pageName": "The Nirnroot Missive",
 						"fileName": "notes/thenirnrootmissive.xhtml"
+					},
+					{
+						"pageName": "Report: Disaster at Ionith",
+						"fileName": "notes/reportdisasterationith.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Part I: Preparations",
+								"fileName": "notes/reportdisasterationith.xhtml#part1"
+							},
+							{
+								"pageName": "Part II: The Invasion of Akavir",
+								"fileName": "notes/reportdisasterationith.xhtml#part2"
+							},
+							{
+								"pageName": "Part III: The Destruction of the Expeditionary Force",
+								"fileName": "notes/reportdisasterationith.xhtml#part3"
+							},
+							{
+								"pageName": "Part IV: Conclusion",
+								"fileName": "notes/reportdisasterationith.xhtml#part4"
+							}
+						]
 					}
 				]
 			},
