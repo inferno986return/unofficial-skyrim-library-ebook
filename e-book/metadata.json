@@ -608,6 +608,18 @@
 						"fileName": "travel/anexplorersguidetoskyrim.xhtml"
 					},
 					{
+						"pageName": "A Gentleman’s Guide to Whiterun",
+						"fileName": "travel/agentlemansguidetowhiterun.xhtml"
+					},
+					{
+						"pageName": "Glories and Laments",
+						"fileName": "travel/gloriesandlaments.xhtml"
+					},
+					{
+						"pageName": "Hanging Gardens",
+						"fileName": "travel/hanginggardens.xhtml"
+					},
+					{
 						"pageName": "The Holds of Skyrim",
 						"fileName": "travel/theholdsofskyrim.xhtml",
 						"subheadings": [

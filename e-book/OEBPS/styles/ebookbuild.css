@@ -237,8 +237,52 @@ td {
 
 /* Quotes */
 
-.quote {
-    font-size: 0.9em;
+p.noindent-quote {
+	text-indent: 0em;
+	font-size: 0.9em;
+	text-align: justify;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.quote {
+	text-indent: 1em;
+	font-size: 0.9em!important;
+	text-align: justify;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.quote2 {
+	text-indent: 2em;
+	font-size: 0.9em;
+	text-align: justify;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.quote4 {
+	text-indent: 1em;
+	font-size: 0.9em;
+	text-align: justify;
+	margin-left: 4em;
+	margin-right: 1em;
+}
+
+p.quote6 {
+	text-indent: 1em;
+	font-size: 0.9em;
+	text-align: justify;
+	margin-left: 6.3em;
+	margin-right: 4em;
+}
+
+p.quote-right {
+	text-indent: 0em;
+	font-size: 0.9em!important;
+	text-align: right;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 /* Scene Break */
