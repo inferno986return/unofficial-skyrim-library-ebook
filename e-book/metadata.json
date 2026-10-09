@@ -95,7 +95,7 @@
 			},
 			{
 				"pageName": "Biographies",
-				"fileName": "toc.xhtml#biographies",
+				"fileName": "biographies/biographies.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Biography of Barenziah",
@@ -233,7 +233,7 @@
 			},
 			{
 				"pageName": "Esoteric Texts",
-				"fileName": "toc.xhtml#esoteric",
+				"fileName": "esoteric/esoterictexts.xhtml",
 				"subheadings": [
 					{
 						"pageName": "N’Gasta! Kvata! Kvakis!",
@@ -243,7 +243,7 @@
 			},
 			{
 				"pageName": "Faction Books",
-				"fileName": "toc.xhtml#faction",
+				"fileName": "faction/faction.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Ahzirr Traajijazeri",
@@ -317,7 +317,7 @@
 			},
 			{
 				"pageName": "Fiction",
-				"fileName": "toc.xhtml#fiction",
+				"fileName": "fiction/fiction.xhtml",
 				"subheadings": [
 					{
 						"pageName": "The Cake and the Diamond",
@@ -397,7 +397,7 @@
 			},
 			{
 				"pageName": "History & Lore",
-				"fileName": "toc.xhtml#history",
+				"fileName": "history/history.xhtml",
 				"subheadings": [
 					{
 						"pageName": "The Aetherium Wars",
@@ -437,7 +437,7 @@
 			},
 			{
 				"pageName": "Instruction & Research",
-				"fileName": "toc.xhtml#instruction",
+				"fileName": "instruction/instruction.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Advances in Lockpicking",
@@ -463,7 +463,7 @@
 			},
 			{
 				"pageName": "Journals & Logs",
-				"fileName": "toc.xhtml#journals",
+				"fileName": "journals/journals.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Cicero’s Journal",
@@ -495,7 +495,7 @@
 			},
 			{
 				"pageName": "Notes & Letters",
-				"fileName": "toc.xhtml#notes",
+				"fileName": "notes/notes.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Charwich-Koniinge Letters",
@@ -553,7 +553,7 @@
 			},
 			{
 				"pageName": "Plays, Poetry, & Riddles",
-				"fileName": "toc.xhtml#plays",
+				"fileName": "plays/plays.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Yellow Book of Riddles",
@@ -563,7 +563,7 @@
 			},
 			{
 				"pageName": "Politics & Law",
-				"fileName": "toc.xhtml#politics",
+				"fileName": "politics/politics.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Nords of Skyrim",
@@ -573,7 +573,7 @@
 			},
 			{
 				"pageName": "Religion & Prophecy",
-				"fileName": "toc.xhtml#religion",
+				"fileName": "religion/religion.xhtml",
 				"subheadings": [
 					{
 						"pageName": "The Book of the Dragonborn",
@@ -591,7 +591,7 @@
 			},
 			{
 				"pageName": "Travel",
-				"fileName": "toc.xhtml#travel",
+				"fileName": "travel/travel.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Ancestors and the Dunmer",
@@ -719,7 +719,7 @@
 			},
 			{
 				"pageName": "Unobtainable Books",
-				"fileName": "toc.xhtml#unobtainable",
+				"fileName": "unobtainable/unobtainable.xhtml",
 				"subheadings": [
 					{
 						"pageName": "Gallus’s Journal",
@@ -737,7 +737,7 @@
 			},
 			{
 				"pageName": "Creation Club",
-				"fileName": "toc.xhtml#creation",
+				"fileName": "creation/creation.xhtml",
 				"subheadings": []
 			},
 			{

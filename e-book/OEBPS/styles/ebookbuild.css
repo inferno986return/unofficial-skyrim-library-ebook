@@ -141,6 +141,16 @@ h4.chapterheading {
     margin-bottom: 0.5em;
 }
 
+/* Sectionheadings */
+
+h1.sectionheading {
+    font-size: 3em;
+    font-family: "Balgruf", serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 3em;
+}
+
 /* Subheadings */
 
 h1.subheading {
