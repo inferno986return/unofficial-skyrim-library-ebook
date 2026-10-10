@@ -400,6 +400,16 @@
 				"fileName": "history/history.xhtml",
 				"subheadings": [
 					{
+						"pageName": "The Adabal-a",
+						"fileName": "history/theadabala.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Pelinal's Death",
+								"fileName": "history/theadabala.xhtml#pelinals-death"
+							}
+						]
+					},
+					{
 						"pageName": "The Aetherium Wars",
 						"fileName": "history/theaetheriumwars.xhtml"	
 					},
@@ -548,6 +558,14 @@
 								"fileName": "notes/reportdisasterationith.xhtml#part4"
 							}
 						]
+					},
+					{
+						"pageName": "Response to Bero’s Speech",
+						"fileName": "notes/responsetoberospeech.xhtml"
+					},
+					{
+						"pageName": "The Windhelm Letters",
+						"fileName": "notes/thewildhelmletters.xhtml"
 					}
 				]
 			},
@@ -738,7 +756,13 @@
 			{
 				"pageName": "Creation Club",
 				"fileName": "creation/creation.xhtml",
-				"subheadings": []
+				"subheadings": [
+					{
+						"pageName": "The Crimson Dirks",
+						"fileName": "creation/thecrimsondirks.xhtml",
+						"subheadings": []
+					}
+				]
 			},
 			{
 				"pageName": "Editor’s Notes",
