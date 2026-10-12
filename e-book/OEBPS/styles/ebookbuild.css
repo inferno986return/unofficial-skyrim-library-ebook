@@ -221,6 +221,10 @@ p.lmargin2 {
 	margin-top: 3em;
 }
 
+.half-top {
+    margin-top: 0.5em;
+}
+
 /* Text alignment */
 
 .center {

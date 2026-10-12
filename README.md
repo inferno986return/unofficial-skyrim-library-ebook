@@ -28,7 +28,7 @@ This is a large book project because Skyrim has over 200 books and notes to be f
 * ❌ **Fiction** - incomplete with only 2 of 44, though 2 *Kolb and the Dragon* is functional and *The Cake and the Diamond* is content complete
 * ❌ **History & Lore**
 * ❌ **Instruction & Research**
-* ❌ **Notes & Letters** - almost content complete, all 7 notes and letters have been transcribed but formatting is needed for the *Charwich-Koniinge Letters* and *The Windhelm Letters*
+* ✅ **Notes & Letters** - all 7 notes and letters are content complete, pending a final check
 * ❌ **Plays, Poetry, & Riddles**
 * ❌ **Politics & Law**
 * ❌ **Religion & Prophecy**
