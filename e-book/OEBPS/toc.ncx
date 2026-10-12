@@ -685,13 +685,13 @@
         <navLabel>
           <text>Response to Bero’s Speech</text>
         </navLabel>
-        <content src="notes/responsetoberospeech.xhtml"/>
+        <content src="notes/responsetoberosspeech.xhtml"/>
       </navPoint>
       <navPoint id="navpoint-114" playOrder="114">
         <navLabel>
           <text>The Windhelm Letters</text>
         </navLabel>
-        <content src="notes/thewildhelmletters.xhtml"/>
+        <content src="notes/thewindhelmletters.xhtml"/>
       </navPoint>
     </navPoint>
     <navPoint id="navpoint-115" playOrder="115">
@@ -751,60 +751,60 @@
         <navLabel>
           <text>Ancestors and the Dunmer</text>
         </navLabel>
-        <content src="travel/ancestorsanddunmer.xhtml"/>
+        <content src="travel/ancestorsandthedunmer.xhtml"/>
         <navPoint id="navpoint-125" playOrder="125">
           <navLabel>
             <text>Ghosts Walk Among Them</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#ghosts-walk-among-them"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#ghosts-walk-among-them"/>
         </navPoint>
         <navPoint id="navpoint-126" playOrder="126">
           <navLabel>
             <text>The Family Shrine</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#the-family-shrine"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#the-family-shrine"/>
         </navPoint>
         <navPoint id="navpoint-127" playOrder="127">
           <navLabel>
             <text>The Ghost Fence</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#the-ghost-fence"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#the-ghost-fence"/>
         </navPoint>
         <navPoint id="navpoint-128" playOrder="128">
           <navLabel>
             <text>The Mortal Chill</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#the-mortal-chill"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#the-mortal-chill"/>
         </navPoint>
         <navPoint id="navpoint-129" playOrder="129">
           <navLabel>
             <text>Mad Spirits</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#mad-spirits"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#mad-spirits"/>
         </navPoint>
         <navPoint id="navpoint-130" playOrder="130">
           <navLabel>
             <text>Oblivion</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#oblivion"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#oblivion"/>
         </navPoint>
         <navPoint id="navpoint-131" playOrder="131">
           <navLabel>
             <text>Foreign Views of Dunmeri Ancestor Worship and Spirit Magic</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#foreign-views"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#foreign-views"/>
         </navPoint>
         <navPoint id="navpoint-132" playOrder="132">
           <navLabel>
             <text>Telvanni “Necromancy”</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#telvanni-necromany"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#telvanni-necromany"/>
         </navPoint>
         <navPoint id="navpoint-133" playOrder="133">
           <navLabel>
             <text>Publisher’s Note</text>
           </navLabel>
-          <content src="travel/ancestorsanddunmer.xhtml#publishers'"/>
+          <content src="travel/ancestorsandthedunmer.xhtml#publishers'"/>
         </navPoint>
       </navPoint>
       <navPoint id="navpoint-134" playOrder="134">
@@ -950,7 +950,7 @@
       <navLabel>
         <text>Creation Club</text>
       </navLabel>
-      <content src="creation/creation.xhtml"/>
+      <content src="creation/creationclub.xhtml"/>
       <navPoint id="navpoint-158" playOrder="158">
         <navLabel>
           <text>The Crimson Dirks</text>

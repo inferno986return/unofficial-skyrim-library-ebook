@@ -561,11 +561,11 @@
 					},
 					{
 						"pageName": "Response to Bero’s Speech",
-						"fileName": "notes/responsetoberospeech.xhtml"
+						"fileName": "notes/responsetoberosspeech.xhtml"
 					},
 					{
 						"pageName": "The Windhelm Letters",
-						"fileName": "notes/thewildhelmletters.xhtml"
+						"fileName": "notes/thewindhelmletters.xhtml"
 					}
 				]
 			},
@@ -613,43 +613,43 @@
 				"subheadings": [
 					{
 						"pageName": "Ancestors and the Dunmer",
-						"fileName": "travel/ancestorsanddunmer.xhtml",
+						"fileName": "travel/ancestorsandthedunmer.xhtml",
 						"subheadings": [
 							{
 								"pageName": "Ghosts Walk Among Them",
-								"fileName": "travel/ancestorsanddunmer.xhtml#ghosts-walk-among-them"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#ghosts-walk-among-them"
 							},
 							{
 								"pageName": "The Family Shrine",
-								"fileName": "travel/ancestorsanddunmer.xhtml#the-family-shrine"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#the-family-shrine"
 							},
 							{
 								"pageName": "The Ghost Fence",
-								"fileName": "travel/ancestorsanddunmer.xhtml#the-ghost-fence"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#the-ghost-fence"
 							},
 							{
 								"pageName": "The Mortal Chill",
-								"fileName": "travel/ancestorsanddunmer.xhtml#the-mortal-chill"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#the-mortal-chill"
 							},
 							{
 								"pageName": "Mad Spirits",
-								"fileName": "travel/ancestorsanddunmer.xhtml#mad-spirits"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#mad-spirits"
 							},
 							{
 								"pageName": "Oblivion",
-								"fileName": "travel/ancestorsanddunmer.xhtml#oblivion"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#oblivion"
 							},
 							{
 								"pageName": "Foreign Views of Dunmeri Ancestor Worship and Spirit Magic",
-								"fileName": "travel/ancestorsanddunmer.xhtml#foreign-views"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#foreign-views"
 							},
 							{
 								"pageName": "Telvanni “Necromancy”",
-								"fileName": "travel/ancestorsanddunmer.xhtml#telvanni-necromany"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#telvanni-necromany"
 							},
 							{
 								"pageName": "Publisher’s Note",
-								"fileName": "travel/ancestorsanddunmer.xhtml#publishers'"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#publishers'"
 							}
 						]
 					},
@@ -755,11 +755,11 @@
 			},
 			{
 				"pageName": "Creation Club",
-				"fileName": "creation/creation.xhtml",
+				"fileName": "creationclub/creationclub.xhtml",
 				"subheadings": [
 					{
 						"pageName": "The Crimson Dirks",
-						"fileName": "creation/thecrimsondirks.xhtml",
+						"fileName": "creationclub/thecrimsondirks.xhtml",
 						"subheadings": []
 					}
 				]

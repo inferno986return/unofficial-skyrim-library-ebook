@@ -14,7 +14,7 @@
     <dc:date>2025-10-18T00:00:00Z</dc:date>
     <dc:source>urn:isbn:-</dc:source>
     <dc:description>-</dc:description>
-    <meta property="dcterms:modified">2026-10-12T11:51:46Z</meta>
+    <meta property="dcterms:modified">2026-10-12T12:02:57Z</meta>
     <meta property="belongs-to-collection" id="collection">The Elder Scrolls Library</meta>
     <meta refines="#collection" property="collection-type">set</meta>
     <meta refines="#collection" property="group-position">3</meta>
@@ -207,26 +207,27 @@
     <item id="xhtml79" href="plays/yellowbookofriddles.xhtml" media-type="application/xhtml+xml"/>
     <item id="xhtml80" href="politics/nordsofskyrim.xhtml" media-type="application/xhtml+xml"/>
     <item id="xhtml81" href="politics/politics.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml82" href="religion/sithis.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml83" href="religion/thebookofthedragonborn.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml84" href="religion/themonomyth.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml82" href="religion/religion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml83" href="religion/sithis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml84" href="religion/thebookofthedragonborn.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml85" href="religion/themonomyth.xhtml" media-type="application/xhtml+xml"/>
     <item id="css0" href="styles/ebookbuild.css" media-type="text/css"/>
-    <item id="xhtml85" href="travel/agentlemansguidetowhiterun.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml86" href="travel/ancestorsandthedunmer.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml87" href="travel/anexplorersguidetoskyrim.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml88" href="travel/childrenofthesky.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml89" href="travel/gloriesandlaments.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml90" href="travel/hanginggardens.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml91" href="travel/mysteriousakavir.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml92" href="travel/onsteppinglightly.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml93" href="travel/thecityofstone.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml94" href="travel/theholdsofskyrim.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml95" href="travel/travel.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml96" href="travel/walkingtheworldvolxi.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml97" href="unobtainable/gallusjournal.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml98" href="unobtainable/secretsofregnvald.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml99" href="unobtainable/unobtainable.xhtml" media-type="application/xhtml+xml"/>
-    <item id="xhtml100" href="unobtainable/unsentafflictedletter.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml86" href="travel/agentlemansguidetowhiterun.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml87" href="travel/ancestorsandthedunmer.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml88" href="travel/anexplorersguidetoskyrim.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml89" href="travel/childrenofthesky.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml90" href="travel/gloriesandlaments.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml91" href="travel/hanginggardens.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml92" href="travel/mysteriousakavir.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml93" href="travel/onsteppinglightly.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml94" href="travel/thecityofstone.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml95" href="travel/theholdsofskyrim.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml96" href="travel/travel.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml97" href="travel/walkingtheworldvolxi.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml98" href="unobtainable/gallusjournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml99" href="unobtainable/secretsofregnvald.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml100" href="unobtainable/unobtainable.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xhtml101" href="unobtainable/unsentafflictedletter.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="xhtml0" linear="no"/>
@@ -296,28 +297,32 @@
     <itemref idref="xhtml71"/>
     <itemref idref="xhtml75"/>
     <itemref idref="xhtml73"/>
+    <itemref idref="xhtml74"/>
+    <itemref idref="xhtml76"/>
     <itemref idref="xhtml78"/>
     <itemref idref="xhtml79"/>
     <itemref idref="xhtml81"/>
     <itemref idref="xhtml80"/>
-    <itemref idref="xhtml83"/>
     <itemref idref="xhtml82"/>
     <itemref idref="xhtml84"/>
-    <itemref idref="xhtml95"/>
-    <itemref idref="xhtml88"/>
-    <itemref idref="xhtml93"/>
-    <itemref idref="xhtml87"/>
+    <itemref idref="xhtml83"/>
     <itemref idref="xhtml85"/>
-    <itemref idref="xhtml89"/>
-    <itemref idref="xhtml90"/>
-    <itemref idref="xhtml94"/>
-    <itemref idref="xhtml91"/>
-    <itemref idref="xhtml92"/>
     <itemref idref="xhtml96"/>
-    <itemref idref="xhtml99"/>
+    <itemref idref="xhtml87"/>
+    <itemref idref="xhtml89"/>
+    <itemref idref="xhtml94"/>
+    <itemref idref="xhtml88"/>
+    <itemref idref="xhtml86"/>
+    <itemref idref="xhtml90"/>
+    <itemref idref="xhtml91"/>
+    <itemref idref="xhtml95"/>
+    <itemref idref="xhtml92"/>
+    <itemref idref="xhtml93"/>
     <itemref idref="xhtml97"/>
-    <itemref idref="xhtml98"/>
     <itemref idref="xhtml100"/>
+    <itemref idref="xhtml98"/>
+    <itemref idref="xhtml99"/>
+    <itemref idref="xhtml101"/>
     <itemref idref="xhtml1"/>
   </spine>
 </package>
