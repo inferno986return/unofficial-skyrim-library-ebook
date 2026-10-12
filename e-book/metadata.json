@@ -404,8 +404,16 @@
 						"fileName": "history/theadabala.xhtml",
 						"subheadings": [
 							{
-								"pageName": "Pelinal's Death",
+								"pageName": "Pelinal’s death",
 								"fileName": "history/theadabala.xhtml#pelinals-death"
+							},
+							{
+								"pageName": "Alessia’s youth during the slave-years",
+								"fileName": "history/theadabala.xhtml#alessias-youth"
+							},
+							{
+								"pageName": "Morihaus explains Alessia’s names",
+								"fileName": "history/theadabala.xhtml#morihaus-explains"
 							}
 						]
 					},
@@ -442,6 +450,10 @@
 								"fileName": "history/historyofravenrock.xhtml#vol3"
 							}
 						]
+					},
+					{
+						"pageName": "The Pig Children",
+						"fileName": "history/thepigchildren.xhtml"
 					}
 				]
 			},

@@ -472,131 +472,149 @@
         <content src="history/theadabala.xhtml"/>
         <navPoint id="navpoint-78" playOrder="78">
           <navLabel>
-            <text>Pelinal's Death</text>
+            <text>Pelinal’s death</text>
           </navLabel>
           <content src="history/theadabala.xhtml#pelinals-death"/>
         </navPoint>
+        <navPoint id="navpoint-79" playOrder="79">
+          <navLabel>
+            <text>Alessia’s youth during the slave-years</text>
+          </navLabel>
+          <content src="history/theadabala.xhtml#alessias-youth"/>
+        </navPoint>
+        <navPoint id="navpoint-80" playOrder="80">
+          <navLabel>
+            <text>Morihaus explains Alessia’s names</text>
+          </navLabel>
+          <content src="history/theadabala.xhtml#morihaus-explains"/>
+        </navPoint>
       </navPoint>
-      <navPoint id="navpoint-79" playOrder="79">
+      <navPoint id="navpoint-81" playOrder="81">
         <navLabel>
           <text>The Aetherium Wars</text>
         </navLabel>
         <content src="history/theaetheriumwars.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-80" playOrder="80">
+      <navPoint id="navpoint-82" playOrder="82">
         <navLabel>
           <text>The Amulet of Kings</text>
         </navLabel>
         <content src="history/theamuletofkings.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-81" playOrder="81">
+      <navPoint id="navpoint-83" playOrder="83">
         <navLabel>
           <text>Fragment: On Artaeum</text>
         </navLabel>
         <content src="history/fragmentonartaeum.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-82" playOrder="82">
+      <navPoint id="navpoint-84" playOrder="84">
         <navLabel>
           <text>The Great War</text>
         </navLabel>
         <content src="history/thegreatwar.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-83" playOrder="83">
+      <navPoint id="navpoint-85" playOrder="85">
         <navLabel>
           <text>History of Raven Rock</text>
         </navLabel>
         <content src="history/historyofravenrock.xhtml"/>
-        <navPoint id="navpoint-84" playOrder="84">
+        <navPoint id="navpoint-86" playOrder="86">
           <navLabel>
             <text>Volume I</text>
           </navLabel>
           <content src="history/historyofravenrock.xhtml#vol1"/>
         </navPoint>
-        <navPoint id="navpoint-85" playOrder="85">
+        <navPoint id="navpoint-87" playOrder="87">
           <navLabel>
             <text>Volume II</text>
           </navLabel>
           <content src="history/historyofravenrock.xhtml#vol2"/>
         </navPoint>
-        <navPoint id="navpoint-86" playOrder="86">
+        <navPoint id="navpoint-88" playOrder="88">
           <navLabel>
             <text>Volume III</text>
           </navLabel>
           <content src="history/historyofravenrock.xhtml#vol3"/>
         </navPoint>
       </navPoint>
+      <navPoint id="navpoint-89" playOrder="89">
+        <navLabel>
+          <text>The Pig Children</text>
+        </navLabel>
+        <content src="history/thepigchildren.xhtml"/>
+      </navPoint>
     </navPoint>
-    <navPoint id="navpoint-87" playOrder="87">
+    <navPoint id="navpoint-90" playOrder="90">
       <navLabel>
         <text>Instruction &amp; Research</text>
       </navLabel>
       <content src="instruction/instruction.xhtml"/>
-      <navPoint id="navpoint-88" playOrder="88">
+      <navPoint id="navpoint-91" playOrder="91">
         <navLabel>
           <text>Advances in Lockpicking</text>
         </navLabel>
         <content src="instruction/advancesinlockpicking.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-89" playOrder="89">
+      <navPoint id="navpoint-92" playOrder="92">
         <navLabel>
           <text>Darkest Darkness</text>
         </navLabel>
         <content src="instruction/darkestdarkness.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-90" playOrder="90">
+      <navPoint id="navpoint-93" playOrder="93">
         <navLabel>
           <text>Dragon Language: Myth no More</text>
         </navLabel>
         <content src="instruction/dragonlanguage.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-91" playOrder="91">
+      <navPoint id="navpoint-94" playOrder="94">
         <navLabel>
           <text>Proper Lock Design</text>
         </navLabel>
         <content src="instruction/properlockdesign.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-92" playOrder="92">
+      <navPoint id="navpoint-95" playOrder="95">
         <navLabel>
           <text>Uncommon Taste</text>
         </navLabel>
         <content src="instruction/uncommontaste.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-93" playOrder="93">
+    <navPoint id="navpoint-96" playOrder="96">
       <navLabel>
         <text>Journals &amp; Logs</text>
       </navLabel>
       <content src="journals/journals.xhtml"/>
-      <navPoint id="navpoint-94" playOrder="94">
+      <navPoint id="navpoint-97" playOrder="97">
         <navLabel>
           <text>Cicero’s Journal</text>
         </navLabel>
         <content src="journals/cicerosjournal.xhtml"/>
-        <navPoint id="navpoint-95" playOrder="95">
+        <navPoint id="navpoint-98" playOrder="98">
           <navLabel>
             <text>Volume 1</text>
           </navLabel>
           <content src="journals/cicerosjournal.xhtml#vol1"/>
         </navPoint>
-        <navPoint id="navpoint-96" playOrder="96">
+        <navPoint id="navpoint-99" playOrder="99">
           <navLabel>
             <text>Volume 2</text>
           </navLabel>
           <content src="journals/cicerosjournal.xhtml#vol2"/>
         </navPoint>
-        <navPoint id="navpoint-97" playOrder="97">
+        <navPoint id="navpoint-100" playOrder="100">
           <navLabel>
             <text>Volume 3</text>
           </navLabel>
           <content src="journals/cicerosjournal.xhtml#vol3"/>
         </navPoint>
-        <navPoint id="navpoint-98" playOrder="98">
+        <navPoint id="navpoint-101" playOrder="101">
           <navLabel>
             <text>Volume 4</text>
           </navLabel>
           <content src="journals/cicerosjournal.xhtml#vol4"/>
         </navPoint>
-        <navPoint id="navpoint-99" playOrder="99">
+        <navPoint id="navpoint-102" playOrder="102">
           <navLabel>
             <text>Volume 5</text>
           </navLabel>
@@ -604,317 +622,317 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-100" playOrder="100">
+    <navPoint id="navpoint-103" playOrder="103">
       <navLabel>
         <text>Notes &amp; Letters</text>
       </navLabel>
       <content src="notes/notes.xhtml"/>
-      <navPoint id="navpoint-101" playOrder="101">
+      <navPoint id="navpoint-104" playOrder="104">
         <navLabel>
           <text>Charwich-Koniinge Letters</text>
         </navLabel>
         <content src="notes/charwichkoniingeletters.xhtml"/>
-        <navPoint id="navpoint-102" playOrder="102">
+        <navPoint id="navpoint-105" playOrder="105">
           <navLabel>
             <text>Volume 1</text>
           </navLabel>
           <content src="notes/charwichkoniingeletters.xhtml#vol1"/>
         </navPoint>
-        <navPoint id="navpoint-103" playOrder="103">
+        <navPoint id="navpoint-106" playOrder="106">
           <navLabel>
             <text>Volume 2</text>
           </navLabel>
           <content src="notes/charwichkoniingeletters.xhtml#vol2"/>
         </navPoint>
-        <navPoint id="navpoint-104" playOrder="104">
+        <navPoint id="navpoint-107" playOrder="107">
           <navLabel>
             <text>Volume 3</text>
           </navLabel>
           <content src="notes/charwichkoniingeletters.xhtml#vol3"/>
         </navPoint>
-        <navPoint id="navpoint-105" playOrder="105">
+        <navPoint id="navpoint-108" playOrder="108">
           <navLabel>
             <text>Volume 4</text>
           </navLabel>
           <content src="notes/charwichkoniingeletters.xhtml#vol4"/>
         </navPoint>
       </navPoint>
-      <navPoint id="navpoint-106" playOrder="106">
+      <navPoint id="navpoint-109" playOrder="109">
         <navLabel>
           <text>On the Great Collapse</text>
         </navLabel>
         <content src="notes/greatcollapse.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-107" playOrder="107">
+      <navPoint id="navpoint-110" playOrder="110">
         <navLabel>
           <text>The Nirnroot Missive</text>
         </navLabel>
         <content src="notes/thenirnrootmissive.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-108" playOrder="108">
+      <navPoint id="navpoint-111" playOrder="111">
         <navLabel>
           <text>Report: Disaster at Ionith</text>
         </navLabel>
         <content src="notes/reportdisasterationith.xhtml"/>
-        <navPoint id="navpoint-109" playOrder="109">
+        <navPoint id="navpoint-112" playOrder="112">
           <navLabel>
             <text>Part I: Preparations</text>
           </navLabel>
           <content src="notes/reportdisasterationith.xhtml#part1"/>
         </navPoint>
-        <navPoint id="navpoint-110" playOrder="110">
+        <navPoint id="navpoint-113" playOrder="113">
           <navLabel>
             <text>Part II: The Invasion of Akavir</text>
           </navLabel>
           <content src="notes/reportdisasterationith.xhtml#part2"/>
         </navPoint>
-        <navPoint id="navpoint-111" playOrder="111">
+        <navPoint id="navpoint-114" playOrder="114">
           <navLabel>
             <text>Part III: The Destruction of the Expeditionary Force</text>
           </navLabel>
           <content src="notes/reportdisasterationith.xhtml#part3"/>
         </navPoint>
-        <navPoint id="navpoint-112" playOrder="112">
+        <navPoint id="navpoint-115" playOrder="115">
           <navLabel>
             <text>Part IV: Conclusion</text>
           </navLabel>
           <content src="notes/reportdisasterationith.xhtml#part4"/>
         </navPoint>
       </navPoint>
-      <navPoint id="navpoint-113" playOrder="113">
+      <navPoint id="navpoint-116" playOrder="116">
         <navLabel>
           <text>Response to Bero’s Speech</text>
         </navLabel>
         <content src="notes/responsetoberosspeech.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-114" playOrder="114">
+      <navPoint id="navpoint-117" playOrder="117">
         <navLabel>
           <text>The Windhelm Letters</text>
         </navLabel>
         <content src="notes/thewindhelmletters.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-115" playOrder="115">
+    <navPoint id="navpoint-118" playOrder="118">
       <navLabel>
         <text>Plays, Poetry, &amp; Riddles</text>
       </navLabel>
       <content src="plays/plays.xhtml"/>
-      <navPoint id="navpoint-116" playOrder="116">
+      <navPoint id="navpoint-119" playOrder="119">
         <navLabel>
           <text>Yellow Book of Riddles</text>
         </navLabel>
         <content src="plays/yellowbookofriddles.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-117" playOrder="117">
+    <navPoint id="navpoint-120" playOrder="120">
       <navLabel>
         <text>Politics &amp; Law</text>
       </navLabel>
       <content src="politics/politics.xhtml"/>
-      <navPoint id="navpoint-118" playOrder="118">
+      <navPoint id="navpoint-121" playOrder="121">
         <navLabel>
           <text>Nords of Skyrim</text>
         </navLabel>
         <content src="politics/nordsofskyrim.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-119" playOrder="119">
+    <navPoint id="navpoint-122" playOrder="122">
       <navLabel>
         <text>Religion &amp; Prophecy</text>
       </navLabel>
       <content src="religion/religion.xhtml"/>
-      <navPoint id="navpoint-120" playOrder="120">
+      <navPoint id="navpoint-123" playOrder="123">
         <navLabel>
           <text>The Book of the Dragonborn</text>
         </navLabel>
         <content src="religion/thebookofthedragonborn.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-121" playOrder="121">
+      <navPoint id="navpoint-124" playOrder="124">
         <navLabel>
           <text>Sithis</text>
         </navLabel>
         <content src="religion/sithis.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-122" playOrder="122">
+      <navPoint id="navpoint-125" playOrder="125">
         <navLabel>
           <text>The Monomyth</text>
         </navLabel>
         <content src="religion/themonomyth.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-123" playOrder="123">
+    <navPoint id="navpoint-126" playOrder="126">
       <navLabel>
         <text>Travel</text>
       </navLabel>
       <content src="travel/travel.xhtml"/>
-      <navPoint id="navpoint-124" playOrder="124">
+      <navPoint id="navpoint-127" playOrder="127">
         <navLabel>
           <text>Ancestors and the Dunmer</text>
         </navLabel>
         <content src="travel/ancestorsandthedunmer.xhtml"/>
-        <navPoint id="navpoint-125" playOrder="125">
+        <navPoint id="navpoint-128" playOrder="128">
           <navLabel>
             <text>Ghosts Walk Among Them</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#ghosts-walk-among-them"/>
         </navPoint>
-        <navPoint id="navpoint-126" playOrder="126">
+        <navPoint id="navpoint-129" playOrder="129">
           <navLabel>
             <text>The Family Shrine</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#the-family-shrine"/>
         </navPoint>
-        <navPoint id="navpoint-127" playOrder="127">
+        <navPoint id="navpoint-130" playOrder="130">
           <navLabel>
             <text>The Ghost Fence</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#the-ghost-fence"/>
         </navPoint>
-        <navPoint id="navpoint-128" playOrder="128">
+        <navPoint id="navpoint-131" playOrder="131">
           <navLabel>
             <text>The Mortal Chill</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#the-mortal-chill"/>
         </navPoint>
-        <navPoint id="navpoint-129" playOrder="129">
+        <navPoint id="navpoint-132" playOrder="132">
           <navLabel>
             <text>Mad Spirits</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#mad-spirits"/>
         </navPoint>
-        <navPoint id="navpoint-130" playOrder="130">
+        <navPoint id="navpoint-133" playOrder="133">
           <navLabel>
             <text>Oblivion</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#oblivion"/>
         </navPoint>
-        <navPoint id="navpoint-131" playOrder="131">
+        <navPoint id="navpoint-134" playOrder="134">
           <navLabel>
             <text>Foreign Views of Dunmeri Ancestor Worship and Spirit Magic</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#foreign-views"/>
         </navPoint>
-        <navPoint id="navpoint-132" playOrder="132">
+        <navPoint id="navpoint-135" playOrder="135">
           <navLabel>
             <text>Telvanni “Necromancy”</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#telvanni-necromany"/>
         </navPoint>
-        <navPoint id="navpoint-133" playOrder="133">
+        <navPoint id="navpoint-136" playOrder="136">
           <navLabel>
             <text>Publisher’s Note</text>
           </navLabel>
           <content src="travel/ancestorsandthedunmer.xhtml#publishers'"/>
         </navPoint>
       </navPoint>
-      <navPoint id="navpoint-134" playOrder="134">
+      <navPoint id="navpoint-137" playOrder="137">
         <navLabel>
           <text>Children of the Sky</text>
         </navLabel>
         <content src="travel/childrenofthesky.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-135" playOrder="135">
+      <navPoint id="navpoint-138" playOrder="138">
         <navLabel>
           <text>The City of Stone</text>
         </navLabel>
         <content src="travel/thecityofstone.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-136" playOrder="136">
+      <navPoint id="navpoint-139" playOrder="139">
         <navLabel>
           <text>An Explorer’s Guide to Skyrim</text>
         </navLabel>
         <content src="travel/anexplorersguidetoskyrim.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-137" playOrder="137">
+      <navPoint id="navpoint-140" playOrder="140">
         <navLabel>
           <text>A Gentleman’s Guide to Whiterun</text>
         </navLabel>
         <content src="travel/agentlemansguidetowhiterun.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-138" playOrder="138">
+      <navPoint id="navpoint-141" playOrder="141">
         <navLabel>
           <text>Glories and Laments</text>
         </navLabel>
         <content src="travel/gloriesandlaments.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-139" playOrder="139">
+      <navPoint id="navpoint-142" playOrder="142">
         <navLabel>
           <text>Hanging Gardens</text>
         </navLabel>
         <content src="travel/hanginggardens.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-140" playOrder="140">
+      <navPoint id="navpoint-143" playOrder="143">
         <navLabel>
           <text>The Holds of Skyrim</text>
         </navLabel>
         <content src="travel/theholdsofskyrim.xhtml"/>
-        <navPoint id="navpoint-141" playOrder="141">
+        <navPoint id="navpoint-144" playOrder="144">
           <navLabel>
             <text>Eastmarch</text>
           </navLabel>
           <content src="travel/theholdsofskyrim.xhtml#eastmarch"/>
         </navPoint>
       </navPoint>
-      <navPoint id="navpoint-142" playOrder="142">
+      <navPoint id="navpoint-145" playOrder="145">
         <navLabel>
           <text>Mysterious Akavir</text>
         </navLabel>
         <content src="travel/mysteriousakavir.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-143" playOrder="143">
+      <navPoint id="navpoint-146" playOrder="146">
         <navLabel>
           <text>On Stepping Lightly</text>
         </navLabel>
         <content src="travel/onsteppinglightly.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-144" playOrder="144">
+      <navPoint id="navpoint-147" playOrder="147">
         <navLabel>
           <text>Walking the World, Vol XI</text>
         </navLabel>
         <content src="travel/walkingtheworldvolxi.xhtml"/>
-        <navPoint id="navpoint-145" playOrder="145">
+        <navPoint id="navpoint-148" playOrder="148">
           <navLabel>
             <text>Solitude’s Surroundings</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#solitudes-surroundings"/>
         </navPoint>
-        <navPoint id="navpoint-146" playOrder="146">
+        <navPoint id="navpoint-149" playOrder="149">
           <navLabel>
             <text>The Gates of Solitude</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#solitudes-surroundings"/>
         </navPoint>
-        <navPoint id="navpoint-147" playOrder="147">
+        <navPoint id="navpoint-150" playOrder="150">
           <navLabel>
             <text>Other Points of Interest</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#other-points-of-interest"/>
         </navPoint>
-        <navPoint id="navpoint-148" playOrder="148">
+        <navPoint id="navpoint-151" playOrder="151">
           <navLabel>
             <text>The Well District</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#the-well-district"/>
         </navPoint>
-        <navPoint id="navpoint-149" playOrder="149">
+        <navPoint id="navpoint-152" playOrder="152">
           <navLabel>
             <text>Castle Dour</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#castle-dour"/>
         </navPoint>
-        <navPoint id="navpoint-150" playOrder="150">
+        <navPoint id="navpoint-153" playOrder="153">
           <navLabel>
             <text>The Bards College</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#the-bards-college"/>
         </navPoint>
-        <navPoint id="navpoint-151" playOrder="151">
+        <navPoint id="navpoint-154" playOrder="154">
           <navLabel>
             <text>The Blue Palace</text>
           </navLabel>
           <content src="travel/walkingtheworldvolxi.xhtml#the-blue-palace"/>
         </navPoint>
-        <navPoint id="navpoint-152" playOrder="152">
+        <navPoint id="navpoint-155" playOrder="155">
           <navLabel>
             <text>Other Points of Interest</text>
           </navLabel>
@@ -922,43 +940,43 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-153" playOrder="153">
+    <navPoint id="navpoint-156" playOrder="156">
       <navLabel>
         <text>Unobtainable Books</text>
       </navLabel>
       <content src="unobtainable/unobtainable.xhtml"/>
-      <navPoint id="navpoint-154" playOrder="154">
+      <navPoint id="navpoint-157" playOrder="157">
         <navLabel>
           <text>Gallus’s Journal</text>
         </navLabel>
         <content src="unobtainable/gallusjournal.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-155" playOrder="155">
+      <navPoint id="navpoint-158" playOrder="158">
         <navLabel>
           <text>The Secrets of Ragnvald</text>
         </navLabel>
         <content src="unobtainable/secretsofregnvald.xhtml"/>
       </navPoint>
-      <navPoint id="navpoint-156" playOrder="156">
+      <navPoint id="navpoint-159" playOrder="159">
         <navLabel>
           <text>Unsent Afflicted Letter</text>
         </navLabel>
         <content src="unobtainable/unsentafflictedletter.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-157" playOrder="157">
+    <navPoint id="navpoint-160" playOrder="160">
       <navLabel>
         <text>Creation Club</text>
       </navLabel>
       <content src="creationclub/creationclub.xhtml"/>
-      <navPoint id="navpoint-158" playOrder="158">
+      <navPoint id="navpoint-161" playOrder="161">
         <navLabel>
           <text>The Crimson Dirks</text>
         </navLabel>
         <content src="creationclub/thecrimsondirks.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="navpoint-159" playOrder="159">
+    <navPoint id="navpoint-162" playOrder="162">
       <navLabel>
         <text>Editor’s Notes</text>
       </navLabel>
