@@ -8,10 +8,14 @@ I have attention deficit disorder (ADD) so I would rather be exploring, questing
 
 This project’s goal is to provide a complete and beautiful reading experience for Skyrim’s impressive selection of books in one anthology. I am using the Unofficial Elder Scrolls Pages (UESP)’s article called [*Skyrim:Books by Subject*](https://en.uesp.net/wiki/Skyrim:Books_by_Subject).
 
-* Hyperlinks
+A non-exhautive list of improvements to the text:
+
+* Hyperlinks (including a fully 'playable' *Kolb and the Dragon* CYOA book)
+* Text figures for body text (i.e. numbers which are the same height as the lowercase letters)
 * Curly apostrophes and quote marks
 * En dashes and em dashes (I'll need to recheck the source text for these)
 * Superscripted ordinals for 1st, 2nd, 3rd, 4th, etc.
+* Asterisms (⁂) instead of 3 horizontal asterisks (***) as the solidus for scene breaks 
 
 The books are not presented verbatim as we have wikis for that. Instead, the aim is to reformat the books, correcting any typos and using standardised punctuation to provide an enjoyable reading experience on any EPUB3-compatible device (or a Kindle by converting it). Ideally, Bethesda could adapt the content into a full 5×8 inch paperback as the official Skyrim Library are large collectible books that are not portable in any way.
 

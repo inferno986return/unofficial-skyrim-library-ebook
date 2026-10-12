@@ -188,6 +188,16 @@ p.noindent {
 
 /* Text formatting */
 
+p.pagenumber, .pagenumber {
+    text-align: center;
+    font-variant-numeric: proportional-nums;
+}
+
+p.kolb-action, .kolb-action {
+    text-indent: 0em;
+    font-variant-numeric: proportional-nums;
+}
+
 .mono {
     font-family: monospace;
 }
