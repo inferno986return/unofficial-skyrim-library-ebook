@@ -20,12 +20,21 @@ Oh and lastly, a happy soon-to-be 15<sup>th</sup> anniversary to Skyrim!
 
 ## Current progress
 
-Skyrim has over 200 books and notes to be found and read by the player.
+This is a large book project because Skyrim has over 200 books and notes to be found and read by the player.
 
 * ✅ **Biographies** - all 11 books are content complete and pending a final check, especially to check the headings are consistent and to separate the en and em dashes
 * ✅ **Esoteric Texts** - content complete, only 1 text which was written in pseudo-Esperanto
 * ✅ **Faction Books** - content complete, pending a final check
-* ❌ **Fiction** - incomplete, though *Kolb and the Dragon* is functional and *The Cake and the Diamond* is content complete
+* ❌ **Fiction** - incomplete with only 2 of 44, though 2 *Kolb and the Dragon* is functional and *The Cake and the Diamond* is content complete
+* ❌ **History & Lore**
+* ❌ **Instruction & Research**
+* ❌ **Notes & Letters** - almost content complete, all 7 notes and letters have been transcribed but formatting is needed for the *Charwich-Koniinge Letters* and *The Windhelm Letters*
+* ❌ **Plays, Poetry, & Riddles**
+* ❌ **Politics & Law**
+* ❌ **Religion & Prophecy**
+* ✅ **Travel** - all 11 books are content complete and pending a final check
+* ❔ **Unobtainable Books** - possibly incomplete. However, 3 are content complete including a decrypted copy of *Gallus’s Journal*. I will review the remaining unavailable texts to determine if they are worthy of inclusion
+* ❌ **Creation Club** - incomplete. I started *The Crimson Dirks* and need to review the remaining texts
 
 ## Select improvements made to the text
 
