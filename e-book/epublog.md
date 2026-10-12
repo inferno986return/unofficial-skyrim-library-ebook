@@ -13,46 +13,32 @@ ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/travel/walkingtheworldvolxi.x
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/travel/walkingtheworldvolxi.xhtml(50,52): Error while parsing file: Duplicate ID "the-gates-of-solitude"
 ERROR(RSC-005): SkyrimLibraryUnofficial.epub/OEBPS/travel/walkingtheworldvolxi.xhtml(55,52): Error while parsing file: Duplicate ID "the-gates-of-solitude"
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(265,69): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(433,82): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(436,80): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(439,81): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(442,76): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(451,83): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(454,76): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(491,52): Referenced resource "OEBPS/walkingtheworldvolxi.xhtml" could not be found in the EPUB.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(509,81): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(512,79): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(536,49): Referenced resource "OEBPS/creation/creationclub.xhtml" could not be found in the EPUB.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(539,56): Referenced resource "OEBPS/creation/thecrimsondirks.xhtml" could not be found in the EPUB.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(477,67): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(765,80): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(771,78): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(777,79): Fragment identifier is not defined.
-ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(783,74): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(801,81): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(807,74): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(874,52): Referenced resource "OEBPS/walkingtheworldvolxi.xhtml" could not be found in the EPUB.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(909,79): Fragment identifier is not defined.
 ERROR(RSC-012): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(915,77): Fragment identifier is not defined.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(953,51): Referenced resource "OEBPS/creation/creationclub.xhtml" could not be found in the EPUB.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/toc.ncx(958,56): Referenced resource "OEBPS/creation/thecrimsondirks.xhtml" could not be found in the EPUB.
 ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/bookcover.xhtml(9,57): Referenced resource "OEBPS/images/cover.png" could not be found in the EPUB.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(124,58): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(155,66): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(179,58): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(212,55): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(227,62): Found a reference to a resource that is not a spine item.
-ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/toc.xhtml(310,64): Found a reference to a resource that is not a spine item.
 ERROR(RSC-011): SkyrimLibraryUnofficial.epub/OEBPS/instruction/onoblivion.xhtml(15,209): Found a reference to a resource that is not a spine item.
-ERROR(RSC-007): SkyrimLibraryUnofficial.epub/OEBPS/notes/thenirnrootmissive.xhtml(22,116): Referenced resource "OEBPS/images/illuminated_letters/I_letter.png" could not be found in the EPUB.
 WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(265,69): "toc" nav must be in reading order; link target "OEBPS/history/theadabala.xhtml#pelinals-death" is before the previous link’s target in document order.
 INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(265,69): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
-WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(433,82): "toc" nav must be in reading order; link target "OEBPS/travel/ancestorsandthedunmer.xhtml#the-family-shrine" is before the previous link’s target in document order.
-INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(433,82): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
 WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(451,83): "toc" nav must be in reading order; link target "OEBPS/travel/ancestorsandthedunmer.xhtml#telvanni-necromany" is before the previous link’s target in document order.
 INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(451,83): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
+WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(503,81): "toc" nav must be in reading order; link target "OEBPS/travel/walkingtheworldvolxi.xhtml#the-well-district" is before the previous link’s target in document order.
+INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(503,81): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
+WARNING(NAV-011): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(509,81): "toc" nav must be in reading order; link target "OEBPS/travel/walkingtheworldvolxi.xhtml#the-bards-college" is before the previous link’s target in document order.
+INFO(INF-001): SkyrimLibraryUnofficial.epub/OEBPS/nav.xhtml(509,81): The previous rule is under review and its severity may change in a future release. See the discussion at https://github.com/w3c/publ-epub-revision/issues/1283
 
 Check finished with errors
-Messages: 0 fatals / 40 errors / 3 warnings / 9 infos
+Messages: 0 fatals / 24 errors / 4 warnings / 10 infos
 
 EPUBCheck completed

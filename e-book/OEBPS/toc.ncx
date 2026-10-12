@@ -871,7 +871,7 @@
         <navLabel>
           <text>Walking the World, Vol XI</text>
         </navLabel>
-        <content src="walkingtheworldvolxi.xhtml"/>
+        <content src="travel/walkingtheworldvolxi.xhtml"/>
         <navPoint id="navpoint-145" playOrder="145">
           <navLabel>
             <text>Solitude’s Surroundings</text>
@@ -950,12 +950,12 @@
       <navLabel>
         <text>Creation Club</text>
       </navLabel>
-      <content src="creation/creationclub.xhtml"/>
+      <content src="creationclub/creationclub.xhtml"/>
       <navPoint id="navpoint-158" playOrder="158">
         <navLabel>
           <text>The Crimson Dirks</text>
         </navLabel>
-        <content src="creation/thecrimsondirks.xhtml"/>
+        <content src="creationclub/thecrimsondirks.xhtml"/>
       </navPoint>
     </navPoint>
     <navPoint id="navpoint-159" playOrder="159">
