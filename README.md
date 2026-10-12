@@ -2,20 +2,11 @@
 
 **This project is part of the `ebookbuild` collection of sample books.**
 
-An unofficial e-book for Skyrim’s vast array of texts. Happy 15<sup>th</sup> anniversary to Skyrim!
+An unofficial e-book for the vast amount of texts contained within *The Elder Scrolls V: Skyrim*. 
 
 I have attention deficit disorder (ADD) so I would rather be exploring, questing or killing things in Skyrim than reading the impressive amount of literature. It would be convenient to have a professional-quality e-book to take with me on the go that  
 
 This project’s goal is to provide a complete and beautiful reading experience for Skyrim’s impressive selection of books in one anthology. I am using the Unofficial Elder Scrolls Pages (UESP)’s article called [*Skyrim:Books by Subject*](https://en.uesp.net/wiki/Skyrim:Books_by_Subject).
-
-A non-exhautive list of improvements to the text:
-
-* Hyperlinks (including a fully 'playable' *Kolb and the Dragon* CYOA book)
-* Text figures for body text (i.e. numbers which are the same height as the lowercase letters)
-* Curly apostrophes and quote marks
-* En dashes and em dashes (I'll need to recheck the source text for these)
-* Superscripted ordinals for 1st, 2nd, 3rd, 4th, etc.
-* Asterisms (⁂) instead of 3 horizontal asterisks (***) as the solidus for scene breaks 
 
 The books are not presented verbatim as we have wikis for that. Instead, the aim is to reformat the books, correcting any typos and using standardised punctuation to provide an enjoyable reading experience on any EPUB3-compatible device (or a Kindle by converting it). Ideally, Bethesda could adapt the content into a full 5×8 inch paperback as the official Skyrim Library are large collectible books that are not portable in any way.
 
@@ -24,6 +15,29 @@ In addition, this will be my chance to try making a fully standards-compliant EP
 <p align="center">
   <img src="https://github.com/inferno986return/unofficial-skyrim-library-ebook/blob/main/unoffical_library.png" alt="Unofficial Skyrim Library logo" />
 </p>
+
+Oh and lastly, a happy soon-to-be 15<sup>th</sup> anniversary to Skyrim!
+
+## Current progress
+
+Skyrim has over 200 books and notes to be found and read by the player.
+
+* ✅ **Biographies** - all 11 books are content complete and pending a final check, especially to check the headings are consistent and to separate the en and em dashes
+* ✅ **Esoteric Texts** - content complete, only 1 text which was written in pseudo-Esperanto
+* ✅ **Faction Books** - content complete, pending a final check
+* ❌ **Fiction** - incomplete, though *Kolb and the Dragon* is functional and *The Cake and the Diamond* is content complete
+
+## Select improvements made to the text
+
+A non-exhautive list of improvements to the text:
+
+* All [sic] annotations from the UESP have been corrected
+* Hyperlinks (including a fully 'playable' *Kolb and the Dragon* CYOA book)
+* Text figures for body text (i.e. numbers which are the same height as the lowercase letters)
+* Curly apostrophes and quote marks
+* En dashes and em dashes (I'll need to recheck the source text for these)
+* Superscripted ordinals for 1st, 2nd, 3rd, 4th, etc.
+* Asterisms (⁂) instead of 3 horizontal asterisks (***) as the solidus for scene breaks 
 
 ## Setting up `ebookbuild` for compilation
 The following components are required:
