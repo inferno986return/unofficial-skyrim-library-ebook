@@ -1,10 +1,17 @@
 # unofficial-skyrim-library-ebook
 
-An unofficial e-book for Skyrim’s vast array of texts. Happy 11<sup>th</sup> anniversary to Skyrim!
+**This project is part of the `ebookbuild` collection of sample books.**
+
+An unofficial e-book for Skyrim’s vast array of texts. Happy 15<sup>th</sup> anniversary to Skyrim!
 
 I have attention deficit disorder (ADD) so I would rather be exploring, questing or killing things in Skyrim than reading the impressive amount of literature. It would be convenient to have a professional-quality e-book to take with me on the go that  
 
 This project’s goal is to provide a complete and beautiful reading experience for Skyrim’s impressive selection of books in one anthology. I am using the Unofficial Elder Scrolls Pages (UESP)’s article called [*Skyrim:Books by Subject*](https://en.uesp.net/wiki/Skyrim:Books_by_Subject).
+
+* Hyperlinks
+* Curly apostrophes and quote marks
+* En dashes and em dashes (I'll need to recheck the source text for these)
+* Superscripted ordinals for 1st, 2nd, 3rd, 4th, etc.
 
 The books are not presented verbatim as we have wikis for that. Instead, the aim is to reformat the books, correcting any typos and using standardised punctuation to provide an enjoyable reading experience on any EPUB3-compatible device (or a Kindle by converting it). Ideally, Bethesda could adapt the content into a full 5×8 inch paperback as the official Skyrim Library are large collectible books that are not portable in any way.
 
