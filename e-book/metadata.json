@@ -619,7 +619,13 @@
 					},
 					{
 						"pageName": "The Monomyth",
-						"fileName": "religion/themonomyth.xhtml"
+						"fileName": "religion/themonomyth.xhtml",
+						"subheadings": [
+							{
+								"pageName": "The Dragon God and the Missing God",
+								"fileName": "religion/themonomyth.xhtml#dragon-god"
+							}
+						]
 					}
 				]
 			},
