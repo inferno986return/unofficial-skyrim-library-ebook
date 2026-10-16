@@ -614,6 +614,10 @@
 						"fileName": "religion/thebookofthedragonborn.xhtml"
 					},
 					{
+						"pageName": "Lycanthropic Legends of Skyrim",
+						"fileName": "religion/lycanthrophiclegendsofskyrim.xhtml"
+					},
+					{
 						"pageName": "Sithis",
 						"fileName": "religion/sithis.xhtml"
 					},
@@ -624,8 +628,46 @@
 							{
 								"pageName": "The Dragon God and the Missing God",
 								"fileName": "religion/themonomyth.xhtml#dragon-god"
+							},
+							{
+								"pageName": "The Myth of Aurbis",
+								"fileName": "religion/themonomyth.xhtml#myth-aurbis"
+							},
+							{
+								"pageName": "Lorkhan",
+								"fileName": "religion/themonomyth.xhtml#lorkhan"
+							},
+							{
+								"pageName": "Yokudan, “Satakal the Worldskin”",
+								"fileName": "religion/themonomyth.xhtml#yokudan"
+							},
+							{
+								"pageName": "Cyrodilic “Shezarr’s Song”",
+								"fileName": "religion/themonomyth.xhtml#cyrodilic"
+							},
+							{
+								"pageName": "Altmeri “The Heart of the World”",
+								"fileName": "religion/themonomyth.xhtml#altmeri"
 							}
 						]
+					},
+					{
+						"pageName": "Mythic Dawn Commentaries",
+						"fileName": "religion/mythicdawncommentaries.xhtml",
+						"subheadings": [
+							{
+								"pageName": "Book One",
+								"fileName": "religion/mythicdawncommentaries.xhtml#book-one"
+							},
+							{
+								"pageName": "Book Two",
+								"fileName": "religion/mythicdawncommentaries.xhtml#book-two"
+							}
+						]
+					},
+					{
+						"pageName": "Yngol and the Sea-Ghosts",
+						"fileName": "religion/yngolandtheseaghosts"
 					}
 				]
 			},
@@ -783,6 +825,10 @@
 						"pageName": "The Crimson Dirks",
 						"fileName": "creationclub/thecrimsondirks.xhtml",
 						"subheadings": []
+					},
+					{
+						"pageName": "Dinner Menu",
+						"fileName": "creationclub/dinnermenu.xhtml"
 					}
 				]
 			},

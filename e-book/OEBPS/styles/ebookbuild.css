@@ -188,6 +188,13 @@ p.noindent {
 
 /* Text formatting */
 
+p.dagon {
+    font-size: 1.4em;
+    text-align: center;
+    font-family: "Oblivion"!important;
+    margin-top: 1em;
+}
+
 p.pagenumber, .pagenumber {
     text-align: center;
     font-variant-numeric: proportional-nums;
@@ -331,7 +338,10 @@ img.nightingale {
     height: 150px;
 }
 
+.daedric {
+    font-family: "Oblivion"!important;
+}
+
 .dragon {
-    font-size: 1.2em;
     font-family: "Dragon"!important;
 }
