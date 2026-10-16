@@ -478,6 +478,10 @@
 						"fileName": "instruction/dragonlanguage.xhtml"
 					},
 					{
+						"pageName": "On Oblivion",
+						"fileName": "instruction/onoblivion.xhtml"
+					},
+					{
 						"pageName": "Proper Lock Design",
 						"fileName": "instruction/properlockdesign.xhtml"
 					},
@@ -667,7 +671,7 @@
 					},
 					{
 						"pageName": "Yngol and the Sea-Ghosts",
-						"fileName": "religion/yngolandtheseaghosts"
+						"fileName": "religion/yngolandtheseaghosts.xhtml"
 					}
 				]
 			},
