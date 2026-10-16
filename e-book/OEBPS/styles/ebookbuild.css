@@ -338,6 +338,30 @@ img.nightingale {
     height: 150px;
 }
 
+img.bleeding-crown {
+    width: 210px; 
+    height: 292px;
+    float: left;
+    margin-top: 1.2em;
+    margin-right: 0.5em;
+}
+
+img.deathbell {
+    width: 155px; 
+    height: 255.5px;
+    float: right;
+    margin-top: 1.2em;
+    margin-left: 0.5em;
+}
+
+img.dragonfly {
+    width: 202.5px; 
+    height: 133px;
+    float: left;
+    margin-top: 1.2em;
+    margin-right: 0.5em;
+}
+
 .daedric {
     font-family: "Oblivion"!important;
 }
