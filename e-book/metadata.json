@@ -666,6 +666,14 @@
 							{
 								"pageName": "Book Two",
 								"fileName": "religion/mythicdawncommentaries.xhtml#book-two"
+							},
+							{
+								"pageName": "Book Three",
+								"fileName": "religion/mythicdawncommentaries.xhtml#book-three"
+							},
+							{
+								"pageName": "Book Four",
+								"fileName": "religion/mythicdawncommentaries.xhtml#book-four"
 							}
 						]
 					},
