@@ -486,6 +486,10 @@
 						"fileName": "instruction/properlockdesign.xhtml"
 					},
 					{
+						"pageName": "The Doors of Oblivion",
+						"fileName": "instruction/thedoorsofoblivion.xhtml"
+					},
+					{
 						"pageName": "Uncommon Taste",
 						"fileName": "instruction/uncommontaste.xhtml"
 					}
@@ -550,6 +554,10 @@
 						]
 					},
 					{
+						"pageName": "A Game at Dinner",
+						"fileName": "notes/agameatdinner.xhtml"
+					},
+					{
 						"pageName": "On the Great Collapse",
 						"fileName": "notes/greatcollapse.xhtml"
 					},
@@ -593,6 +601,10 @@
 				"pageName": "Plays, Poetry, & Riddles",
 				"fileName": "plays/plays.xhtml",
 				"subheadings": [
+					{
+						"pageName": "Legend of Krately House",
+						"fileName": "plays/legendofkratelyhouse.xhtml"
+					},
 					{
 						"pageName": "Yellow Book of Riddles",
 						"fileName": "plays/yellowbookofriddles.xhtml"
@@ -725,7 +737,7 @@
 							},
 							{
 								"pageName": "Publisher’s Note",
-								"fileName": "travel/ancestorsandthedunmer.xhtml#publishers-note'"
+								"fileName": "travel/ancestorsandthedunmer.xhtml#publishers-note"
 							}
 						]
 					},
@@ -782,10 +794,6 @@
 							{
 								"pageName": "The Gates of Solitude",
 								"fileName": "travel/walkingtheworldvolxi.xhtml#the-gates-of-solitude"
-							},
-							{
-								"pageName": "Other Points of Interest",
-								"fileName": "travel/walkingtheworldvolxi.xhtml#other-points-of-interest"
 							},
 							{
 								"pageName": "The Well District",
