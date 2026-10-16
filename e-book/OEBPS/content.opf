@@ -14,7 +14,7 @@
     <dc:date>2025-10-18T00:00:00Z</dc:date>
     <dc:source>urn:isbn:-</dc:source>
     <dc:description>-</dc:description>
-    <meta property="dcterms:modified">2026-10-16T19:20:05Z</meta>
+    <meta property="dcterms:modified">2026-10-16T19:31:59Z</meta>
     <meta property="belongs-to-collection" id="collection">The Elder Scrolls Library</meta>
     <meta refines="#collection" property="collection-type">set</meta>
     <meta refines="#collection" property="group-position">3</meta>
@@ -311,17 +311,20 @@
     <itemref idref="xhtml63"/>
     <itemref idref="xhtml65"/>
     <itemref idref="xhtml66"/>
+    <itemref idref="xhtml67"/>
     <itemref idref="xhtml68"/>
     <itemref idref="xhtml70"/>
     <itemref idref="xhtml69"/>
     <itemref idref="xhtml74"/>
     <itemref idref="xhtml72"/>
+    <itemref idref="xhtml71"/>
     <itemref idref="xhtml73"/>
     <itemref idref="xhtml77"/>
     <itemref idref="xhtml75"/>
     <itemref idref="xhtml76"/>
     <itemref idref="xhtml78"/>
     <itemref idref="xhtml80"/>
+    <itemref idref="xhtml79"/>
     <itemref idref="xhtml81"/>
     <itemref idref="xhtml83"/>
     <itemref idref="xhtml82"/>
